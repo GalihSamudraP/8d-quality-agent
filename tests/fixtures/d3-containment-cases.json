@@ -1,0 +1,184 @@
+{
+  "description": "Shared D3 containment cases. Read by tests/action-validator.test.ts and agent/tests/test_action_validator.py. expectedCodes lists issue codes over all actions in order.",
+  "registries": {
+    "demo": [
+      {
+        "id": "TI-104",
+        "ncrId": "NCR-2026-104"
+      },
+      {
+        "id": "GR-032",
+        "ncrId": "NCR-2026-032"
+      }
+    ]
+  },
+  "cases": [
+    {
+      "name": "pass: reused containment cites the retrieved NCR",
+      "retrieved": [
+        "NCR-2025-084",
+        "NCR-2023-002",
+        "NCR-2023-007"
+      ],
+      "currentNcrId": "NCR-2026-104",
+      "registry": "demo",
+      "actions": [
+        {
+          "action": "Lot on hold; X-ray 100% of housings in stock (reuses the containment of NCR-2025-084).",
+          "cited_ncr_ids": [
+            "NCR-2025-084"
+          ],
+          "evidence_ids": []
+        }
+      ],
+      "expectedCodes": []
+    },
+    {
+      "name": "pass: generic containment with a citation",
+      "retrieved": [
+        "NCR-2025-084",
+        "NCR-2023-002",
+        "NCR-2023-007"
+      ],
+      "currentNcrId": "NCR-2026-104",
+      "registry": "demo",
+      "actions": [
+        {
+          "action": "Hold all stock and sort suspect parts, as in NCR-2023-002.",
+          "cited_ncr_ids": [],
+          "evidence_ids": []
+        }
+      ],
+      "expectedCodes": []
+    },
+    {
+      "name": "pass: tied to registered current-lot evidence",
+      "retrieved": [
+        "NCR-2025-084",
+        "NCR-2023-002",
+        "NCR-2023-007"
+      ],
+      "currentNcrId": "NCR-2026-104",
+      "registry": "demo",
+      "actions": [
+        {
+          "action": "Quarantine the lots listed in inspection record TI-104.",
+          "cited_ncr_ids": [],
+          "evidence_ids": [
+            "TI-104"
+          ]
+        }
+      ],
+      "expectedCodes": []
+    },
+    {
+      "name": "fail: uncited generic containment",
+      "retrieved": [
+        "NCR-2025-084",
+        "NCR-2023-002",
+        "NCR-2023-007"
+      ],
+      "currentNcrId": "NCR-2026-104",
+      "registry": "demo",
+      "actions": [
+        {
+          "action": "Hold all stock and do 100% inspection.",
+          "cited_ncr_ids": [],
+          "evidence_ids": []
+        }
+      ],
+      "expectedCodes": [
+        "ACTION_UNCITED",
+        "GENERIC_ACTION_UNSUPPORTED"
+      ]
+    },
+    {
+      "name": "fail: Indonesian, uncited karantina",
+      "retrieved": [
+        "NCR-2025-084",
+        "NCR-2023-002",
+        "NCR-2023-007"
+      ],
+      "currentNcrId": "NCR-2026-104",
+      "registry": "demo",
+      "actions": [
+        {
+          "action": "Karantina semua lot dan sortir part.",
+          "cited_ncr_ids": [],
+          "evidence_ids": []
+        }
+      ],
+      "expectedCodes": [
+        "ACTION_UNCITED",
+        "GENERIC_ACTION_UNSUPPORTED"
+      ]
+    },
+    {
+      "name": "fail: uncited specific containment",
+      "retrieved": [
+        "NCR-2025-084",
+        "NCR-2023-002",
+        "NCR-2023-007"
+      ],
+      "currentNcrId": "NCR-2026-104",
+      "registry": "demo",
+      "actions": [
+        {
+          "action": "Stop the die casting cell until the vents are cleaned.",
+          "cited_ncr_ids": [],
+          "evidence_ids": []
+        }
+      ],
+      "expectedCodes": [
+        "ACTION_UNCITED"
+      ]
+    },
+    {
+      "name": "fail: cites an NCR that was not retrieved",
+      "retrieved": [
+        "NCR-2025-084",
+        "NCR-2023-002",
+        "NCR-2023-007"
+      ],
+      "currentNcrId": "NCR-2026-104",
+      "registry": "demo",
+      "actions": [
+        {
+          "action": "Hold the lot as in NCR-2022-001.",
+          "cited_ncr_ids": [
+            "NCR-2022-001"
+          ],
+          "evidence_ids": []
+        }
+      ],
+      "expectedCodes": [
+        "CITATION_NOT_RETRIEVED",
+        "ACTION_UNCITED",
+        "GENERIC_ACTION_UNSUPPORTED"
+      ]
+    },
+    {
+      "name": "fail: evidence registered to another NCR",
+      "retrieved": [
+        "NCR-2025-084",
+        "NCR-2023-002",
+        "NCR-2023-007"
+      ],
+      "currentNcrId": "NCR-2026-104",
+      "registry": "demo",
+      "actions": [
+        {
+          "action": "Sort the parts listed in GR-032.",
+          "cited_ncr_ids": [],
+          "evidence_ids": [
+            "GR-032"
+          ]
+        }
+      ],
+      "expectedCodes": [
+        "ACTION_UNCITED",
+        "GENERIC_ACTION_UNSUPPORTED"
+      ]
+    }
+  ]
+}

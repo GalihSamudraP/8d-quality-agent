@@ -1,0 +1,212 @@
+[
+  {
+    "id": "NCR-2023-002",
+    "query": "Porosity near last-fill area. X-ray shows pore clusters at the last-to-fill zone of the housing. 30/400 pcs NG, lot LOT-DC-2310, DC-01. Air vents look partly closed at setup. Reported by shift 2 leader.",
+    "area": "Die casting",
+    "knownRootCauseCode": "DC-VENT",
+    "knownRootCause": "Vent channels blocked by release-agent build-up, confirmed by tooling inspection."
+  },
+  {
+    "id": "NCR-2023-020",
+    "query": "Cold shut on thin rib. Parts rejected at final inspection for casting defect. 17/240 pcs NG, lot LOT-DC-2360, DC-01. Die heater alarm reported earlier in the shift. Reported by shift 2 leader.",
+    "area": "Die casting",
+    "knownRootCauseCode": "DC-DIETEMP",
+    "knownRootCause": "Die temperature below window after restart, confirmed by thermocouple data."
+  },
+  {
+    "id": "NCR-2023-021",
+    "query": "Reject di part die casting. Part di-reject di final inspection krn cacat casting. 44/400 pcs NG di lot LOT-DC-2307, DC-02. Density index sampel molten tinggi. Ditemukan di incoming proses berikutnya.",
+    "area": "Die casting",
+    "knownRootCauseCode": "DC-H2",
+    "knownRootCause": "Insufficient melt degassing leading to hydrogen porosity, confirmed by density index tests."
+  },
+  {
+    "id": "NCR-2023-030",
+    "query": "Coating thickness below specification. Paint defect found at final inspection. 13/320 pcs NG, lot LOT-CT-2367, booth 1. Paint flow rate setting OK but output low. Customer complaint, 8D requested.",
+    "area": "Coating",
+    "knownRootCauseCode": "COT-GUN",
+    "knownRootCause": "Worn spray gun nozzle giving low and uneven output, confirmed by spray pattern test."
+  },
+  {
+    "id": "NCR-2023-036",
+    "query": "OD oversize pd shaft hasil bubut. Final inspection temukan OD oversize. 40/240 pcs NG di lot LOT-CNC-2388, CNC-11. Tren naik sepanjang shift sampai offset diadjust. Temuan QC patrol.",
+    "area": "CNC machining",
+    "knownRootCauseCode": "CNC-WEAR",
+    "knownRootCause": "Cutting insert wear beyond life, confirmed by measured flank wear."
+  },
+  {
+    "id": "NCR-2023-045",
+    "query": "Baut flange kendor. Flange bocor, baut ditemukan kendor. 35/320 pcs NG di lot LOT-AS-2316, line A2. Kalibrasi nutrunner sdh lewat jadwal. Temuan QC patrol.",
+    "area": "Assembly",
+    "knownRootCauseCode": "ASM-TORQUE",
+    "knownRootCause": "Nutrunner out of calibration, confirmed by torque transducer check."
+  },
+  {
+    "id": "NCR-2023-049",
+    "query": "Porositas di area akhir pengisian. Part di-reject di final inspection krn cacat casting. 15/120 pcs NG di lot LOT-DC-2343, DC-01. Vent udara keliatan setengah tertutup saat setup. Dilaporkan leader shift 3.",
+    "area": "Die casting",
+    "knownRootCauseCode": "DC-VENT",
+    "knownRootCause": "Vent channels blocked by release-agent build-up, confirmed by tooling inspection."
+  },
+  {
+    "id": "NCR-2023-051",
+    "query": "Defect found on assembled unit. Unit fails end-of-line check. 8/200 pcs NG, lot LOT-AS-2357, line B1. Nutrunner calibration overdue. Found at incoming inspection of next process.",
+    "area": "Assembly",
+    "knownRootCauseCode": "ASM-TORQUE",
+    "knownRootCause": "Nutrunner out of calibration, confirmed by torque transducer check."
+  },
+  {
+    "id": "NCR-2023-061",
+    "query": "Reject on die-cast part. Leak test fail, sectioning shows porosity near overflow wells. 23/480 pcs NG, lot LOT-DC-2326, DC-03. Found at final inspection.",
+    "area": "Die casting",
+    "knownRootCauseCode": "DC-VENT",
+    "knownRootCause": "Vent channels blocked by release-agent build-up, confirmed by tooling inspection."
+  },
+  {
+    "id": "NCR-2023-072",
+    "query": "Round gas pores across casting. X-ray shows scattered fine porosity, not location specific. 36/480 pcs NG, lot LOT-DC-2332, DC-06. Density index of melt sample high. Reported by shift 2 leader.",
+    "area": "Die casting",
+    "knownRootCauseCode": "DC-H2",
+    "knownRootCause": "Insufficient melt degassing leading to hydrogen porosity, confirmed by density index tests."
+  },
+  {
+    "id": "NCR-2023-076",
+    "query": "Cacat coating di bracket. Blister setelah humidity test. 54/400 pcs NG di lot LOT-CT-2328, booth 2. Kelembapan booth tinggi di musim hujan. Komplain customer, minta 8D.",
+    "area": "Coating",
+    "knownRootCauseCode": "COT-HUMID",
+    "knownRootCause": "Moisture in compressed air from a failed dryer, confirmed by air line inspection."
+  },
+  {
+    "id": "NCR-2023-080",
+    "query": "Part casting NG. Part di-reject di final inspection krn cacat casting. 24/200 pcs NG di lot LOT-DC-2383, DC-06. Rotor degassing baru diganti. Komplain customer, minta 8D.",
+    "area": "Die casting",
+    "knownRootCauseCode": "DC-H2",
+    "knownRootCause": "Insufficient melt degassing leading to hydrogen porosity, confirmed by density index tests."
+  },
+  {
+    "id": "NCR-2023-090",
+    "query": "Porosity after die change. X-ray detects internal voids spread in thick sections. 25/240 pcs NG, lot LOT-DC-2387, DC-06. Found by QC during patrol.",
+    "area": "Die casting",
+    "knownRootCauseCode": "DC-VAC",
+    "knownRootCause": "Vacuum valve timing set incorrectly after tool change, confirmed by parameter log comparison."
+  },
+  {
+    "id": "NCR-2024-001",
+    "query": "Bocor di interface seal. Unit gagal cek end of line. 9/240 pcs NG di lot LOT-AS-2455, line B1. Ada operator baru di station 4 minggu ini. Komplain customer, minta 8D.",
+    "area": "Assembly",
+    "knownRootCauseCode": "ASM-SEAL",
+    "knownRootCause": "Seal installed in wrong orientation with no error-proofing, confirmed by teardown."
+  },
+  {
+    "id": "NCR-2024-007",
+    "query": "Cat mengelupas setelah cross-cut. Coating tdk memenuhi spek. 4/120 pcs NG di lot LOT-CT-2473, oven line 3. Water break test menunjukkan ada minyak di part. Komplain customer, minta 8D.",
+    "area": "Coating",
+    "knownRootCauseCode": "COT-PRETREAT",
+    "knownRootCause": "Pretreatment bath concentration below range, confirmed by titration records."
+  },
+  {
+    "id": "NCR-2024-010",
+    "query": "Reject di part die casting. Part di-reject di final inspection krn cacat casting. 8/120 pcs NG di lot LOT-DC-2477, DC-02. Density index sampel molten tinggi. Komplain customer, minta 8D.",
+    "area": "Die casting",
+    "knownRootCauseCode": "DC-H2",
+    "knownRootCause": "Insufficient melt degassing leading to hydrogen porosity, confirmed by density index tests."
+  },
+  {
+    "id": "NCR-2024-012",
+    "query": "Porositas dekat overflow housing. Permukaan hasil machining ada pori terbuka di area ujung aliran. 16/200 pcs NG di lot LOT-DC-2470, DC-03. Ada residu release agent hitam di area vent. Komplain customer, minta 8D.",
+    "area": "Die casting",
+    "knownRootCauseCode": "DC-VENT",
+    "knownRootCause": "Vent channels blocked by release-agent build-up, confirmed by tooling inspection."
+  },
+  {
+    "id": "NCR-2024-016",
+    "query": "Coating fails MEK rub test. Pencil hardness below spec. 3/240 pcs NG, lot LOT-CT-2418, booth 2. Found by QC during patrol.",
+    "area": "Coating",
+    "knownRootCauseCode": "COT-CURE",
+    "knownRootCause": "Oven cure temperature below schedule, confirmed by oven profile data."
+  },
+  {
+    "id": "NCR-2024-022",
+    "query": "Porosity after die change. Defect found at X-ray and visual inspection above acceptance limit. 24/160 pcs NG, lot LOT-DC-2498, DC-03. Customer complaint, 8D requested.",
+    "area": "Die casting",
+    "knownRootCauseCode": "DC-VAC",
+    "knownRootCause": "Vacuum valve timing set incorrectly after tool change, confirmed by parameter log comparison."
+  },
+  {
+    "id": "NCR-2024-043",
+    "query": "Dimensi NG di part machining. Part jam pertama NG, selanjutnya OK. 22/240 pcs NG di lot LOT-CNC-2499, CNC-07. Komplain customer, minta 8D.",
+    "area": "CNC machining",
+    "knownRootCauseCode": "CNC-THERMAL",
+    "knownRootCause": "Spindle thermal growth during warm-up, confirmed by temperature versus length study."
+  },
+  {
+    "id": "NCR-2024-044",
+    "query": "Assembly reject at end of line. Defect found on assembled unit during audit. 26/160 pcs NG, lot LOT-AS-2449, line A1. Teardown shows seal twisted in groove. Found by QC during patrol.",
+    "area": "Assembly",
+    "knownRootCauseCode": "ASM-SEAL",
+    "knownRootCause": "Seal installed in wrong orientation with no error-proofing, confirmed by teardown."
+  },
+  {
+    "id": "NCR-2024-045",
+    "query": "Function test fail on assembly. Electrical test fails intermittently at harness connector. 29/200 pcs NG, lot LOT-AS-2408, line B1. Push force varies a lot between parts. Customer complaint, 8D requested.",
+    "area": "Assembly",
+    "knownRootCauseCode": "ASM-CONN",
+    "knownRootCause": "Worn locating pin misaligning the connector, confirmed by teardown and nest measurement."
+  },
+  {
+    "id": "NCR-2024-054",
+    "query": "Surface scoring on drive cover. Cosmetic defect at fixture contact area. 3/480 pcs NG, lot LOT-AS-2432, line B1. Defect stops when parts are assembled by hand. Customer complaint, 8D requested.",
+    "area": "Assembly",
+    "knownRootCauseCode": "ASM-FIXTURE",
+    "knownRootCause": "Worn fixture contact pads, confirmed through controlled reproduction."
+  },
+  {
+    "id": "NCR-2024-056",
+    "query": "Out of spec on CNC part. SPC chart shows gradual upward trend in diameter. 5/120 pcs NG, lot LOT-CNC-2446, CNC-04. Insert has not been changed for a long run. Found by QC during patrol.",
+    "area": "CNC machining",
+    "knownRootCauseCode": "CNC-WEAR",
+    "knownRootCause": "Cutting insert wear beyond life, confirmed by measured flank wear."
+  },
+  {
+    "id": "NCR-2024-058",
+    "query": "Reject on die-cast part. Defect found at X-ray and visual inspection above acceptance limit. 26/200 pcs NG, lot LOT-DC-2461, DC-02. Die has run many shots since last vent cleaning. Found at final inspection.",
+    "area": "Die casting",
+    "knownRootCauseCode": "DC-VENT",
+    "knownRootCause": "Vent channels blocked by release-agent build-up, confirmed by tooling inspection."
+  },
+  {
+    "id": "NCR-2024-061",
+    "query": "Flow lines and misrun on cover. Defect found at X-ray and visual inspection above acceptance limit. 4/120 pcs NG, lot LOT-DC-2465, DC-06. Found at incoming inspection of next process.",
+    "area": "Die casting",
+    "knownRootCauseCode": "DC-DIETEMP",
+    "knownRootCause": "Die temperature below window after restart, confirmed by thermocouple data."
+  },
+  {
+    "id": "NCR-2024-070",
+    "query": "All parts out by constant amount. CMM shows every part shifted by the same amount. 18/160 pcs NG, lot LOT-CNC-2492, CNC-04. First article was not re-checked after program edit. Found by QC during patrol.",
+    "area": "CNC machining",
+    "knownRootCauseCode": "CNC-OFFSET",
+    "knownRootCause": "Wrong work offset loaded at changeover, confirmed by program and offset audit."
+  },
+  {
+    "id": "NCR-2024-074",
+    "query": "Dimensional NG on machined part. CMM report shows out-of-tolerance features. 38/240 pcs NG, lot LOT-CNC-2424, CNC-11. Reported by shift 2 leader.",
+    "area": "CNC machining",
+    "knownRootCauseCode": "CNC-CLAMP",
+    "knownRootCause": "Excess clamping force distorting the part, confirmed by clamp pressure trial."
+  },
+  {
+    "id": "NCR-2024-080",
+    "query": "Assembly reject at end of line. Unit fails end-of-line check. 11/200 pcs NG, lot LOT-AS-2470, line B1. Nutrunner calibration overdue. Found by QC during patrol.",
+    "area": "Assembly",
+    "knownRootCauseCode": "ASM-TORQUE",
+    "knownRootCause": "Nutrunner out of calibration, confirmed by torque transducer check."
+  },
+  {
+    "id": "NCR-2024-090",
+    "query": "Cold shut on thin rib. Defect found at X-ray and visual inspection above acceptance limit. 2/160 pcs NG, lot LOT-DC-2407, DC-05. Found by QC during patrol.",
+    "area": "Die casting",
+    "knownRootCauseCode": "DC-DIETEMP",
+    "knownRootCause": "Die temperature below window after restart, confirmed by thermocouple data."
+  }
+]

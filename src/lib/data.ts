@@ -1,10 +1,20 @@
-import { AppState, HistoricalCase, NCR } from './types';
-export const history: HistoricalCase[] = [
-    { id: 'NCR-2025-084', title: 'Porosity in aluminum housing', area: 'Die casting', category: 'Porosity', rootCause: 'Vent channel blockage confirmed by tooling inspection.', action: 'Clean vent channels every 400 cycles; add vent inspection to setup checklist.', evidence: 'Tooling inspection TI-084 · metallography LAB-218', closed: '2025-11-18' },
-    { id: 'NCR-2026-019', title: 'Housing voids after tool change', area: 'Die casting', category: 'Porosity', rootCause: 'Incorrect vacuum timing confirmed by parameter log comparison.', action: 'Lock validated vacuum recipe and verify first-off samples.', evidence: 'Parameter log PL-019 · first-off verification FV-019', closed: '2026-03-12' },
-    { id: 'NCR-2026-032', title: 'Shaft diameter outside tolerance', area: 'CNC machining', category: 'Dimensional', rootCause: 'Tool wear confirmed by measured insert condition.', action: 'Introduce tool-life limits and in-process gauging.', evidence: 'Gauge study GR-032 · tool inspection TI-032', closed: '2026-05-07' },
-    { id: 'NCR-2026-047', title: 'Surface scoring on drive cover', area: 'Assembly', category: 'Surface finish', rootCause: 'Fixture contact point confirmed through controlled reproduction.', action: 'Replace fixture pads and add visual checks.', evidence: 'Trial report TR-047 · fixture photos FP-047', closed: '2026-07-22' },
-    { id: 'NCR-2026-061', title: 'Seal leak during end-of-line test', area: 'Assembly', category: 'Leakage', rootCause: 'Seal orientation confirmed by teardown.', action: 'Add poka-yoke locator and operator training.', evidence: 'Teardown TD-061 · validation VT-061', closed: '2026-09-02' }
+import { AppState, EvidenceRecord, HistoricalCase, NCR, SyntheticNcr } from './types';
+import anchorFile from '../../data/anchor-history.json';
+// The five historical cases shown in the UI are anchors of the retrieval corpus (data/anchor-history.json).
+const anchors = anchorFile as { ncrs: SyntheticNcr[]; evidence: EvidenceRecord[] };
+export const history: HistoricalCase[] = anchors.ncrs.map(n => ({ id: n.id, title: n.title, area: n.area, category: n.category, rootCause: n.confirmedRootCause, action: n.correctiveAction, evidence: anchors.evidence.filter(e => e.ncrId === n.id).map(e => e.kind + ' ' + e.id).join(' · '), closed: n.closedDate }));
+// Synthetic evidence registry. Rule B accepts an evidence id only if it is listed here for the NCR being investigated.
+export const evidenceRegistry: EvidenceRecord[] = [
+    ...anchors.evidence,
+    { id: 'TR-104', ncrId: 'NCR-2026-104', kind: 'Trial report', summary: 'Controlled trial on current lot LOT-DC-2410: porosity rate before and after vent cleaning.', date: '2026-10-15' },
+    { id: 'PL-104', ncrId: 'NCR-2026-104', kind: 'Parameter log', summary: 'Die-casting cell parameter log for LOT-DC-2410.', date: '2026-10-13' },
+    { id: 'GR-103', ncrId: 'NCR-2026-103', kind: 'Gauge study', summary: 'Gauge R&R of the bore gauge used on LOT-CNC-1834.', date: '2026-10-13' },
+    { id: 'TI-103', ncrId: 'NCR-2026-103', kind: 'Tooling inspection', summary: 'Insert condition on the turning center for LOT-CNC-1834.', date: '2026-10-13' },
+    { id: 'FP-102', ncrId: 'NCR-2026-102', kind: 'Fixture photos', summary: 'Fixture pads at the drive cover station for LOT-AS-0902.', date: '2026-10-12' },
+    { id: 'TD-101', ncrId: 'NCR-2026-101', kind: 'Teardown', summary: 'Teardown of leaking units from LOT-AS-0898.', date: '2026-10-11' },
+    { id: 'VT-099', ncrId: 'NCR-2026-099', kind: 'Validation test', summary: 'Pilot lot inspection after the deburring change.', date: '2026-10-09' },
+    { id: 'TD-098', ncrId: 'NCR-2026-098', kind: 'Teardown', summary: 'Teardown of connectors that failed seating.', date: '2026-10-08' },
+    { id: 'LAB-097', ncrId: 'NCR-2026-097', kind: 'Metallography', summary: 'Pore cluster sections from LOT-DC-2380.', date: '2026-10-07' }
 ];
 const rows = [
     ['104', 'Porosity in aluminum motor housing', 'Die casting', 'POR-01', 'Porosity', 'Critical', 'Pending approval', 'Sarah Chen', 48, 'LOT-DC-2410', ['NCR-2025-084', 'NCR-2026-019']],
@@ -22,8 +32,8 @@ export function sectionDraft(n: NCR, d: number): string {
         'Lead: ' + n.owner + '. Team: quality engineering, production supervisor, process engineering, and inspection. Confirm availability and assign responsibilities.',
         n.description + ' Area: ' + n.area + '. Defect code: ' + n.code + '. Affected quantity: ' + n.quantity + '. Lot: ' + n.lot + '. Confirm specification and measurement records.',
         'Segregate lot ' + n.lot + ' and block shipment. Screen adjacent lots using the approved inspection method. Record disposition and containment effectiveness.',
-        n.evidence.length ? 'Hypothesis for investigation: compare process setup, tooling condition, and inspection records with the referenced historical cases. Similarity alone does not establish the current root cause. Validate with controlled trials and current-lot evidence.' : 'Evidence missing. No relevant historical case was retrieved. Collect process logs, inspection results, and a controlled reproduction before selecting a root cause.',
-        'Suggested action: review the confirmed cause, introduce a controlled process check, and validate with a pilot lot. Define owner, acceptance criteria, and due date before approval.',
+        n.evidence.length ? 'Candidate precedents (historical, not validated): ' + n.evidence.map(id => { const h = history.find(h => h.id === id); return h ? id + ' (' + h.title + '; recorded cause: ' + h.rootCause + ')' : id; }).join('; ') + '. Hypothesis for investigation: compare process setup, tooling condition, and inspection records with these historical cases. Similarity alone does not establish the current root cause. Validate with controlled trials and current-lot evidence.' : 'Evidence missing. No relevant historical case was retrieved. Collect process logs, inspection results, and a controlled reproduction before selecting a root cause.',
+        'Suggested action: confirm the D4 hypothesis with current-lot evidence first, then introduce a controlled process check that addresses it and validate with a pilot lot. Define owner, acceptance criteria, and due date before approval.',
         'Implement the approved action on a pilot lot. Record test results against acceptance criteria. Human review of objective evidence is required before completing validation.',
         'Update the control plan and work instructions. Train operators, extend checks to similar processes, and schedule a 30-day effectiveness review.',
         'Record the team contribution and lessons learned. Confirm all CAPAs are complete and archive the validated report.'
@@ -32,17 +42,16 @@ export function sectionDraft(n: NCR, d: number): string {
 }
 export function createInitialState(): AppState {
     return { version: 1, ncrs: initialNcrs, reports: initialNcrs.map(n => ({ ncrId: n.id, sections: Array.from({ length: 8 }, (_, d) => ({ content: d < 4 || n.status === 'Closed' ? sectionDraft(n, d) : '', status: n.status === 'Closed' ? (d === 3 || d === 4 ? 'Approved' : 'Complete') : d < 3 ? 'Complete' : d === 3 ? 'Draft' : 'Not started' })) })), capas: [
-            { id: 'CAPA-042', ncrId: 'NCR-2026-104', title: 'Inspect vent channels and validate process settings', description: 'Investigate tooling and process parameters. Record objective findings; do not implement a permanent process change until D5 approval.', owner: 'Sarah Chen', due: '2026-10-12', priority: 'Critical', status: 'In progress', escalated: true },
-            { id: 'CAPA-041', ncrId: 'NCR-2026-103', title: 'Introduce tool-life monitoring', description: 'Verify insert wear and establish a validated tool replacement interval.', owner: 'James Wilson', due: '2026-10-16', priority: 'Major', status: 'In progress', escalated: false },
-            { id: 'CAPA-040', ncrId: 'NCR-2026-101', title: 'Validate seal assembly fixture', description: 'Run controlled validation with leak testing on 30 assemblies.', owner: 'David Park', due: '2026-10-10', priority: 'Critical', status: 'Not started', escalated: true },
-            { id: 'CAPA-039', ncrId: 'NCR-2026-102', title: 'Review fixture contact surfaces', description: 'Inspect and replace worn pads, then verify surface finish.', owner: 'Maria Garcia', due: '2026-10-19', priority: 'Minor', status: 'Not started', escalated: false },
-            { id: 'CAPA-038', ncrId: 'NCR-2026-099', title: 'Verify deburring operation', description: 'Inspection accepted all pilot lot samples.', owner: 'James Wilson', due: '2026-10-06', priority: 'Minor', status: 'Completed', escalated: false }
+            { id: 'CAPA-042', ncrId: 'NCR-2026-104', title: 'Inspect vent channels and validate process settings', description: 'Investigate tooling and process parameters. Record objective findings; do not implement a permanent process change until D5 approval.', owner: 'Sarah Chen', due: '2026-10-12', priority: 'Critical', status: 'In progress' },
+            { id: 'CAPA-041', ncrId: 'NCR-2026-103', title: 'Introduce tool-life monitoring', description: 'Verify insert wear and establish a validated tool replacement interval.', owner: 'James Wilson', due: '2026-10-16', priority: 'Major', status: 'In progress' },
+            { id: 'CAPA-040', ncrId: 'NCR-2026-101', title: 'Validate seal assembly fixture', description: 'Run controlled validation with leak testing on 30 assemblies.', owner: 'David Park', due: '2026-10-10', priority: 'Critical', status: 'Not started' },
+            { id: 'CAPA-039', ncrId: 'NCR-2026-102', title: 'Review fixture contact surfaces', description: 'Inspect and replace worn pads, then verify surface finish.', owner: 'Maria Garcia', due: '2026-10-19', priority: 'Minor', status: 'Not started' },
+            { id: 'CAPA-038', ncrId: 'NCR-2026-099', title: 'Verify deburring operation', description: 'Inspection accepted all pilot lot samples.', owner: 'James Wilson', due: '2026-10-06', priority: 'Minor', status: 'Completed' }
         ], audit: [
             { id: 'a1', ncrId: 'NCR-2026-104', actor: 'Analysis agent (simulated)', kind: 'AI', action: 'Generated D4 draft; retrieved 2 historical references. Root cause remains unvalidated.', timestamp: '2026-10-13T08:42:00Z' },
             { id: 'a2', ncrId: 'NCR-2026-104', actor: 'Sarah Chen', kind: 'Human', action: 'Completed D3 containment: affected batch held.', timestamp: '2026-10-13T08:30:00Z' },
             { id: 'a3', ncrId: 'NCR-2026-104', actor: 'Classification agent (simulated)', kind: 'AI', action: 'Suggested classification: Porosity · POR-01.', timestamp: '2026-10-13T08:20:00Z' },
             { id: 'a4', ncrId: 'NCR-2026-104', actor: 'Sarah Chen', kind: 'Human', action: 'Created NCR and assigned the investigation team.', timestamp: '2026-10-13T08:15:00Z' },
-            { id: 'a5', ncrId: 'NCR-2026-101', actor: 'Workflow monitor', kind: 'System', action: 'Escalated overdue CAPA-040 to the quality lead.', timestamp: '2026-10-12T09:00:00Z' },
             { id: 'a6', ncrId: 'NCR-2026-103', actor: 'James Wilson', kind: 'Human', action: 'Assigned CAPA-041 for tool-life monitoring.', timestamp: '2026-10-11T10:00:00Z' }
-        ] };
+        ], evidence: [], escalated: [] };
 }

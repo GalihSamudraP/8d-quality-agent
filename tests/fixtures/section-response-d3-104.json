@@ -1,0 +1,50 @@
+{
+  "status": "success",
+  "task": "draft_section",
+  "section": "D3",
+  "method": "rule-based, no model",
+  "ncr_id": "NCR-2026-104",
+  "language": "en",
+  "actions": [
+    {
+      "action": "Lot LOT-DC-2507 on hold; 100% X-ray of stock (reuses the containment of NCR-2025-084).",
+      "cited_ncr_ids": [
+        "NCR-2025-084"
+      ],
+      "evidence_ids": []
+    },
+    {
+      "action": "Suspect parts segregated, shipment blocked, 100% X-ray (reuses the containment of NCR-2023-002).",
+      "cited_ncr_ids": [
+        "NCR-2023-002"
+      ],
+      "evidence_ids": []
+    },
+    {
+      "action": "Customer stock sorted; WIP quarantined pending X-ray (reuses the containment of NCR-2023-007).",
+      "cited_ncr_ids": [
+        "NCR-2023-007"
+      ],
+      "evidence_ids": []
+    }
+  ],
+  "rejected": [],
+  "draft": "Agent proposal (containment reused from retrieved cases, no model, not validated). Adapt lot numbers and quantities to NCR-2026-104 before approval:\n1. Lot LOT-DC-2507 on hold; 100% X-ray of stock (reuses the containment of NCR-2025-084).\n2. Suspect parts segregated, shipment blocked, 100% X-ray (reuses the containment of NCR-2023-002).\n3. Customer stock sorted; WIP quarantined pending X-ray (reuses the containment of NCR-2023-007).",
+  "retrieved": [
+    {
+      "id": "NCR-2025-084",
+      "score": 32.6578,
+      "title": "Porosity in aluminum housing"
+    },
+    {
+      "id": "NCR-2023-002",
+      "score": 18.9253,
+      "title": "Porosity near last-fill area"
+    },
+    {
+      "id": "NCR-2023-007",
+      "score": 18.9253,
+      "title": "Porosity near last-fill area"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "status": "success",
+  "mode": "mock",
+  "model_id": null,
+  "model_name": null,
+  "ncr_id": "NCR-2026-104",
+  "proposal_status": "hypothesis_with_current_evidence",
+  "proposal": {
+    "root_cause": "Hypothesis (historical, not validated): Vent channel blockage confirmed by tooling inspection, as recorded in NCR-2025-084, NCR-2023-002, NCR-2023-007.",
+    "cited_ncr_ids": [
+      "NCR-2025-084",
+      "NCR-2023-002",
+      "NCR-2023-007"
+    ],
+    "confidence": "high",
+    "missing_data": [
+      "Current-lot confirmation (controlled trial or inspection) of the hypothesis before D4 approval."
+    ]
+  },
+  "raw_proposal": null,
+  "retrieved": [
+    {
+      "id": "NCR-2025-084",
+      "score": 32.6578,
+      "title": "Porosity in aluminum housing"
+    },
+    {
+      "id": "NCR-2023-002",
+      "score": 18.9253,
+      "title": "Porosity near last-fill area"
+    },
+    {
+      "id": "NCR-2023-007",
+      "score": 18.9253,
+      "title": "Porosity near last-fill area"
+    }
+  ],
+  "sap_context": [
+    {
+      "tool": "get_sap_quality_context",
+      "label": "SAP sandbox sample data (not current-lot evidence)",
+      "source": "cached sample",
+      "placeholder": true
+    }
+  ],
+  "validation": {
+    "ok": true,
+    "issues": [],
+    "hypothesis_status": "evidence_registered"
+  },
+  "accepted": true
+}

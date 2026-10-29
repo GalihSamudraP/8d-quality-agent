@@ -1,0 +1,5 @@
+Porosity in aluminum motor housing
+Synthetic test document, not plant data.
+X-ray inspection found internal porosity on 48 of 320 aluminum motor housings from the die casting cell.
+Pore clusters exceed the 1.5 mm acceptance limit near the mounting boss.
+Lot: LOT-DC-2411

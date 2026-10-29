@@ -1,0 +1,455 @@
+{
+  "description": "Shared D5 corrective action cases. Read by tests/action-validator.test.ts and agent/tests/test_action_validator.py. expectedCodes lists issue codes over all actions in order; expectedIndexes, when present, the action index of each issue.",
+  "registries": {
+    "demo": [
+      {
+        "id": "TR-104",
+        "ncrId": "NCR-2026-104"
+      },
+      {
+        "id": "PL-104",
+        "ncrId": "NCR-2026-104"
+      },
+      {
+        "id": "GR-032",
+        "ncrId": "NCR-2026-032"
+      }
+    ]
+  },
+  "cases": [
+    {
+      "name": "pass: reuses the corrective action of a retrieved NCR the D4 cites",
+      "approvedD4": "Hypothesis: vent channel blockage from release-agent build-up, as recorded in NCR-2025-084; current-lot trial TR-104 supports it.",
+      "retrieved": [
+        "NCR-2025-084",
+        "NCR-2023-007",
+        "NCR-2023-075"
+      ],
+      "currentNcrId": "NCR-2026-104",
+      "registry": "demo",
+      "actions": [
+        {
+          "action": "Clean vent channels every 400 shots and add a vent check to the die maintenance checklist.",
+          "cited_ncr_ids": [
+            "NCR-2025-084"
+          ],
+          "evidence_ids": []
+        }
+      ],
+      "expectedCodes": []
+    },
+    {
+      "name": "pass: tied to registered current-lot evidence",
+      "approvedD4": "Hypothesis: vent channel blockage from release-agent build-up, as recorded in NCR-2025-084; current-lot trial TR-104 supports it.",
+      "retrieved": [
+        "NCR-2025-084",
+        "NCR-2023-007",
+        "NCR-2023-075"
+      ],
+      "currentNcrId": "NCR-2026-104",
+      "registry": "demo",
+      "actions": [
+        {
+          "action": "Lock the release-agent spray volume validated in trial TR-104.",
+          "cited_ncr_ids": [],
+          "evidence_ids": [
+            "TR-104"
+          ]
+        }
+      ],
+      "expectedCodes": []
+    },
+    {
+      "name": "fail: uncited action",
+      "approvedD4": "Hypothesis: vent channel blockage from release-agent build-up, as recorded in NCR-2025-084; current-lot trial TR-104 supports it.",
+      "retrieved": [
+        "NCR-2025-084",
+        "NCR-2023-007",
+        "NCR-2023-075"
+      ],
+      "currentNcrId": "NCR-2026-104",
+      "registry": "demo",
+      "actions": [
+        {
+          "action": "Replace the die vent inserts.",
+          "cited_ncr_ids": [],
+          "evidence_ids": []
+        }
+      ],
+      "expectedCodes": [
+        "ACTION_UNCITED"
+      ]
+    },
+    {
+      "name": "fail: cites an NCR that was not retrieved",
+      "approvedD4": "Hypothesis: vent channel blockage from release-agent build-up, as recorded in NCR-2025-084; current-lot trial TR-104 supports it.",
+      "retrieved": [
+        "NCR-2025-084",
+        "NCR-2023-007",
+        "NCR-2023-075"
+      ],
+      "currentNcrId": "NCR-2026-104",
+      "registry": "demo",
+      "actions": [
+        {
+          "action": "Clean vents as in NCR-2024-999.",
+          "cited_ncr_ids": [
+            "NCR-2024-999"
+          ],
+          "evidence_ids": []
+        }
+      ],
+      "expectedCodes": [
+        "CITATION_NOT_RETRIEVED",
+        "ACTION_UNCITED"
+      ]
+    },
+    {
+      "name": "fail: retrain operators with a retrieved NCR but no current-lot evidence",
+      "approvedD4": "Hypothesis: vent channel blockage from release-agent build-up, as recorded in NCR-2025-084; current-lot trial TR-104 supports it.",
+      "retrieved": [
+        "NCR-2025-084",
+        "NCR-2023-007",
+        "NCR-2023-075"
+      ],
+      "currentNcrId": "NCR-2026-104",
+      "registry": "demo",
+      "actions": [
+        {
+          "action": "Retrain operators on die maintenance.",
+          "cited_ncr_ids": [
+            "NCR-2025-084"
+          ],
+          "evidence_ids": []
+        }
+      ],
+      "expectedCodes": [
+        "GENERIC_ACTION_UNSUPPORTED"
+      ]
+    },
+    {
+      "name": "pass: training tied to registered evidence",
+      "approvedD4": "Hypothesis: vent channel blockage from release-agent build-up, as recorded in NCR-2025-084; current-lot trial TR-104 supports it.",
+      "retrieved": [
+        "NCR-2025-084",
+        "NCR-2023-007",
+        "NCR-2023-075"
+      ],
+      "currentNcrId": "NCR-2026-104",
+      "registry": "demo",
+      "actions": [
+        {
+          "action": "Retrain operators on the release-agent spray setting confirmed in trial TR-104.",
+          "cited_ncr_ids": [
+            "NCR-2025-084"
+          ],
+          "evidence_ids": [
+            "TR-104"
+          ]
+        }
+      ],
+      "expectedCodes": []
+    },
+    {
+      "name": "fail: increase inspection",
+      "approvedD4": "Hypothesis: vent channel blockage from release-agent build-up, as recorded in NCR-2025-084; current-lot trial TR-104 supports it.",
+      "retrieved": [
+        "NCR-2025-084",
+        "NCR-2023-007",
+        "NCR-2023-075"
+      ],
+      "currentNcrId": "NCR-2026-104",
+      "registry": "demo",
+      "actions": [
+        {
+          "action": "Increase inspection of vent channels on every shift.",
+          "cited_ncr_ids": [
+            "NCR-2025-084"
+          ],
+          "evidence_ids": []
+        }
+      ],
+      "expectedCodes": [
+        "GENERIC_ACTION_UNSUPPORTED"
+      ]
+    },
+    {
+      "name": "fail: be more careful",
+      "approvedD4": "Hypothesis: vent channel blockage from release-agent build-up, as recorded in NCR-2025-084; current-lot trial TR-104 supports it.",
+      "retrieved": [
+        "NCR-2025-084",
+        "NCR-2023-007",
+        "NCR-2023-075"
+      ],
+      "currentNcrId": "NCR-2026-104",
+      "registry": "demo",
+      "actions": [
+        {
+          "action": "Operators must be more careful when cleaning vents.",
+          "cited_ncr_ids": [
+            "NCR-2025-084"
+          ],
+          "evidence_ids": []
+        }
+      ],
+      "expectedCodes": [
+        "GENERIC_ACTION_UNSUPPORTED"
+      ]
+    },
+    {
+      "name": "fail: Indonesian, tingkatkan inspeksi",
+      "approvedD4": "Hypothesis: vent channel blockage from release-agent build-up, as recorded in NCR-2025-084; current-lot trial TR-104 supports it.",
+      "retrieved": [
+        "NCR-2025-084",
+        "NCR-2023-007",
+        "NCR-2023-075"
+      ],
+      "currentNcrId": "NCR-2026-104",
+      "registry": "demo",
+      "actions": [
+        {
+          "action": "Tingkatkan inspeksi X-ray untuk lot berikutnya seperti NCR-2025-084.",
+          "cited_ncr_ids": [],
+          "evidence_ids": []
+        }
+      ],
+      "expectedCodes": [
+        "GENERIC_ACTION_UNSUPPORTED"
+      ]
+    },
+    {
+      "name": "fail: Indonesian, lebih hati-hati",
+      "approvedD4": "Hypothesis: vent channel blockage from release-agent build-up, as recorded in NCR-2025-084; current-lot trial TR-104 supports it.",
+      "retrieved": [
+        "NCR-2025-084",
+        "NCR-2023-007",
+        "NCR-2023-075"
+      ],
+      "currentNcrId": "NCR-2026-104",
+      "registry": "demo",
+      "actions": [
+        {
+          "action": "Operator harus lebih hati-hati saat membersihkan vent (NCR-2025-084).",
+          "cited_ncr_ids": [],
+          "evidence_ids": []
+        }
+      ],
+      "expectedCodes": [
+        "GENERIC_ACTION_UNSUPPORTED"
+      ]
+    },
+    {
+      "name": "fail: Indonesian, latih ulang operator",
+      "approvedD4": "Hypothesis: vent channel blockage from release-agent build-up, as recorded in NCR-2025-084; current-lot trial TR-104 supports it.",
+      "retrieved": [
+        "NCR-2025-084",
+        "NCR-2023-007",
+        "NCR-2023-075"
+      ],
+      "currentNcrId": "NCR-2026-104",
+      "registry": "demo",
+      "actions": [
+        {
+          "action": "Latih ulang operator die casting tentang pembersihan vent.",
+          "cited_ncr_ids": [
+            "NCR-2025-084"
+          ],
+          "evidence_ids": []
+        }
+      ],
+      "expectedCodes": [
+        "GENERIC_ACTION_UNSUPPORTED"
+      ]
+    },
+    {
+      "name": "fail: contradicts the approved D4",
+      "approvedD4": "Hypothesis: vent channel blockage from release-agent build-up, as recorded in NCR-2025-084; current-lot trial TR-104 supports it.",
+      "retrieved": [
+        "NCR-2025-084",
+        "NCR-2023-007",
+        "NCR-2023-075"
+      ],
+      "currentNcrId": "NCR-2026-104",
+      "registry": "demo",
+      "actions": [
+        {
+          "action": "Vent blockage is not the root cause; set the degassing time by density index as in NCR-2023-007.",
+          "cited_ncr_ids": [
+            "NCR-2023-007"
+          ],
+          "evidence_ids": []
+        }
+      ],
+      "expectedCodes": [
+        "ACTION_CONTRADICTS_D4"
+      ]
+    },
+    {
+      "name": "fail: Indonesian, contradicts the approved D4",
+      "approvedD4": "Hypothesis: vent channel blockage from release-agent build-up, as recorded in NCR-2025-084; current-lot trial TR-104 supports it.",
+      "retrieved": [
+        "NCR-2025-084",
+        "NCR-2023-007",
+        "NCR-2023-075"
+      ],
+      "currentNcrId": "NCR-2026-104",
+      "registry": "demo",
+      "actions": [
+        {
+          "action": "Abaikan D4; atur waktu degassing seperti NCR-2023-007.",
+          "cited_ncr_ids": [
+            "NCR-2023-007"
+          ],
+          "evidence_ids": []
+        }
+      ],
+      "expectedCodes": [
+        "ACTION_CONTRADICTS_D4"
+      ]
+    },
+    {
+      "name": "fail: ignores the approved D4",
+      "approvedD4": "Hypothesis: vent channel blockage from release-agent build-up, as recorded in NCR-2025-084; current-lot trial TR-104 supports it.",
+      "retrieved": [
+        "NCR-2025-084",
+        "NCR-2023-007",
+        "NCR-2023-075"
+      ],
+      "currentNcrId": "NCR-2026-104",
+      "registry": "demo",
+      "actions": [
+        {
+          "action": "Recalibrate the nutrunners and shorten the calibration interval.",
+          "cited_ncr_ids": [
+            "NCR-2023-007"
+          ],
+          "evidence_ids": []
+        }
+      ],
+      "expectedCodes": [
+        "ACTION_IGNORES_D4"
+      ]
+    },
+    {
+      "name": "fail: evidence registered to another NCR does not count",
+      "approvedD4": "Hypothesis: vent channel blockage from release-agent build-up, as recorded in NCR-2025-084; current-lot trial TR-104 supports it.",
+      "retrieved": [
+        "NCR-2025-084",
+        "NCR-2023-007",
+        "NCR-2023-075"
+      ],
+      "currentNcrId": "NCR-2026-104",
+      "registry": "demo",
+      "actions": [
+        {
+          "action": "Retrain staff as shown in GR-032.",
+          "cited_ncr_ids": [],
+          "evidence_ids": [
+            "GR-032"
+          ]
+        }
+      ],
+      "expectedCodes": [
+        "ACTION_UNCITED",
+        "GENERIC_ACTION_UNSUPPORTED",
+        "ACTION_IGNORES_D4"
+      ]
+    },
+    {
+      "name": "pass: Indonesian, reuses a retrieved corrective action",
+      "approvedD4": "Hypothesis: vent channel blockage from release-agent build-up, as recorded in NCR-2025-084; current-lot trial TR-104 supports it.",
+      "retrieved": [
+        "NCR-2025-084",
+        "NCR-2023-007",
+        "NCR-2023-075"
+      ],
+      "currentNcrId": "NCR-2026-104",
+      "registry": "demo",
+      "actions": [
+        {
+          "action": "Bersihkan saluran vent setiap 400 shot sesuai NCR-2025-084.",
+          "cited_ncr_ids": [],
+          "evidence_ids": []
+        }
+      ],
+      "expectedCodes": []
+    },
+    {
+      "name": "mixed: one good and one generic action, the issue names action 2",
+      "approvedD4": "Hypothesis: vent channel blockage from release-agent build-up, as recorded in NCR-2025-084; current-lot trial TR-104 supports it.",
+      "retrieved": [
+        "NCR-2025-084",
+        "NCR-2023-007",
+        "NCR-2023-075"
+      ],
+      "currentNcrId": "NCR-2026-104",
+      "registry": "demo",
+      "actions": [
+        {
+          "action": "Clean vent channels every 400 shots.",
+          "cited_ncr_ids": [
+            "NCR-2025-084"
+          ],
+          "evidence_ids": []
+        },
+        {
+          "action": "Add more training for the die casting team.",
+          "cited_ncr_ids": [
+            "NCR-2025-084"
+          ],
+          "evidence_ids": []
+        }
+      ],
+      "expectedCodes": [
+        "GENERIC_ACTION_UNSUPPORTED"
+      ],
+      "expectedIndexes": [
+        1
+      ]
+    },
+    {
+      "name": "pass: Indonesian agent draft action reusing a D4-cited NCR",
+      "approvedD4": "Hipotesis (historis, belum divalidasi): Vent channel blockage confirmed by tooling inspection, seperti tercatat di NCR-2025-084, NCR-2023-002, NCR-2023-007.",
+      "retrieved": [
+        "NCR-2025-084",
+        "NCR-2023-002",
+        "NCR-2023-007"
+      ],
+      "currentNcrId": "NCR-2026-104",
+      "registry": "demo",
+      "actions": [
+        {
+          "action": "Clean vent channels every 400 cycles; add vent inspection to setup checklist (memakai ulang tindakan korektif NCR-2025-084).",
+          "cited_ncr_ids": [
+            "NCR-2025-084"
+          ],
+          "evidence_ids": []
+        }
+      ],
+      "expectedCodes": []
+    },
+    {
+      "name": "fail: Indonesian generic action against an Indonesian D4",
+      "approvedD4": "Hipotesis (historis, belum divalidasi): Vent channel blockage confirmed by tooling inspection, seperti tercatat di NCR-2025-084, NCR-2023-002, NCR-2023-007.",
+      "retrieved": [
+        "NCR-2025-084",
+        "NCR-2023-002",
+        "NCR-2023-007"
+      ],
+      "currentNcrId": "NCR-2026-104",
+      "registry": "demo",
+      "actions": [
+        {
+          "action": "Operator harus lebih teliti saat setup die.",
+          "cited_ncr_ids": [
+            "NCR-2025-084"
+          ],
+          "evidence_ids": []
+        }
+      ],
+      "expectedCodes": [
+        "GENERIC_ACTION_UNSUPPORTED"
+      ]
+    }
+  ]
+}

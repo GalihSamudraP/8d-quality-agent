@@ -1,0 +1,49 @@
+{
+  "status": "success",
+  "task": "propose_corrective_actions",
+  "mode": "mock",
+  "model_id": null,
+  "model_name": null,
+  "ncr_id": "NCR-2026-104",
+  "actions": [
+    {
+      "action": "Clean vent channels every 400 cycles; add vent inspection to setup checklist (reuses the corrective action of NCR-2025-084).",
+      "cited_ncr_ids": [
+        "NCR-2025-084"
+      ],
+      "evidence_ids": []
+    },
+    {
+      "action": "Clean vents every 400 shots and add a vent check to the setup checklist (reuses the corrective action of NCR-2023-002).",
+      "cited_ncr_ids": [
+        "NCR-2023-002"
+      ],
+      "evidence_ids": []
+    }
+  ],
+  "rejected": [],
+  "missing_data": [
+    "Verification of each action on the next lots before D6."
+  ],
+  "retrieved": [
+    {
+      "id": "NCR-2025-084",
+      "score": 43.5655,
+      "title": "Porosity in aluminum housing"
+    },
+    {
+      "id": "NCR-2023-002",
+      "score": 37.2828,
+      "title": "Porosity near last-fill area"
+    },
+    {
+      "id": "NCR-2023-007",
+      "score": 37.2828,
+      "title": "Porosity near last-fill area"
+    }
+  ],
+  "validation": {
+    "ok": true,
+    "issues": []
+  }
+}

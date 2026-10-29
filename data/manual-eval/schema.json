@@ -1,0 +1,90 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "manual-eval-cases",
+  "title": "Manually written retrieval eval cases",
+  "description": "Array of held-out NCR queries written independently of the synthetic generator. Compatible with EvalCase in scripts/synthetic-types.ts.",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+      "id",
+      "query",
+      "area",
+      "language",
+      "knownRootCauseCode",
+      "knownRootCause",
+      "author",
+      "writtenOn",
+      "reviewedBy"
+    ],
+    "properties": {
+      "id": {
+        "type": "string",
+        "pattern": "^EVAL-M-\\d{3}$",
+        "description": "EVAL-M-001, EVAL-M-002, ..."
+      },
+      "query": {
+        "type": "string",
+        "minLength": 30,
+        "description": "NCR title and description as an engineer would write them at D4, before the cause is known. Must not name the root cause."
+      },
+      "area": {
+        "enum": [
+          "Die casting",
+          "CNC machining",
+          "Assembly",
+          "Coating"
+        ]
+      },
+      "language": {
+        "enum": [
+          "en",
+          "id",
+          "mixed"
+        ]
+      },
+      "knownRootCauseCode": {
+        "enum": [
+          "ASM-CONN",
+          "ASM-FIXTURE",
+          "ASM-SEAL",
+          "ASM-TORQUE",
+          "CNC-CLAMP",
+          "CNC-OFFSET",
+          "CNC-THERMAL",
+          "CNC-WEAR",
+          "COT-CURE",
+          "COT-GUN",
+          "COT-HUMID",
+          "COT-PRETREAT",
+          "DC-DIETEMP",
+          "DC-H2",
+          "DC-VAC",
+          "DC-VENT"
+        ],
+        "description": "Root cause family used as ground truth; a hit is a top-3 corpus record with the same code."
+      },
+      "knownRootCause": {
+        "type": "string",
+        "minLength": 10
+      },
+      "author": {
+        "type": "string",
+        "minLength": 1
+      },
+      "writtenOn": {
+        "type": "string",
+        "format": "date"
+      },
+      "reviewedBy": {
+        "type": "string",
+        "minLength": 1,
+        "description": "Second person who checked the label. Must differ from author."
+      },
+      "notes": {
+        "type": "string"
+      }
+    }
+  }
+}

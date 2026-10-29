@@ -1,0 +1,40 @@
+{
+  "status": "success",
+  "task": "draft_section",
+  "section": "D2",
+  "method": "rule-based, no model",
+  "ncr_id": "NCR-2026-104",
+  "language": "en",
+  "lines": [
+    {
+      "key": "What",
+      "value": "Porosity in aluminum motor housing · Porosity POR-01"
+    },
+    {
+      "key": "Where",
+      "value": "Die casting, lot LOT-DC-2410"
+    },
+    {
+      "key": "When",
+      "value": "NCR recorded 2026-10-12; time of occurrence not recorded"
+    },
+    {
+      "key": "Who",
+      "value": "Assigned engineer Sarah Chen"
+    },
+    {
+      "key": "Why it is a problem",
+      "value": "Pore clusters exceed the 1.5 mm acceptance limit near the mounting boss."
+    },
+    {
+      "key": "How it was detected",
+      "value": "X-ray inspection detected internal porosity on 48 of 320 aluminum motor housings."
+    },
+    {
+      "key": "How many",
+      "value": "48 affected units of 320 (as stated in the description)"
+    }
+  ],
+  "missing": [],
+  "draft": "Agent draft (5W2H from the NCR fields, rule-based, no model, not validated):\n- What: Porosity in aluminum motor housing · Porosity POR-01\n- Where: Die casting, lot LOT-DC-2410\n- When: NCR recorded 2026-10-12; time of occurrence not recorded\n- Who: Assigned engineer Sarah Chen\n- Why it is a problem: Pore clusters exceed the 1.5 mm acceptance limit near the mounting boss.\n- How it was detected: X-ray inspection detected internal porosity on 48 of 320 aluminum motor housings.\n- How many: 48 affected units of 320 (as stated in the description)"
+}

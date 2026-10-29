@@ -1,0 +1,9 @@
+{
+  "placeholder": true,
+  "note": "PLACEHOLDER: structure only, not SAP data. Replace with a recorded SAP Business Accelerator Hub sandbox response once the QM API is chosen.",
+  "records": [
+    {
+      "PLACEHOLDER": "No SAP QM API has been chosen yet. This record is not SAP data and not evidence."
+    }
+  ]
+}

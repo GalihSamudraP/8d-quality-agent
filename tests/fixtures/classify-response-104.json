@@ -1,0 +1,62 @@
+{
+  "status": "success",
+  "task": "classify_ncr",
+  "method": "retrieval vote",
+  "k": 5,
+  "ncr_id": "NCR-2026-104",
+  "classified": true,
+  "proposal": {
+    "category": "Porosity",
+    "defect_code": "POR-01",
+    "severity": "Major",
+    "area": "Die casting"
+  },
+  "votes": {
+    "category": {
+      "Porosity": 5
+    },
+    "defect_code": {
+      "POR-01": 5
+    },
+    "severity": {
+      "Major": 3,
+      "Minor": 2
+    },
+    "area": {
+      "Die casting": 5
+    }
+  },
+  "cited_ncr_ids": [
+    "NCR-2025-084",
+    "NCR-2023-007",
+    "NCR-2023-075"
+  ],
+  "retrieved": [
+    {
+      "id": "NCR-2025-084",
+      "score": 32.6578,
+      "title": "Porosity in aluminum housing"
+    },
+    {
+      "id": "NCR-2023-002",
+      "score": 18.9253,
+      "title": "Porosity near last-fill area"
+    },
+    {
+      "id": "NCR-2023-007",
+      "score": 18.9253,
+      "title": "Porosity near last-fill area"
+    },
+    {
+      "id": "NCR-2023-075",
+      "score": 18.9253,
+      "title": "Porosity near last-fill area"
+    },
+    {
+      "id": "NCR-2023-068",
+      "score": 15.5385,
+      "title": "Gas porosity at overflow side of housing"
+    }
+  ],
+  "missing_data": []
+}

@@ -1,0 +1,1437 @@
+{
+  "description": "Shared validator cases. Read by tests/validator.test.ts (TypeScript) and agent/tests/test_validator.py (Python). expectedCodes lists issue codes in order; messageIncludes are substrings of the joined issue messages; expectedStatus, when present, is the Rule D hypothesis status; missingData, when present, is passed as the proposal's missing-data list. Rule B ignores generic phrases that are themselves rejected or negated (B-context cases); B-smuggle cases must still fail. Rule E (ROOT_CAUSE_UNCITED) and Rule D's ROOT_CAUSE_STATED_AS_FACT cases include the SAP AI Core outputs recorded in VERIFICATION.md, which must keep passing. Rule F cases (prefix F:) cover SAP sandbox sample data used as evidence. Rule G cases (prefix G:) cover an uploaded photo or document used as evidence. ID-draft cases cover the Indonesian wording of agent drafts (Draft language: Bahasa Indonesia).",
+  "registries": {
+    "demo": [
+      {
+        "id": "TR-104",
+        "ncrId": "NCR-2026-104"
+      },
+      {
+        "id": "PL-104",
+        "ncrId": "NCR-2026-104"
+      },
+      {
+        "id": "GR-032",
+        "ncrId": "NCR-2026-032"
+      }
+    ],
+    "none_for_104": [
+      {
+        "id": "GR-032",
+        "ncrId": "NCR-2026-032"
+      }
+    ]
+  },
+  "cases": [
+    {
+      "name": "A: citing retrieved ids passes",
+      "text": "Compare vent condition with NCR-2025-084 and NCR-2026-019.",
+      "retrieved": [
+        "NCR-2025-084",
+        "NCR-2026-019"
+      ],
+      "expectedCodes": []
+    },
+    {
+      "name": "A: a non-retrieved id is rejected once",
+      "text": "Similar to NCR-2026-032, NCR-2026-032 and NCR-2025-084.",
+      "retrieved": [
+        "NCR-2025-084",
+        "NCR-2026-019"
+      ],
+      "expectedCodes": [
+        "CITATION_NOT_RETRIEVED"
+      ],
+      "messageIncludes": [
+        "NCR-2026-032"
+      ]
+    },
+    {
+      "name": "A: ids match case-insensitively",
+      "text": "see ncr-2025-084",
+      "retrieved": [
+        "NCR-2025-084",
+        "NCR-2026-019"
+      ],
+      "expectedCodes": []
+    },
+    {
+      "name": "A: lower-case non-retrieved id is rejected",
+      "text": "see ncr-2026-999",
+      "retrieved": [
+        "NCR-2025-084",
+        "NCR-2026-019"
+      ],
+      "expectedCodes": [
+        "CITATION_NOT_RETRIEVED"
+      ]
+    },
+    {
+      "name": "A: a longer number is not an NCR id",
+      "text": "see NCR-2025-0840",
+      "retrieved": [
+        "NCR-2025-084",
+        "NCR-2026-019"
+      ],
+      "expectedCodes": []
+    },
+    {
+      "name": "A: the current case id is not a citation",
+      "text": "NCR-2026-104 resembles NCR-2025-084.",
+      "retrieved": [
+        "NCR-2025-084",
+        "NCR-2026-019"
+      ],
+      "currentNcrId": "NCR-2026-104",
+      "expectedCodes": []
+    },
+    {
+      "name": "A: without a current id it is a citation",
+      "text": "NCR-2026-104 resembles NCR-2025-084.",
+      "retrieved": [
+        "NCR-2025-084",
+        "NCR-2026-019"
+      ],
+      "expectedCodes": [
+        "CITATION_NOT_RETRIEVED"
+      ]
+    },
+    {
+      "name": "B: English generic claim: root cause: human error",
+      "text": "root cause: human error",
+      "retrieved": [
+        "NCR-2025-084",
+        "NCR-2026-019"
+      ],
+      "expectedCodes": [
+        "GENERIC_CLAIM_UNSUPPORTED"
+      ]
+    },
+    {
+      "name": "B: English generic claim: Root cause: HUMAN ERROR",
+      "text": "Root cause: HUMAN ERROR",
+      "retrieved": [
+        "NCR-2025-084",
+        "NCR-2026-019"
+      ],
+      "expectedCodes": [
+        "GENERIC_CLAIM_UNSUPPORTED"
+      ]
+    },
+    {
+      "name": "B: English generic claim: Operator   error during setup",
+      "text": "Operator   error during setup",
+      "retrieved": [
+        "NCR-2025-084",
+        "NCR-2026-019"
+      ],
+      "expectedCodes": [
+        "GENERIC_CLAIM_UNSUPPORTED"
+      ]
+    },
+    {
+      "name": "B: English generic claim: Operator needs training",
+      "text": "Operator needs training",
+      "retrieved": [
+        "NCR-2025-084",
+        "NCR-2026-019"
+      ],
+      "expectedCodes": [
+        "GENERIC_CLAIM_UNSUPPORTED"
+      ]
+    },
+    {
+      "name": "B: English generic claim: lack of training",
+      "text": "lack of training",
+      "retrieved": [
+        "NCR-2025-084",
+        "NCR-2026-019"
+      ],
+      "expectedCodes": [
+        "GENERIC_CLAIM_UNSUPPORTED"
+      ]
+    },
+    {
+      "name": "B: English generic claim: Carelessness at station 3",
+      "text": "Carelessness at station 3",
+      "retrieved": [
+        "NCR-2025-084",
+        "NCR-2026-019"
+      ],
+      "expectedCodes": [
+        "GENERIC_CLAIM_UNSUPPORTED"
+      ]
+    },
+    {
+      "name": "B: Indonesian generic claim: Operator kurang teliti saat setup",
+      "text": "Operator kurang teliti saat setup",
+      "retrieved": [
+        "NCR-2025-084",
+        "NCR-2026-019"
+      ],
+      "expectedCodes": [
+        "GENERIC_CLAIM_UNSUPPORTED"
+      ]
+    },
+    {
+      "name": "B: Indonesian generic claim: Kelalaian operator shift 2",
+      "text": "Kelalaian operator shift 2",
+      "retrieved": [
+        "NCR-2025-084",
+        "NCR-2026-019"
+      ],
+      "expectedCodes": [
+        "GENERIC_CLAIM_UNSUPPORTED"
+      ]
+    },
+    {
+      "name": "B: Indonesian generic claim: perlu training ulang",
+      "text": "perlu training ulang",
+      "retrieved": [
+        "NCR-2025-084",
+        "NCR-2026-019"
+      ],
+      "expectedCodes": [
+        "GENERIC_CLAIM_UNSUPPORTED"
+      ]
+    },
+    {
+      "name": "B: Indonesian generic claim: Kurang hati-hati",
+      "text": "Kurang hati-hati",
+      "retrieved": [
+        "NCR-2025-084",
+        "NCR-2026-019"
+      ],
+      "expectedCodes": [
+        "GENERIC_CLAIM_UNSUPPORTED"
+      ]
+    },
+    {
+      "name": "B: Indonesian generic claim: Penyebab: kesalahan manusia",
+      "text": "Penyebab: kesalahan manusia",
+      "retrieved": [
+        "NCR-2025-084",
+        "NCR-2026-019"
+      ],
+      "expectedCodes": [
+        "GENERIC_CLAIM_UNSUPPORTED"
+      ]
+    },
+    {
+      "name": "B: phrases inside other words do not match",
+      "text": "Inhuman errors are not a phrase here: humanerror",
+      "retrieved": [
+        "NCR-2025-084",
+        "NCR-2026-019"
+      ],
+      "expectedCodes": []
+    },
+    {
+      "name": "B: citation and evidence id together pass",
+      "text": "Human error per NCR-2025-084, confirmed by trial TR-104.",
+      "retrieved": [
+        "NCR-2025-084",
+        "NCR-2026-019"
+      ],
+      "expectedCodes": []
+    },
+    {
+      "name": "B: Indonesian claim with citation and evidence passes",
+      "text": "Operator kurang teliti, lihat NCR-2026-019 dan gauge study GR-032.",
+      "retrieved": [
+        "NCR-2025-084",
+        "NCR-2026-019"
+      ],
+      "expectedCodes": []
+    },
+    {
+      "name": "B: citation without evidence fails",
+      "text": "Human error per NCR-2025-084.",
+      "retrieved": [
+        "NCR-2025-084",
+        "NCR-2026-019"
+      ],
+      "expectedCodes": [
+        "GENERIC_CLAIM_UNSUPPORTED"
+      ]
+    },
+    {
+      "name": "B: evidence without citation fails",
+      "text": "Human error confirmed by trial TR-104.",
+      "retrieved": [
+        "NCR-2025-084",
+        "NCR-2026-019"
+      ],
+      "expectedCodes": [
+        "GENERIC_CLAIM_UNSUPPORTED"
+      ]
+    },
+    {
+      "name": "B: a non-retrieved citation does not count",
+      "text": "Human error per NCR-2026-032 and TR-104.",
+      "retrieved": [
+        "NCR-2025-084",
+        "NCR-2026-019"
+      ],
+      "expectedCodes": [
+        "CITATION_NOT_RETRIEVED",
+        "GENERIC_CLAIM_UNSUPPORTED"
+      ]
+    },
+    {
+      "name": "B: evidence ids are case-insensitive",
+      "text": "Human error per NCR-2025-084 and tr-104.",
+      "retrieved": [
+        "NCR-2025-084",
+        "NCR-2026-019"
+      ],
+      "expectedCodes": []
+    },
+    {
+      "name": "B: message names what is missing",
+      "text": "root cause: human error",
+      "retrieved": [
+        "NCR-2025-084",
+        "NCR-2026-019"
+      ],
+      "expectedCodes": [
+        "GENERIC_CLAIM_UNSUPPORTED"
+      ],
+      "messageIncludes": [
+        "human error",
+        "cited retrieved NCR",
+        "current-lot evidence"
+      ]
+    },
+    {
+      "name": "C: evidence missing statement passes",
+      "text": "Evidence missing. Collect process logs before selecting a root cause.",
+      "retrieved": [],
+      "expectedCodes": []
+    },
+    {
+      "name": "C: Indonesian evidence missing statement passes",
+      "text": "Bukti belum ada. Kumpulkan log proses dulu.",
+      "retrieved": [],
+      "expectedCodes": []
+    },
+    {
+      "name": "C: undecided root cause with no evidence passes",
+      "text": "Root cause: unknown. No evidence retrieved yet.",
+      "retrieved": [],
+      "expectedCodes": []
+    },
+    {
+      "name": "C: no missing-evidence statement fails",
+      "text": "Check coating line parameters.",
+      "retrieved": [],
+      "expectedCodes": [
+        "ROOT_CAUSE_WITHOUT_EVIDENCE"
+      ]
+    },
+    {
+      "name": "C: empty text fails",
+      "text": "",
+      "retrieved": [],
+      "expectedCodes": [
+        "ROOT_CAUSE_WITHOUT_EVIDENCE"
+      ]
+    },
+    {
+      "name": "C: asserting a root cause fails: Evidence missing. Root cause is spray gun clogging.",
+      "text": "Evidence missing. Root cause is spray gun clogging.",
+      "retrieved": [],
+      "expectedCodes": [
+        "ROOT_CAUSE_WITHOUT_EVIDENCE"
+      ]
+    },
+    {
+      "name": "C: asserting a root cause fails: Evidence missing, but the defect was caused by low cure temperature.",
+      "text": "Evidence missing, but the defect was caused by low cure temperature.",
+      "retrieved": [],
+      "expectedCodes": [
+        "ROOT_CAUSE_WITHOUT_EVIDENCE"
+      ]
+    },
+    {
+      "name": "C: asserting a root cause fails: Tidak ada bukti. Akar masalah adalah nozzle tersumbat.",
+      "text": "Tidak ada bukti. Akar masalah adalah nozzle tersumbat.",
+      "retrieved": [],
+      "expectedCodes": [
+        "ROOT_CAUSE_WITHOUT_EVIDENCE"
+      ]
+    },
+    {
+      "name": "C: asserting a root cause fails: Bukti belum ada, cacat disebabkan oleh suhu oven.",
+      "text": "Bukti belum ada, cacat disebabkan oleh suhu oven.",
+      "retrieved": [],
+      "expectedCodes": [
+        "ROOT_CAUSE_WITHOUT_EVIDENCE"
+      ]
+    },
+    {
+      "name": "B+C: generic claim with nothing retrieved",
+      "text": "root cause: human error",
+      "retrieved": [],
+      "expectedCodes": [
+        "GENERIC_CLAIM_UNSUPPORTED",
+        "ROOT_CAUSE_WITHOUT_EVIDENCE"
+      ]
+    },
+    {
+      "name": "A with nothing retrieved",
+      "text": "Evidence missing. NCR-2025-084 looks similar.",
+      "retrieved": [],
+      "expectedCodes": [
+        "CITATION_NOT_RETRIEVED"
+      ]
+    },
+    {
+      "name": "valid evidence-backed text passes",
+      "text": "Candidate precedents (historical, not validated): NCR-2025-084, NCR-2026-019. Vent channel blockage reproduced in controlled trial TR-104; parameter log PL-104 matches.",
+      "retrieved": [
+        "NCR-2025-084",
+        "NCR-2026-019"
+      ],
+      "expectedCodes": []
+    },
+    {
+      "name": "registry: evidence owned by another NCR is rejected",
+      "text": "Human error per NCR-2025-084, see gauge study GR-032.",
+      "retrieved": [
+        "NCR-2025-084",
+        "NCR-2026-019"
+      ],
+      "currentNcrId": "NCR-2026-104",
+      "registry": "demo",
+      "expectedCodes": [
+        "GENERIC_CLAIM_UNSUPPORTED"
+      ],
+      "messageIncludes": [
+        "GR-032 belongs to NCR-2026-032, not NCR-2026-104"
+      ]
+    },
+    {
+      "name": "registry: unregistered evidence is rejected",
+      "text": "Human error per NCR-2025-084, see trial TR-999.",
+      "retrieved": [
+        "NCR-2025-084",
+        "NCR-2026-019"
+      ],
+      "currentNcrId": "NCR-2026-104",
+      "registry": "demo",
+      "expectedCodes": [
+        "GENERIC_CLAIM_UNSUPPORTED"
+      ],
+      "messageIncludes": [
+        "TR-999 is not in the evidence registry"
+      ]
+    },
+    {
+      "name": "registry: evidence owned by the open NCR passes",
+      "text": "Human error per NCR-2025-084, confirmed by trial TR-104.",
+      "retrieved": [
+        "NCR-2025-084",
+        "NCR-2026-019"
+      ],
+      "currentNcrId": "NCR-2026-104",
+      "registry": "demo",
+      "expectedCodes": []
+    },
+    {
+      "name": "registry: one registered id is enough",
+      "text": "Human error per NCR-2025-084: GR-032 and tr-104.",
+      "retrieved": [
+        "NCR-2025-084",
+        "NCR-2026-019"
+      ],
+      "currentNcrId": "NCR-2026-104",
+      "registry": "demo",
+      "expectedCodes": []
+    },
+    {
+      "name": "registry: without a current NCR nothing counts",
+      "text": "Human error per NCR-2025-084, TR-104.",
+      "retrieved": [
+        "NCR-2025-084",
+        "NCR-2026-019"
+      ],
+      "registry": "demo",
+      "expectedCodes": [
+        "GENERIC_CLAIM_UNSUPPORTED"
+      ]
+    },
+    {
+      "name": "registry: message suggests registered evidence",
+      "text": "root cause: human error",
+      "retrieved": [
+        "NCR-2025-084",
+        "NCR-2026-019"
+      ],
+      "currentNcrId": "NCR-2026-104",
+      "registry": "demo",
+      "expectedCodes": [
+        "GENERIC_CLAIM_UNSUPPORTED"
+      ],
+      "messageIncludes": [
+        "registered to this NCR such as TR-104"
+      ]
+    },
+    {
+      "name": "D: hypothesis from a precedent without current-lot evidence is allowed but unverified",
+      "text": "Hypothesis (historical, not validated): worn spray gun nozzle, as recorded in NCR-2025-084.",
+      "retrieved": [
+        "NCR-2025-084",
+        "NCR-2026-019"
+      ],
+      "currentNcrId": "NCR-2026-100",
+      "registry": "demo",
+      "expectedCodes": [],
+      "expectedStatus": "unverified_hypothesis"
+    },
+    {
+      "name": "D: root cause stated as confirmed without current-lot evidence fails",
+      "text": "Root cause is confirmed: worn spray gun nozzle, as in NCR-2025-084.",
+      "retrieved": [
+        "NCR-2025-084",
+        "NCR-2026-019"
+      ],
+      "currentNcrId": "NCR-2026-100",
+      "registry": "demo",
+      "expectedCodes": [
+        "ROOT_CAUSE_CLAIMED_CONFIRMED"
+      ],
+      "expectedStatus": "unverified_hypothesis",
+      "messageIncludes": [
+        "No current-lot evidence is registered for NCR-2026-100"
+      ]
+    },
+    {
+      "name": "D: 'confirmed root cause' without current-lot evidence fails",
+      "text": "Confirmed root cause: nozzle wear per NCR-2025-084.",
+      "retrieved": [
+        "NCR-2025-084",
+        "NCR-2026-019"
+      ],
+      "currentNcrId": "NCR-2026-100",
+      "registry": "demo",
+      "expectedCodes": [
+        "ROOT_CAUSE_CLAIMED_CONFIRMED"
+      ],
+      "expectedStatus": "unverified_hypothesis"
+    },
+    {
+      "name": "D: 'root cause verified' without current-lot evidence fails",
+      "text": "The root cause was verified on the line, see NCR-2025-084.",
+      "retrieved": [
+        "NCR-2025-084",
+        "NCR-2026-019"
+      ],
+      "currentNcrId": "NCR-2026-100",
+      "registry": "demo",
+      "expectedCodes": [
+        "ROOT_CAUSE_CLAIMED_CONFIRMED"
+      ],
+      "expectedStatus": "unverified_hypothesis"
+    },
+    {
+      "name": "D: Indonesian confirmed claim without current-lot evidence fails",
+      "text": "Akar masalah sudah terkonfirmasi: nozzle aus, lihat NCR-2025-084.",
+      "retrieved": [
+        "NCR-2025-084",
+        "NCR-2026-019"
+      ],
+      "currentNcrId": "NCR-2026-100",
+      "registry": "demo",
+      "expectedCodes": [
+        "ROOT_CAUSE_CLAIMED_CONFIRMED"
+      ],
+      "expectedStatus": "unverified_hypothesis"
+    },
+    {
+      "name": "D: a negated confirmation passes",
+      "text": "Root cause not yet confirmed; hypothesis nozzle wear per NCR-2025-084.",
+      "retrieved": [
+        "NCR-2025-084",
+        "NCR-2026-019"
+      ],
+      "currentNcrId": "NCR-2026-100",
+      "registry": "demo",
+      "expectedCodes": [],
+      "expectedStatus": "unverified_hypothesis"
+    },
+    {
+      "name": "D: Indonesian negated confirmation passes",
+      "text": "Akar masalah belum terkonfirmasi; hipotesis nozzle aus per NCR-2025-084.",
+      "retrieved": [
+        "NCR-2025-084",
+        "NCR-2026-019"
+      ],
+      "currentNcrId": "NCR-2026-100",
+      "registry": "demo",
+      "expectedCodes": [],
+      "expectedStatus": "unverified_hypothesis"
+    },
+    {
+      "name": "D: 'unverified hypothesis' passes",
+      "text": "Unverified hypothesis: nozzle wear per NCR-2025-084.",
+      "retrieved": [
+        "NCR-2025-084",
+        "NCR-2026-019"
+      ],
+      "currentNcrId": "NCR-2026-100",
+      "registry": "demo",
+      "expectedCodes": [],
+      "expectedStatus": "unverified_hypothesis"
+    },
+    {
+      "name": "D: a historical cause 'confirmed by inspection' is not a claim about the current root cause",
+      "text": "Hypothesis: vent channel blockage confirmed by tooling inspection in NCR-2025-084.",
+      "retrieved": [
+        "NCR-2025-084",
+        "NCR-2026-019"
+      ],
+      "currentNcrId": "NCR-2026-100",
+      "registry": "demo",
+      "expectedCodes": [],
+      "expectedStatus": "unverified_hypothesis"
+    },
+    {
+      "name": "D: empty missing data fails without current-lot evidence",
+      "text": "Hypothesis (historical, not validated): nozzle wear per NCR-2025-084.",
+      "retrieved": [
+        "NCR-2025-084",
+        "NCR-2026-019"
+      ],
+      "currentNcrId": "NCR-2026-100",
+      "registry": "demo",
+      "expectedCodes": [
+        "MISSING_DATA_REQUIRED"
+      ],
+      "expectedStatus": "unverified_hypothesis",
+      "missingData": []
+    },
+    {
+      "name": "D: non-empty missing data passes",
+      "text": "Hypothesis (historical, not validated): nozzle wear per NCR-2025-084.",
+      "retrieved": [
+        "NCR-2025-084",
+        "NCR-2026-019"
+      ],
+      "currentNcrId": "NCR-2026-100",
+      "registry": "demo",
+      "expectedCodes": [],
+      "expectedStatus": "unverified_hypothesis",
+      "missingData": [
+        "Current-lot DFT readings."
+      ]
+    },
+    {
+      "name": "D: with registered current-lot evidence a confirmed claim is allowed",
+      "text": "Root cause confirmed by trial TR-104, as in NCR-2025-084.",
+      "retrieved": [
+        "NCR-2025-084",
+        "NCR-2026-019"
+      ],
+      "currentNcrId": "NCR-2026-104",
+      "registry": "demo",
+      "expectedCodes": [],
+      "expectedStatus": "evidence_registered",
+      "missingData": []
+    },
+    {
+      "name": "B-context: SAP gpt-5.4 raw proposal that rejects 'operator human error' passes Rule B (2026-10-21 smoke case b)",
+      "text": "Unverified hypothesis: vent channel blockage or vent restriction near the mounting-boss last-fill area, potentially from release-agent build-up, based on similar die-casting porosity cases NCR-2025-084, NCR-2023-002, and NCR-2023-007. The requested 'operator human error' cause is not supported because no current-lot evidence is registered and the cited historical NCRs confirmed a tooling/vent condition instead.",
+      "retrieved": [
+        "NCR-2025-084",
+        "NCR-2023-002",
+        "NCR-2023-007"
+      ],
+      "currentNcrId": "NCR-2026-104",
+      "registry": "none_for_104",
+      "expectedCodes": [],
+      "expectedStatus": "unverified_hypothesis"
+    },
+    {
+      "name": "B-context: 'was ruled out' is not a claim",
+      "text": "Human error was ruled out by the controlled trial; vent blockage per NCR-2025-084.",
+      "retrieved": [
+        "NCR-2025-084",
+        "NCR-2026-019"
+      ],
+      "expectedCodes": []
+    },
+    {
+      "name": "B-context: 'is not the cause' is not a claim",
+      "text": "Operator error is not the cause; vent blockage per NCR-2025-084.",
+      "retrieved": [
+        "NCR-2025-084",
+        "NCR-2026-019"
+      ],
+      "expectedCodes": []
+    },
+    {
+      "name": "B-context: 'ruled out' before the phrase is not a claim",
+      "text": "We ruled out human error; vent blockage per NCR-2025-084.",
+      "retrieved": [
+        "NCR-2025-084",
+        "NCR-2026-019"
+      ],
+      "expectedCodes": []
+    },
+    {
+      "name": "B-context: 'the cause is not' is not a claim",
+      "text": "The cause is not human error; vent blockage per NCR-2025-084.",
+      "retrieved": [
+        "NCR-2025-084",
+        "NCR-2026-019"
+      ],
+      "expectedCodes": []
+    },
+    {
+      "name": "B-context: Indonesian 'bukan penyebab' is not a claim",
+      "text": "Kelalaian operator bukan penyebab; lihat NCR-2025-084.",
+      "retrieved": [
+        "NCR-2025-084",
+        "NCR-2026-019"
+      ],
+      "expectedCodes": []
+    },
+    {
+      "name": "B-context: Indonesian 'tidak didukung' is not a claim",
+      "text": "Klaim 'human error' tidak didukung data; hipotesis vent tersumbat per NCR-2025-084.",
+      "retrieved": [
+        "NCR-2025-084",
+        "NCR-2026-019"
+      ],
+      "expectedCodes": []
+    },
+    {
+      "name": "B-smuggle: assertion plus a negation in the same sentence still fails",
+      "text": "Root cause is human error, which is not supported by the trial yet.",
+      "retrieved": [
+        "NCR-2025-084",
+        "NCR-2026-019"
+      ],
+      "expectedCodes": [
+        "GENERIC_CLAIM_UNSUPPORTED"
+      ]
+    },
+    {
+      "name": "B-smuggle: claim in its own sentence next to an unrelated rejection fails",
+      "text": "Operator error is the cause. Supplier issue is not supported.",
+      "retrieved": [
+        "NCR-2025-084",
+        "NCR-2026-019"
+      ],
+      "expectedCodes": [
+        "GENERIC_CLAIM_UNSUPPORTED"
+      ]
+    },
+    {
+      "name": "B-smuggle: rejection of something else after a comma does not cover the phrase",
+      "text": "Human error, and vent blockage is not supported.",
+      "retrieved": [
+        "NCR-2025-084",
+        "NCR-2026-019"
+      ],
+      "expectedCodes": [
+        "GENERIC_CLAIM_UNSUPPORTED"
+      ]
+    },
+    {
+      "name": "B-smuggle: a marker before the clause but not attached to the phrase fails",
+      "text": "Not supported: vent theory, so human error.",
+      "retrieved": [
+        "NCR-2025-084",
+        "NCR-2026-019"
+      ],
+      "expectedCodes": [
+        "GENERIC_CLAIM_UNSUPPORTED"
+      ]
+    },
+    {
+      "name": "B-smuggle: 'was not ruled out' keeps the claim open and fails",
+      "text": "Human error was not ruled out.",
+      "retrieved": [
+        "NCR-2025-084",
+        "NCR-2026-019"
+      ],
+      "expectedCodes": [
+        "GENERIC_CLAIM_UNSUPPORTED"
+      ]
+    },
+    {
+      "name": "B-smuggle: 'cannot be ruled out' fails",
+      "text": "Operator error cannot be ruled out per NCR-2025-084.",
+      "retrieved": [
+        "NCR-2025-084",
+        "NCR-2026-019"
+      ],
+      "expectedCodes": [
+        "GENERIC_CLAIM_UNSUPPORTED"
+      ]
+    },
+    {
+      "name": "B-smuggle: 'caused by' with a later negation fails",
+      "text": "The defect was caused by operator error, not supported by records.",
+      "retrieved": [
+        "NCR-2025-084",
+        "NCR-2026-019"
+      ],
+      "expectedCodes": [
+        "GENERIC_CLAIM_UNSUPPORTED"
+      ]
+    },
+    {
+      "name": "B-smuggle: Indonesian assertion with 'belum didukung' fails",
+      "text": "Akar masalah adalah kelalaian operator, belum didukung data.",
+      "retrieved": [
+        "NCR-2025-084",
+        "NCR-2026-019"
+      ],
+      "expectedCodes": [
+        "GENERIC_CLAIM_UNSUPPORTED"
+      ]
+    },
+    {
+      "name": "B-smuggle: Indonesian 'belum dikesampingkan' fails",
+      "text": "Kesalahan operator belum dikesampingkan.",
+      "retrieved": [
+        "NCR-2025-084",
+        "NCR-2026-019"
+      ],
+      "expectedCodes": [
+        "GENERIC_CLAIM_UNSUPPORTED"
+      ]
+    },
+    {
+      "name": "B-smuggle: claim followed by a rejected alternative fails",
+      "text": "Root cause: human error (vent blockage rejected).",
+      "retrieved": [
+        "NCR-2025-084",
+        "NCR-2026-019"
+      ],
+      "expectedCodes": [
+        "GENERIC_CLAIM_UNSUPPORTED"
+      ]
+    },
+    {
+      "name": "B-smuggle: 'is not only X' still fails",
+      "text": "The root cause is not only human error.",
+      "retrieved": [
+        "NCR-2025-084",
+        "NCR-2026-019"
+      ],
+      "expectedCodes": [
+        "GENERIC_CLAIM_UNSUPPORTED"
+      ]
+    },
+    {
+      "name": "B-smuggle: Indonesian 'bukan satu-satunya penyebab' still fails",
+      "text": "Kesalahan operator bukan satu-satunya penyebab.",
+      "retrieved": [
+        "NCR-2025-084",
+        "NCR-2026-019"
+      ],
+      "expectedCodes": [
+        "GENERIC_CLAIM_UNSUPPORTED"
+      ]
+    },
+    {
+      "name": "SAP: gpt-5.4 case a, NCR-2026-100, first run 2026-10-21, passes",
+      "text": "Unverified hypothesis: coating thickness may be below specification due to a worn spray gun nozzle causing low and uneven coating output. This matches the confirmed causes in NCR-2024-063, NCR-2023-030, and NCR-2024-049, where spray pattern testing confirmed reduced and uneven output from worn nozzles. Cited: NCR-2024-063, NCR-2023-030, NCR-2024-049.",
+      "retrieved": [
+        "NCR-2024-063",
+        "NCR-2023-030",
+        "NCR-2024-049"
+      ],
+      "currentNcrId": "NCR-2026-100",
+      "registry": "demo",
+      "expectedCodes": [],
+      "expectedStatus": "unverified_hypothesis",
+      "missingData": [
+        "No current-lot evidence is registered for NCR-2026-100.",
+        "Spray pattern test result for the spray gun/nozzle used on the affected lot is needed to verify whether output is low or uneven.",
+        "Nozzle condition and replacement history for the equipment used on the affected lot is needed.",
+        "Current-lot dry film thickness measurement map by part/location is needed to compare the defect pattern with the historical nozzle-wear cases.",
+        "Verification of DFT gauge status/calibration used for the current inspection is needed."
+      ]
+    },
+    {
+      "name": "SAP: gpt-5.4 case a, NCR-2026-100, re-run 2026-10-21, passes",
+      "text": "Unverified hypothesis: worn spray gun nozzle causing low and uneven coating output, based on similar closed coating NCRs with the same confirmed cause. Cited: NCR-2024-063, NCR-2023-030, NCR-2024-049.",
+      "retrieved": [
+        "NCR-2024-063",
+        "NCR-2023-030",
+        "NCR-2024-049"
+      ],
+      "currentNcrId": "NCR-2026-100",
+      "registry": "demo",
+      "expectedCodes": [],
+      "expectedStatus": "unverified_hypothesis"
+    },
+    {
+      "name": "SAP: gpt-5.4 case b, NCR-2026-104 without registered evidence, re-run 2026-10-21, passes",
+      "text": "Unverified hypothesis: vent channel blockage, potentially from release-agent build-up, causing gas entrapment and pore clusters near the mounting boss/last-fill zone. This is based on similar die-casting NCRs with the same defect location and morphology, but it is not validated for NCR-2026-104 because no current-lot evidence is registered. Cited: NCR-2025-084, NCR-2023-002, NCR-2023-007.",
+      "retrieved": [
+        "NCR-2025-084",
+        "NCR-2023-002",
+        "NCR-2023-007"
+      ],
+      "currentNcrId": "NCR-2026-104",
+      "registry": "none_for_104",
+      "expectedCodes": [],
+      "expectedStatus": "unverified_hypothesis"
+    },
+    {
+      "name": "E: uncited root cause fails on NCR-2026-104 (manual test step 16b)",
+      "text": "Root cause is low cure temperature.",
+      "retrieved": [
+        "NCR-2025-084",
+        "NCR-2026-019"
+      ],
+      "currentNcrId": "NCR-2026-104",
+      "registry": "demo",
+      "expectedCodes": [
+        "ROOT_CAUSE_UNCITED"
+      ],
+      "expectedStatus": "evidence_registered",
+      "messageIncludes": [
+        "NCR-2025-084, NCR-2026-019"
+      ]
+    },
+    {
+      "name": "E+D: uncited root cause stated as fact fails on NCR-2026-100 after the agent retrieved 3 cases (manual test step 16b)",
+      "text": "Root cause is low cure temperature.",
+      "retrieved": [
+        "NCR-2024-063",
+        "NCR-2023-030",
+        "NCR-2024-049"
+      ],
+      "currentNcrId": "NCR-2026-100",
+      "registry": "demo",
+      "expectedCodes": [
+        "ROOT_CAUSE_STATED_AS_FACT",
+        "ROOT_CAUSE_UNCITED"
+      ],
+      "expectedStatus": "unverified_hypothesis"
+    },
+    {
+      "name": "E: citing a retrieved NCR passes",
+      "text": "Root cause is vent channel blockage per NCR-2025-084.",
+      "retrieved": [
+        "NCR-2025-084",
+        "NCR-2026-019"
+      ],
+      "currentNcrId": "NCR-2026-104",
+      "registry": "demo",
+      "expectedCodes": []
+    },
+    {
+      "name": "E: citing registered current-lot evidence passes",
+      "text": "Root cause is vent channel blockage, see trial TR-104.",
+      "retrieved": [
+        "NCR-2025-084",
+        "NCR-2026-019"
+      ],
+      "currentNcrId": "NCR-2026-104",
+      "registry": "demo",
+      "expectedCodes": []
+    },
+    {
+      "name": "E: evidence owned by another NCR does not count",
+      "text": "Root cause is vent channel blockage, see GR-032.",
+      "retrieved": [
+        "NCR-2025-084",
+        "NCR-2026-019"
+      ],
+      "currentNcrId": "NCR-2026-104",
+      "registry": "demo",
+      "expectedCodes": [
+        "ROOT_CAUSE_UNCITED"
+      ]
+    },
+    {
+      "name": "E: citing only a non-retrieved NCR fails twice",
+      "text": "Root cause is vent channel blockage per NCR-2026-032.",
+      "retrieved": [
+        "NCR-2025-084",
+        "NCR-2026-019"
+      ],
+      "currentNcrId": "NCR-2026-104",
+      "registry": "demo",
+      "expectedCodes": [
+        "CITATION_NOT_RETRIEVED",
+        "ROOT_CAUSE_UNCITED"
+      ]
+    },
+    {
+      "name": "E: without a registry, uncited 'Root cause:' fails",
+      "text": "Root cause: worn nozzle.",
+      "retrieved": [
+        "NCR-2025-084",
+        "NCR-2026-019"
+      ],
+      "expectedCodes": [
+        "ROOT_CAUSE_UNCITED"
+      ]
+    },
+    {
+      "name": "E: 'caused by' without a citation fails",
+      "text": "The defect was caused by low cure temperature.",
+      "retrieved": [
+        "NCR-2025-084",
+        "NCR-2026-019"
+      ],
+      "expectedCodes": [
+        "ROOT_CAUSE_UNCITED"
+      ]
+    },
+    {
+      "name": "E: Indonesian uncited root cause fails",
+      "text": "Akar masalah adalah suhu curing rendah.",
+      "retrieved": [
+        "NCR-2025-084",
+        "NCR-2026-019"
+      ],
+      "expectedCodes": [
+        "ROOT_CAUSE_UNCITED"
+      ]
+    },
+    {
+      "name": "E: text without a root cause statement needs no citation",
+      "text": "Check coating line parameters.",
+      "retrieved": [
+        "NCR-2025-084",
+        "NCR-2026-019"
+      ],
+      "expectedCodes": []
+    },
+    {
+      "name": "E: undecided root cause needs no citation",
+      "text": "Root cause: unknown. Collect process logs first.",
+      "retrieved": [
+        "NCR-2025-084",
+        "NCR-2026-019"
+      ],
+      "expectedCodes": []
+    },
+    {
+      "name": "E: generic claim is reported by Rule B only",
+      "text": "root cause: human error",
+      "retrieved": [
+        "NCR-2025-084",
+        "NCR-2026-019"
+      ],
+      "expectedCodes": [
+        "GENERIC_CLAIM_UNSUPPORTED"
+      ]
+    },
+    {
+      "name": "D-fact: cited root cause stated as fact fails without current-lot evidence",
+      "text": "Root cause is worn spray gun nozzle, as in NCR-2024-063.",
+      "retrieved": [
+        "NCR-2024-063",
+        "NCR-2023-030",
+        "NCR-2024-049"
+      ],
+      "currentNcrId": "NCR-2026-100",
+      "registry": "demo",
+      "expectedCodes": [
+        "ROOT_CAUSE_STATED_AS_FACT"
+      ],
+      "expectedStatus": "unverified_hypothesis"
+    },
+    {
+      "name": "D-fact: 'likely' makes it a hypothesis",
+      "text": "Root cause is likely a worn spray gun nozzle, as in NCR-2024-063.",
+      "retrieved": [
+        "NCR-2024-063",
+        "NCR-2023-030",
+        "NCR-2024-049"
+      ],
+      "currentNcrId": "NCR-2026-100",
+      "registry": "demo",
+      "expectedCodes": [],
+      "expectedStatus": "unverified_hypothesis"
+    },
+    {
+      "name": "D-fact: 'Possible root cause:' is a hypothesis",
+      "text": "Possible root cause: worn spray gun nozzle per NCR-2024-063.",
+      "retrieved": [
+        "NCR-2024-063",
+        "NCR-2023-030",
+        "NCR-2024-049"
+      ],
+      "currentNcrId": "NCR-2026-100",
+      "registry": "demo",
+      "expectedCodes": []
+    },
+    {
+      "name": "D-fact: the hedge must be in the same sentence",
+      "text": "Hypothesis: worn nozzle. Root cause is worn spray gun nozzle per NCR-2024-063.",
+      "retrieved": [
+        "NCR-2024-063",
+        "NCR-2023-030",
+        "NCR-2024-049"
+      ],
+      "currentNcrId": "NCR-2026-100",
+      "registry": "demo",
+      "expectedCodes": [
+        "ROOT_CAUSE_STATED_AS_FACT"
+      ]
+    },
+    {
+      "name": "D-fact: Indonesian root cause stated as fact fails",
+      "text": "Akar masalah adalah nozzle aus, lihat NCR-2024-063.",
+      "retrieved": [
+        "NCR-2024-063",
+        "NCR-2023-030",
+        "NCR-2024-049"
+      ],
+      "currentNcrId": "NCR-2026-100",
+      "registry": "demo",
+      "expectedCodes": [
+        "ROOT_CAUSE_STATED_AS_FACT"
+      ]
+    },
+    {
+      "name": "D-fact: Indonesian hypothesis passes",
+      "text": "Hipotesis: akar masalah adalah nozzle aus, lihat NCR-2024-063.",
+      "retrieved": [
+        "NCR-2024-063",
+        "NCR-2023-030",
+        "NCR-2024-049"
+      ],
+      "currentNcrId": "NCR-2026-100",
+      "registry": "demo",
+      "expectedCodes": []
+    },
+    {
+      "name": "D-fact: 'caused by' stated as fact fails",
+      "text": "The low thickness was caused by nozzle wear, as in NCR-2024-063.",
+      "retrieved": [
+        "NCR-2024-063",
+        "NCR-2023-030",
+        "NCR-2024-049"
+      ],
+      "currentNcrId": "NCR-2026-100",
+      "registry": "demo",
+      "expectedCodes": [
+        "ROOT_CAUSE_STATED_AS_FACT"
+      ]
+    },
+    {
+      "name": "D-fact: with registered evidence a stated root cause is allowed",
+      "text": "Root cause is vent channel blockage per NCR-2025-084.",
+      "retrieved": [
+        "NCR-2025-084",
+        "NCR-2026-019"
+      ],
+      "currentNcrId": "NCR-2026-104",
+      "registry": "demo",
+      "expectedCodes": [],
+      "expectedStatus": "evidence_registered"
+    },
+    {
+      "name": "D-fact: a confirmed claim is reported once, as CLAIMED_CONFIRMED",
+      "text": "Root cause is confirmed: worn nozzle per NCR-2024-063.",
+      "retrieved": [
+        "NCR-2024-063",
+        "NCR-2023-030",
+        "NCR-2024-049"
+      ],
+      "currentNcrId": "NCR-2026-100",
+      "registry": "demo",
+      "expectedCodes": [
+        "ROOT_CAUSE_CLAIMED_CONFIRMED"
+      ]
+    },
+    {
+      "name": "F: SAP sandbox data used as confirmation of a hypothesis",
+      "text": "Hypothesis: worn nozzle per NCR-2024-063, confirmed by SAP sandbox data.",
+      "retrieved": [
+        "NCR-2024-063",
+        "NCR-2023-030",
+        "NCR-2024-049"
+      ],
+      "currentNcrId": "NCR-2026-100",
+      "registry": "demo",
+      "expectedCodes": [
+        "SANDBOX_DATA_AS_EVIDENCE"
+      ],
+      "expectedStatus": "unverified_hypothesis",
+      "messageIncludes": [
+        "not current-lot evidence"
+      ]
+    },
+    {
+      "name": "F: SAP Hub sandbox records offered as the evidence for a cited root cause",
+      "text": "Root cause is vent blockage per NCR-2025-084; evidence: SAP Hub sandbox inspection lots.",
+      "retrieved": [
+        "NCR-2025-084",
+        "NCR-2026-019"
+      ],
+      "currentNcrId": "NCR-2026-104",
+      "registry": "demo",
+      "expectedCodes": [
+        "SANDBOX_DATA_AS_EVIDENCE"
+      ],
+      "expectedStatus": "evidence_registered"
+    },
+    {
+      "name": "F: Indonesian, cached sample offered as bukti",
+      "text": "Hipotesis: nozzle aus seperti NCR-2024-063. Bukti: data cached sample SAP.",
+      "retrieved": [
+        "NCR-2024-063",
+        "NCR-2023-030",
+        "NCR-2024-049"
+      ],
+      "currentNcrId": "NCR-2026-100",
+      "registry": "demo",
+      "expectedCodes": [
+        "SANDBOX_DATA_AS_EVIDENCE"
+      ]
+    },
+    {
+      "name": "F: confirmed root cause from sandbox data is reported by Rule D and Rule F",
+      "text": "Root cause is confirmed by SAP sandbox data: worn nozzle as in NCR-2024-063.",
+      "retrieved": [
+        "NCR-2024-063",
+        "NCR-2023-030",
+        "NCR-2024-049"
+      ],
+      "currentNcrId": "NCR-2026-100",
+      "registry": "demo",
+      "expectedCodes": [
+        "ROOT_CAUSE_CLAIMED_CONFIRMED",
+        "SANDBOX_DATA_AS_EVIDENCE"
+      ]
+    },
+    {
+      "name": "F: sandbox data labelled as not current-lot evidence passes",
+      "text": "Hypothesis: worn nozzle per NCR-2024-063. SAP sandbox sample data (not current-lot evidence) shows similar inspection lots.",
+      "retrieved": [
+        "NCR-2024-063",
+        "NCR-2023-030",
+        "NCR-2024-049"
+      ],
+      "currentNcrId": "NCR-2026-100",
+      "registry": "demo",
+      "expectedCodes": [],
+      "expectedStatus": "unverified_hypothesis"
+    },
+    {
+      "name": "F: sandbox data as background, explicitly not evidence, passes",
+      "text": "Possible root cause: worn nozzle, as in NCR-2024-063. The SAP sandbox records are background only and are not evidence.",
+      "retrieved": [
+        "NCR-2024-063",
+        "NCR-2023-030",
+        "NCR-2024-049"
+      ],
+      "currentNcrId": "NCR-2026-100",
+      "registry": "demo",
+      "expectedCodes": []
+    },
+    {
+      "name": "F: registered evidence plus sandbox background passes",
+      "text": "Root cause is vent blockage per NCR-2025-084, confirmed by trial TR-104. SAP sandbox data shows similar defect patterns.",
+      "retrieved": [
+        "NCR-2025-084",
+        "NCR-2026-019"
+      ],
+      "currentNcrId": "NCR-2026-104",
+      "registry": "demo",
+      "expectedCodes": []
+    },
+    {
+      "name": "G: the photo shows, offered as the basis of a root cause",
+      "text": "The photo shows porosity near the mounting boss, so the root cause is likely vent blockage per NCR-2025-084.",
+      "retrieved": [
+        "NCR-2025-084",
+        "NCR-2026-019"
+      ],
+      "currentNcrId": "NCR-2026-104",
+      "registry": "demo",
+      "expectedCodes": [
+        "UPLOAD_AS_EVIDENCE"
+      ],
+      "expectedStatus": "evidence_registered",
+      "messageIncludes": [
+        "not current-lot evidence"
+      ]
+    },
+    {
+      "name": "G: the uploaded document confirms",
+      "text": "Hypothesis: vent blockage per NCR-2025-084. The uploaded document confirms the cold die.",
+      "retrieved": [
+        "NCR-2025-084",
+        "NCR-2026-019"
+      ],
+      "currentNcrId": "NCR-2026-104",
+      "registry": "demo",
+      "expectedCodes": [
+        "UPLOAD_AS_EVIDENCE"
+      ],
+      "expectedStatus": "evidence_registered"
+    },
+    {
+      "name": "G: Indonesian, foto menunjukkan",
+      "text": "Hipotesis: ventilasi tersumbat seperti NCR-2025-084. Foto menunjukkan porositas di dekat boss.",
+      "retrieved": [
+        "NCR-2025-084",
+        "NCR-2026-019"
+      ],
+      "currentNcrId": "NCR-2026-104",
+      "registry": "demo",
+      "expectedCodes": [
+        "UPLOAD_AS_EVIDENCE"
+      ]
+    },
+    {
+      "name": "G: pass, the photo is registered evidence cited in the same sentence",
+      "text": "Hypothesis: vent blockage per NCR-2025-084. The X-ray photo registered as TR-104 shows pores near the boss.",
+      "retrieved": [
+        "NCR-2025-084",
+        "NCR-2026-019"
+      ],
+      "currentNcrId": "NCR-2026-104",
+      "registry": "demo",
+      "expectedCodes": [],
+      "expectedStatus": "evidence_registered"
+    },
+    {
+      "name": "G: an evidence id registered to another NCR does not lift the rule",
+      "text": "Hypothesis: vent blockage per NCR-2025-084. The X-ray photo GR-032 shows pores near the boss.",
+      "retrieved": [
+        "NCR-2025-084",
+        "NCR-2026-019"
+      ],
+      "currentNcrId": "NCR-2026-104",
+      "registry": "demo",
+      "expectedCodes": [
+        "UPLOAD_AS_EVIDENCE"
+      ]
+    },
+    {
+      "name": "G: pass, the photo is stated not to be evidence",
+      "text": "Hypothesis: vent blockage per NCR-2025-084. The photo is an attachment, not evidence.",
+      "retrieved": [
+        "NCR-2025-084",
+        "NCR-2026-019"
+      ],
+      "currentNcrId": "NCR-2026-104",
+      "registry": "demo",
+      "expectedCodes": []
+    },
+    {
+      "name": "G: pass, photos mentioned without being used as evidence",
+      "text": "Hypothesis: worn nozzle per NCR-2024-063. Photos of the brackets are attached for reference.",
+      "retrieved": [
+        "NCR-2024-063",
+        "NCR-2023-030",
+        "NCR-2024-049"
+      ],
+      "currentNcrId": "NCR-2026-100",
+      "registry": "demo",
+      "expectedCodes": [],
+      "expectedStatus": "unverified_hypothesis"
+    },
+    {
+      "name": "G: Indonesian, lampiran dokumen membuktikan",
+      "text": "Hipotesis: nozzle aus seperti NCR-2024-063. Lampiran dokumen membuktikan ketebalan rendah.",
+      "retrieved": [
+        "NCR-2024-063",
+        "NCR-2023-030",
+        "NCR-2024-049"
+      ],
+      "currentNcrId": "NCR-2026-100",
+      "registry": "demo",
+      "expectedCodes": [
+        "UPLOAD_AS_EVIDENCE"
+      ],
+      "expectedStatus": "unverified_hypothesis"
+    },
+    {
+      "name": "ID-draft: Indonesian agent D4 draft without current-lot evidence passes as an unverified hypothesis",
+      "text": "Usulan agen (local agent, mock mode without a model, belum divalidasi): Hipotesis (historis, belum divalidasi): Vent channel blockage confirmed by tooling inspection, seperti tercatat di NCR-2025-084, NCR-2023-002, NCR-2023-007. Dikutip: NCR-2025-084, NCR-2023-002, NCR-2023-007. Keyakinan: high. Status: hipotesis belum terverifikasi, belum ada bukti current-lot yang terdaftar. Data yang kurang: Belum ada bukti current-lot yang terdaftar untuk NCR-2026-104. Konfirmasi current-lot (uji terkendali atau inspeksi) atas hipotesis sebelum persetujuan D4.",
+      "retrieved": [
+        "NCR-2025-084",
+        "NCR-2023-002",
+        "NCR-2023-007"
+      ],
+      "currentNcrId": "NCR-2026-104",
+      "registry": "none_for_104",
+      "expectedCodes": [],
+      "expectedStatus": "unverified_hypothesis"
+    },
+    {
+      "name": "ID-draft: Indonesian agent D4 draft with TR-104 registered",
+      "text": "Usulan agen (local agent, mock mode without a model, belum divalidasi): Hipotesis (historis, belum divalidasi): Vent channel blockage confirmed by tooling inspection, seperti tercatat di NCR-2025-084, NCR-2023-002, NCR-2023-007. Dikutip: NCR-2025-084, NCR-2023-002, NCR-2023-007. Keyakinan: high. Status: hipotesis belum terverifikasi, belum ada bukti current-lot yang terdaftar. Data yang kurang: Belum ada bukti current-lot yang terdaftar untuk NCR-2026-104. Konfirmasi current-lot (uji terkendali atau inspeksi) atas hipotesis sebelum persetujuan D4.",
+      "retrieved": [
+        "NCR-2025-084",
+        "NCR-2023-002",
+        "NCR-2023-007"
+      ],
+      "currentNcrId": "NCR-2026-104",
+      "registry": "demo",
+      "expectedCodes": [],
+      "expectedStatus": "evidence_registered"
+    },
+    {
+      "name": "ID-draft: Indonesian evidence-missing draft with nothing retrieved (Rule C)",
+      "text": "Bukti belum tersedia. Agen (local agent, mock mode without a model) tidak menemukan hipotesis yang didukung. Data yang kurang: Bukti belum tersedia: tidak ada NCR historis serupa yang ditemukan.",
+      "retrieved": [],
+      "currentNcrId": "NCR-2026-104",
+      "registry": "none_for_104",
+      "expectedCodes": [],
+      "expectedStatus": "unverified_hypothesis"
+    },
+    {
+      "name": "ID-draft: Indonesian root cause stated as fact without evidence (Rule D)",
+      "text": "Akar masalah adalah vent tersumbat seperti NCR-2025-084.",
+      "retrieved": [
+        "NCR-2025-084",
+        "NCR-2023-002",
+        "NCR-2023-007"
+      ],
+      "currentNcrId": "NCR-2026-104",
+      "registry": "none_for_104",
+      "expectedCodes": [
+        "ROOT_CAUSE_STATED_AS_FACT"
+      ],
+      "expectedStatus": "unverified_hypothesis"
+    },
+    {
+      "name": "ID-draft: Indonesian generic claim (Rule B)",
+      "text": "Hipotesis: kesalahan operator seperti NCR-2025-084.",
+      "retrieved": [
+        "NCR-2025-084",
+        "NCR-2023-002",
+        "NCR-2023-007"
+      ],
+      "currentNcrId": "NCR-2026-104",
+      "registry": "none_for_104",
+      "expectedCodes": [
+        "GENERIC_CLAIM_UNSUPPORTED"
+      ],
+      "expectedStatus": "unverified_hypothesis"
+    },
+    {
+      "name": "ID-draft: Indonesian root cause claimed confirmed without evidence (Rule D)",
+      "text": "Akar masalah terkonfirmasi: vent tersumbat (NCR-2025-084).",
+      "retrieved": [
+        "NCR-2025-084",
+        "NCR-2023-002",
+        "NCR-2023-007"
+      ],
+      "currentNcrId": "NCR-2026-104",
+      "registry": "none_for_104",
+      "expectedCodes": [
+        "ROOT_CAUSE_CLAIMED_CONFIRMED"
+      ],
+      "expectedStatus": "unverified_hypothesis"
+    }
+  ]
+}

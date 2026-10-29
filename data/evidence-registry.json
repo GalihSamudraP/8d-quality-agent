@@ -1,0 +1,2802 @@
+[
+  {
+    "id": "FP-047",
+    "ncrId": "NCR-2026-047",
+    "kind": "Fixture photos",
+    "summary": "Fixture contact pads before replacement.",
+    "date": "2026-07-10"
+  },
+  {
+    "id": "FP-23017",
+    "ncrId": "NCR-2023-017",
+    "kind": "Fixture photos",
+    "summary": "Pad condition for LOT-AS-2314.",
+    "date": "2023-11-14"
+  },
+  {
+    "id": "FP-23031",
+    "ncrId": "NCR-2023-031",
+    "kind": "Fixture photos",
+    "summary": "Pad condition for LOT-AS-2363.",
+    "date": "2023-04-16"
+  },
+  {
+    "id": "FP-23040",
+    "ncrId": "NCR-2023-040",
+    "kind": "Fixture photos",
+    "summary": "Pad condition for LOT-AS-2387.",
+    "date": "2023-06-10"
+  },
+  {
+    "id": "FP-23041",
+    "ncrId": "NCR-2023-041",
+    "kind": "Fixture photos",
+    "summary": "Clamp contact marks for LOT-CNC-2386.",
+    "date": "2023-11-10"
+  },
+  {
+    "id": "FP-23055",
+    "ncrId": "NCR-2023-055",
+    "kind": "Fixture photos",
+    "summary": "Pad condition for LOT-AS-2314.",
+    "date": "2023-01-10"
+  },
+  {
+    "id": "FP-23058",
+    "ncrId": "NCR-2023-058",
+    "kind": "Fixture photos",
+    "summary": "Clamp contact marks for LOT-CNC-2309.",
+    "date": "2023-01-26"
+  },
+  {
+    "id": "FP-23086",
+    "ncrId": "NCR-2023-086",
+    "kind": "Fixture photos",
+    "summary": "Pad condition for LOT-AS-2346.",
+    "date": "2023-09-05"
+  },
+  {
+    "id": "FP-23092",
+    "ncrId": "NCR-2023-092",
+    "kind": "Fixture photos",
+    "summary": "Clamp contact marks for LOT-CNC-2383.",
+    "date": "2023-03-21"
+  },
+  {
+    "id": "FP-23093",
+    "ncrId": "NCR-2023-093",
+    "kind": "Fixture photos",
+    "summary": "Clamp contact marks for LOT-CNC-2353.",
+    "date": "2023-01-12"
+  },
+  {
+    "id": "FP-23094",
+    "ncrId": "NCR-2023-094",
+    "kind": "Fixture photos",
+    "summary": "Clamp contact marks for LOT-CNC-2315.",
+    "date": "2023-07-22"
+  },
+  {
+    "id": "FP-23095",
+    "ncrId": "NCR-2023-095",
+    "kind": "Fixture photos",
+    "summary": "Pad condition for LOT-AS-2305.",
+    "date": "2023-09-16"
+  },
+  {
+    "id": "FP-23096",
+    "ncrId": "NCR-2023-096",
+    "kind": "Fixture photos",
+    "summary": "Clamp contact marks for LOT-CNC-2317.",
+    "date": "2023-05-05"
+  },
+  {
+    "id": "FP-23099",
+    "ncrId": "NCR-2023-099",
+    "kind": "Fixture photos",
+    "summary": "Pad condition for LOT-AS-2368.",
+    "date": "2023-06-11"
+  },
+  {
+    "id": "FP-24006",
+    "ncrId": "NCR-2024-006",
+    "kind": "Fixture photos",
+    "summary": "Pad condition for LOT-AS-2436.",
+    "date": "2024-08-09"
+  },
+  {
+    "id": "FP-24013",
+    "ncrId": "NCR-2024-013",
+    "kind": "Fixture photos",
+    "summary": "Clamp contact marks for LOT-CNC-2423.",
+    "date": "2024-02-03"
+  },
+  {
+    "id": "FP-24023",
+    "ncrId": "NCR-2024-023",
+    "kind": "Fixture photos",
+    "summary": "Pad condition for LOT-AS-2423.",
+    "date": "2024-10-06"
+  },
+  {
+    "id": "FP-24037",
+    "ncrId": "NCR-2024-037",
+    "kind": "Fixture photos",
+    "summary": "Pad condition for LOT-AS-2465.",
+    "date": "2024-04-02"
+  },
+  {
+    "id": "FP-24047",
+    "ncrId": "NCR-2024-047",
+    "kind": "Fixture photos",
+    "summary": "Clamp contact marks for LOT-CNC-2422.",
+    "date": "2024-01-29"
+  },
+  {
+    "id": "FP-24054",
+    "ncrId": "NCR-2024-054",
+    "kind": "Fixture photos",
+    "summary": "Pad condition for LOT-AS-2432.",
+    "date": "2024-05-25"
+  },
+  {
+    "id": "FP-24060",
+    "ncrId": "NCR-2024-060",
+    "kind": "Fixture photos",
+    "summary": "Clamp contact marks for LOT-CNC-2442.",
+    "date": "2024-11-20"
+  },
+  {
+    "id": "FP-24074",
+    "ncrId": "NCR-2024-074",
+    "kind": "Fixture photos",
+    "summary": "Clamp contact marks for LOT-CNC-2424.",
+    "date": "2024-06-10"
+  },
+  {
+    "id": "FP-24082",
+    "ncrId": "NCR-2024-082",
+    "kind": "Fixture photos",
+    "summary": "Pad condition for LOT-AS-2473.",
+    "date": "2024-10-16"
+  },
+  {
+    "id": "FP-24088",
+    "ncrId": "NCR-2024-088",
+    "kind": "Fixture photos",
+    "summary": "Clamp contact marks for LOT-CNC-2463.",
+    "date": "2023-12-29"
+  },
+  {
+    "id": "FP-24095",
+    "ncrId": "NCR-2024-095",
+    "kind": "Fixture photos",
+    "summary": "Clamp contact marks for LOT-CNC-2403.",
+    "date": "2024-10-18"
+  },
+  {
+    "id": "FV-019",
+    "ncrId": "NCR-2026-019",
+    "kind": "First-off verification",
+    "summary": "First-off samples after recipe lock.",
+    "date": "2026-03-10"
+  },
+  {
+    "id": "FV-23028",
+    "ncrId": "NCR-2023-028",
+    "kind": "First-off verification",
+    "summary": "First-off X-ray after recipe lock for LOT-DC-2385.",
+    "date": "2023-06-03"
+  },
+  {
+    "id": "FV-23053",
+    "ncrId": "NCR-2023-053",
+    "kind": "First-off verification",
+    "summary": "First-off X-ray after recipe lock for LOT-DC-2386.",
+    "date": "2023-05-29"
+  },
+  {
+    "id": "FV-23057",
+    "ncrId": "NCR-2023-057",
+    "kind": "First-off verification",
+    "summary": "First-off X-ray after recipe lock for LOT-DC-2309.",
+    "date": "2023-11-16"
+  },
+  {
+    "id": "FV-23083",
+    "ncrId": "NCR-2023-083",
+    "kind": "First-off verification",
+    "summary": "First-off X-ray after recipe lock for LOT-DC-2361.",
+    "date": "2023-04-27"
+  },
+  {
+    "id": "FV-23090",
+    "ncrId": "NCR-2023-090",
+    "kind": "First-off verification",
+    "summary": "First-off X-ray after recipe lock for LOT-DC-2387.",
+    "date": "2023-03-02"
+  },
+  {
+    "id": "FV-24003",
+    "ncrId": "NCR-2024-003",
+    "kind": "First-off verification",
+    "summary": "First-off X-ray after recipe lock for LOT-DC-2465.",
+    "date": "2024-01-13"
+  },
+  {
+    "id": "FV-24022",
+    "ncrId": "NCR-2024-022",
+    "kind": "First-off verification",
+    "summary": "First-off X-ray after recipe lock for LOT-DC-2498.",
+    "date": "2024-08-25"
+  },
+  {
+    "id": "FV-24029",
+    "ncrId": "NCR-2024-029",
+    "kind": "First-off verification",
+    "summary": "First-off X-ray after recipe lock for LOT-DC-2456.",
+    "date": "2024-02-28"
+  },
+  {
+    "id": "FV-24048",
+    "ncrId": "NCR-2024-048",
+    "kind": "First-off verification",
+    "summary": "First-off X-ray after recipe lock for LOT-DC-2472.",
+    "date": "2024-02-24"
+  },
+  {
+    "id": "FV-24075",
+    "ncrId": "NCR-2024-075",
+    "kind": "First-off verification",
+    "summary": "First-off X-ray after recipe lock for LOT-DC-2414.",
+    "date": "2024-11-04"
+  },
+  {
+    "id": "FV-24083",
+    "ncrId": "NCR-2024-083",
+    "kind": "First-off verification",
+    "summary": "First-off X-ray after recipe lock for LOT-DC-2426.",
+    "date": "2024-10-15"
+  },
+  {
+    "id": "FV-24085",
+    "ncrId": "NCR-2024-085",
+    "kind": "First-off verification",
+    "summary": "First-off X-ray after recipe lock for LOT-DC-2401.",
+    "date": "2024-07-08"
+  },
+  {
+    "id": "FV-24087",
+    "ncrId": "NCR-2024-087",
+    "kind": "First-off verification",
+    "summary": "First-off X-ray after recipe lock for LOT-DC-2476.",
+    "date": "2024-11-10"
+  },
+  {
+    "id": "GR-032",
+    "ncrId": "NCR-2026-032",
+    "kind": "Gauge study",
+    "summary": "Gauge R&R of the shaft diameter gauge.",
+    "date": "2026-04-22"
+  },
+  {
+    "id": "GR-23001",
+    "ncrId": "NCR-2023-001",
+    "kind": "Gauge study",
+    "summary": "Gauge R&R of the diameter gauge for LOT-CNC-2377.",
+    "date": "2023-10-11"
+  },
+  {
+    "id": "GR-23005",
+    "ncrId": "NCR-2023-005",
+    "kind": "Gauge study",
+    "summary": "DFT gauge check for LOT-CT-2372.",
+    "date": "2023-01-12"
+  },
+  {
+    "id": "GR-23006",
+    "ncrId": "NCR-2023-006",
+    "kind": "Gauge study",
+    "summary": "Gauge R&R of the diameter gauge for LOT-CNC-2372.",
+    "date": "2022-12-28"
+  },
+  {
+    "id": "GR-23013",
+    "ncrId": "NCR-2023-013",
+    "kind": "Gauge study",
+    "summary": "Measurement system check for LOT-CNC-2365.",
+    "date": "2023-03-17"
+  },
+  {
+    "id": "GR-23014",
+    "ncrId": "NCR-2023-014",
+    "kind": "Gauge study",
+    "summary": "Gauge R&R of the diameter gauge for LOT-CNC-2358.",
+    "date": "2023-06-29"
+  },
+  {
+    "id": "GR-23015",
+    "ncrId": "NCR-2023-015",
+    "kind": "Gauge study",
+    "summary": "DFT gauge check for LOT-CT-2382.",
+    "date": "2023-06-05"
+  },
+  {
+    "id": "GR-23019",
+    "ncrId": "NCR-2023-019",
+    "kind": "Gauge study",
+    "summary": "Measurement system check for LOT-CNC-2386.",
+    "date": "2023-10-16"
+  },
+  {
+    "id": "GR-23024",
+    "ncrId": "NCR-2023-024",
+    "kind": "Gauge study",
+    "summary": "Gauge R&R of the diameter gauge for LOT-CNC-2353.",
+    "date": "2023-03-08"
+  },
+  {
+    "id": "GR-23030",
+    "ncrId": "NCR-2023-030",
+    "kind": "Gauge study",
+    "summary": "DFT gauge check for LOT-CT-2367.",
+    "date": "2023-07-12"
+  },
+  {
+    "id": "GR-23032",
+    "ncrId": "NCR-2023-032",
+    "kind": "Gauge study",
+    "summary": "DFT gauge check for LOT-CT-2326.",
+    "date": "2023-06-06"
+  },
+  {
+    "id": "GR-23036",
+    "ncrId": "NCR-2023-036",
+    "kind": "Gauge study",
+    "summary": "Gauge R&R of the diameter gauge for LOT-CNC-2388.",
+    "date": "2023-05-25"
+  },
+  {
+    "id": "GR-23038",
+    "ncrId": "NCR-2023-038",
+    "kind": "Gauge study",
+    "summary": "Gauge R&R of the diameter gauge for LOT-CNC-2321.",
+    "date": "2023-10-10"
+  },
+  {
+    "id": "GR-23063",
+    "ncrId": "NCR-2023-063",
+    "kind": "Gauge study",
+    "summary": "Measurement system check for LOT-CNC-2333.",
+    "date": "2023-11-27"
+  },
+  {
+    "id": "GR-23066",
+    "ncrId": "NCR-2023-066",
+    "kind": "Gauge study",
+    "summary": "DFT gauge check for LOT-CT-2327.",
+    "date": "2023-04-12"
+  },
+  {
+    "id": "GR-23070",
+    "ncrId": "NCR-2023-070",
+    "kind": "Gauge study",
+    "summary": "Measurement system check for LOT-CNC-2346.",
+    "date": "2023-05-14"
+  },
+  {
+    "id": "GR-23073",
+    "ncrId": "NCR-2023-073",
+    "kind": "Gauge study",
+    "summary": "DFT gauge check for LOT-CT-2345.",
+    "date": "2023-01-28"
+  },
+  {
+    "id": "GR-23079",
+    "ncrId": "NCR-2023-079",
+    "kind": "Gauge study",
+    "summary": "DFT gauge check for LOT-CT-2332.",
+    "date": "2023-02-20"
+  },
+  {
+    "id": "GR-23081",
+    "ncrId": "NCR-2023-081",
+    "kind": "Gauge study",
+    "summary": "Measurement system check for LOT-CNC-2399.",
+    "date": "2023-05-10"
+  },
+  {
+    "id": "GR-23087",
+    "ncrId": "NCR-2023-087",
+    "kind": "Gauge study",
+    "summary": "Measurement system check for LOT-CNC-2359.",
+    "date": "2022-12-31"
+  },
+  {
+    "id": "GR-23091",
+    "ncrId": "NCR-2023-091",
+    "kind": "Gauge study",
+    "summary": "Measurement system check for LOT-CNC-2340.",
+    "date": "2023-03-13"
+  },
+  {
+    "id": "GR-23098",
+    "ncrId": "NCR-2023-098",
+    "kind": "Gauge study",
+    "summary": "DFT gauge check for LOT-CT-2377.",
+    "date": "2023-01-23"
+  },
+  {
+    "id": "GR-24020",
+    "ncrId": "NCR-2024-020",
+    "kind": "Gauge study",
+    "summary": "DFT gauge check for LOT-CT-2482.",
+    "date": "2024-02-10"
+  },
+  {
+    "id": "GR-24027",
+    "ncrId": "NCR-2024-027",
+    "kind": "Gauge study",
+    "summary": "Gauge R&R of the diameter gauge for LOT-CNC-2478.",
+    "date": "2024-04-28"
+  },
+  {
+    "id": "GR-24028",
+    "ncrId": "NCR-2024-028",
+    "kind": "Gauge study",
+    "summary": "Measurement system check for LOT-CNC-2479.",
+    "date": "2024-03-15"
+  },
+  {
+    "id": "GR-24033",
+    "ncrId": "NCR-2024-033",
+    "kind": "Gauge study",
+    "summary": "Gauge R&R of the diameter gauge for LOT-CNC-2428.",
+    "date": "2024-08-28"
+  },
+  {
+    "id": "GR-24034",
+    "ncrId": "NCR-2024-034",
+    "kind": "Gauge study",
+    "summary": "Gauge R&R of the diameter gauge for LOT-CNC-2448.",
+    "date": "2024-07-03"
+  },
+  {
+    "id": "GR-24036",
+    "ncrId": "NCR-2024-036",
+    "kind": "Gauge study",
+    "summary": "Gauge R&R of the diameter gauge for LOT-CNC-2470.",
+    "date": "2024-08-04"
+  },
+  {
+    "id": "GR-24043",
+    "ncrId": "NCR-2024-043",
+    "kind": "Gauge study",
+    "summary": "Measurement system check for LOT-CNC-2499.",
+    "date": "2024-10-09"
+  },
+  {
+    "id": "GR-24046",
+    "ncrId": "NCR-2024-046",
+    "kind": "Gauge study",
+    "summary": "Measurement system check for LOT-CNC-2462.",
+    "date": "2024-03-29"
+  },
+  {
+    "id": "GR-24049",
+    "ncrId": "NCR-2024-049",
+    "kind": "Gauge study",
+    "summary": "DFT gauge check for LOT-CT-2471.",
+    "date": "2024-08-21"
+  },
+  {
+    "id": "GR-24050",
+    "ncrId": "NCR-2024-050",
+    "kind": "Gauge study",
+    "summary": "Measurement system check for LOT-CNC-2448.",
+    "date": "2024-08-24"
+  },
+  {
+    "id": "GR-24052",
+    "ncrId": "NCR-2024-052",
+    "kind": "Gauge study",
+    "summary": "DFT gauge check for LOT-CT-2455.",
+    "date": "2024-11-13"
+  },
+  {
+    "id": "GR-24056",
+    "ncrId": "NCR-2024-056",
+    "kind": "Gauge study",
+    "summary": "Gauge R&R of the diameter gauge for LOT-CNC-2446.",
+    "date": "2024-05-30"
+  },
+  {
+    "id": "GR-24057",
+    "ncrId": "NCR-2024-057",
+    "kind": "Gauge study",
+    "summary": "Measurement system check for LOT-CNC-2484.",
+    "date": "2024-07-10"
+  },
+  {
+    "id": "GR-24063",
+    "ncrId": "NCR-2024-063",
+    "kind": "Gauge study",
+    "summary": "DFT gauge check for LOT-CT-2467.",
+    "date": "2024-03-08"
+  },
+  {
+    "id": "GR-24086",
+    "ncrId": "NCR-2024-086",
+    "kind": "Gauge study",
+    "summary": "Gauge R&R of the diameter gauge for LOT-CNC-2411.",
+    "date": "2024-09-18"
+  },
+  {
+    "id": "LAB-218",
+    "ncrId": "NCR-2025-084",
+    "kind": "Metallography",
+    "summary": "Pore morphology of sectioned housings.",
+    "date": "2025-11-06"
+  },
+  {
+    "id": "LAB-23002",
+    "ncrId": "NCR-2023-002",
+    "kind": "Metallography",
+    "summary": "Pore morphology of sectioned parts for LOT-DC-2310.",
+    "date": "2023-01-09"
+  },
+  {
+    "id": "LAB-23003",
+    "ncrId": "NCR-2023-003",
+    "kind": "Metallography",
+    "summary": "Pore morphology of sectioned parts for LOT-DC-2352.",
+    "date": "2023-09-27"
+  },
+  {
+    "id": "LAB-23004",
+    "ncrId": "NCR-2023-004",
+    "kind": "Lab report",
+    "summary": "Bath titration for LOT-CT-2364.",
+    "date": "2023-06-17"
+  },
+  {
+    "id": "LAB-23007",
+    "ncrId": "NCR-2023-007",
+    "kind": "Metallography",
+    "summary": "Pore morphology of sectioned parts for LOT-DC-2316.",
+    "date": "2023-01-20"
+  },
+  {
+    "id": "LAB-23010",
+    "ncrId": "NCR-2023-010",
+    "kind": "Lab report",
+    "summary": "Density index of melt samples for LOT-DC-2364.",
+    "date": "2023-08-25"
+  },
+  {
+    "id": "LAB-23021",
+    "ncrId": "NCR-2023-021",
+    "kind": "Lab report",
+    "summary": "Density index of melt samples for LOT-DC-2307.",
+    "date": "2023-04-16"
+  },
+  {
+    "id": "LAB-23023",
+    "ncrId": "NCR-2023-023",
+    "kind": "Lab report",
+    "summary": "Bath titration for LOT-CT-2301.",
+    "date": "2023-03-13"
+  },
+  {
+    "id": "LAB-23025",
+    "ncrId": "NCR-2023-025",
+    "kind": "Lab report",
+    "summary": "Bath titration for LOT-CT-2309.",
+    "date": "2023-01-31"
+  },
+  {
+    "id": "LAB-23035",
+    "ncrId": "NCR-2023-035",
+    "kind": "Lab report",
+    "summary": "Bath titration for LOT-CT-2312.",
+    "date": "2023-03-31"
+  },
+  {
+    "id": "LAB-23043",
+    "ncrId": "NCR-2023-043",
+    "kind": "Lab report",
+    "summary": "Bath titration for LOT-CT-2398.",
+    "date": "2023-04-09"
+  },
+  {
+    "id": "LAB-23048",
+    "ncrId": "NCR-2023-048",
+    "kind": "Lab report",
+    "summary": "Bath titration for LOT-CT-2372.",
+    "date": "2023-03-12"
+  },
+  {
+    "id": "LAB-23049",
+    "ncrId": "NCR-2023-049",
+    "kind": "Metallography",
+    "summary": "Pore morphology of sectioned parts for LOT-DC-2343.",
+    "date": "2023-03-08"
+  },
+  {
+    "id": "LAB-23050",
+    "ncrId": "NCR-2023-050",
+    "kind": "Lab report",
+    "summary": "Density index of melt samples for LOT-DC-2302.",
+    "date": "2023-10-26"
+  },
+  {
+    "id": "LAB-23061",
+    "ncrId": "NCR-2023-061",
+    "kind": "Metallography",
+    "summary": "Pore morphology of sectioned parts for LOT-DC-2326.",
+    "date": "2023-02-24"
+  },
+  {
+    "id": "LAB-23062",
+    "ncrId": "NCR-2023-062",
+    "kind": "Lab report",
+    "summary": "Bath titration for LOT-CT-2364.",
+    "date": "2023-09-09"
+  },
+  {
+    "id": "LAB-23064",
+    "ncrId": "NCR-2023-064",
+    "kind": "Lab report",
+    "summary": "Bath titration for LOT-CT-2381.",
+    "date": "2023-06-21"
+  },
+  {
+    "id": "LAB-23068",
+    "ncrId": "NCR-2023-068",
+    "kind": "Metallography",
+    "summary": "Pore morphology of sectioned parts for LOT-DC-2388.",
+    "date": "2023-06-23"
+  },
+  {
+    "id": "LAB-23071",
+    "ncrId": "NCR-2023-071",
+    "kind": "Lab report",
+    "summary": "Density index of melt samples for LOT-DC-2337.",
+    "date": "2023-04-29"
+  },
+  {
+    "id": "LAB-23072",
+    "ncrId": "NCR-2023-072",
+    "kind": "Lab report",
+    "summary": "Density index of melt samples for LOT-DC-2332.",
+    "date": "2023-02-01"
+  },
+  {
+    "id": "LAB-23075",
+    "ncrId": "NCR-2023-075",
+    "kind": "Metallography",
+    "summary": "Pore morphology of sectioned parts for LOT-DC-2376.",
+    "date": "2023-07-15"
+  },
+  {
+    "id": "LAB-23078",
+    "ncrId": "NCR-2023-078",
+    "kind": "Lab report",
+    "summary": "Density index of melt samples for LOT-DC-2383.",
+    "date": "2023-07-25"
+  },
+  {
+    "id": "LAB-23080",
+    "ncrId": "NCR-2023-080",
+    "kind": "Lab report",
+    "summary": "Density index of melt samples for LOT-DC-2383.",
+    "date": "2023-06-26"
+  },
+  {
+    "id": "LAB-23082",
+    "ncrId": "NCR-2023-082",
+    "kind": "Lab report",
+    "summary": "Density index of melt samples for LOT-DC-2316.",
+    "date": "2023-08-05"
+  },
+  {
+    "id": "LAB-23084",
+    "ncrId": "NCR-2023-084",
+    "kind": "Metallography",
+    "summary": "Pore morphology of sectioned parts for LOT-DC-2338.",
+    "date": "2023-05-03"
+  },
+  {
+    "id": "LAB-24002",
+    "ncrId": "NCR-2024-002",
+    "kind": "Lab report",
+    "summary": "Density index of melt samples for LOT-DC-2411.",
+    "date": "2024-03-25"
+  },
+  {
+    "id": "LAB-24007",
+    "ncrId": "NCR-2024-007",
+    "kind": "Lab report",
+    "summary": "Bath titration for LOT-CT-2473.",
+    "date": "2024-09-05"
+  },
+  {
+    "id": "LAB-24010",
+    "ncrId": "NCR-2024-010",
+    "kind": "Lab report",
+    "summary": "Density index of melt samples for LOT-DC-2477.",
+    "date": "2024-10-15"
+  },
+  {
+    "id": "LAB-24012",
+    "ncrId": "NCR-2024-012",
+    "kind": "Metallography",
+    "summary": "Pore morphology of sectioned parts for LOT-DC-2470.",
+    "date": "2024-04-22"
+  },
+  {
+    "id": "LAB-24026",
+    "ncrId": "NCR-2024-026",
+    "kind": "Lab report",
+    "summary": "Density index of melt samples for LOT-DC-2404.",
+    "date": "2024-05-23"
+  },
+  {
+    "id": "LAB-24039",
+    "ncrId": "NCR-2024-039",
+    "kind": "Lab report",
+    "summary": "Bath titration for LOT-CT-2422.",
+    "date": "2024-08-25"
+  },
+  {
+    "id": "LAB-24042",
+    "ncrId": "NCR-2024-042",
+    "kind": "Lab report",
+    "summary": "Density index of melt samples for LOT-DC-2468.",
+    "date": "2024-02-05"
+  },
+  {
+    "id": "LAB-24058",
+    "ncrId": "NCR-2024-058",
+    "kind": "Metallography",
+    "summary": "Pore morphology of sectioned parts for LOT-DC-2461.",
+    "date": "2024-08-25"
+  },
+  {
+    "id": "LAB-24059",
+    "ncrId": "NCR-2024-059",
+    "kind": "Metallography",
+    "summary": "Pore morphology of sectioned parts for LOT-DC-2486.",
+    "date": "2024-03-29"
+  },
+  {
+    "id": "LAB-24067",
+    "ncrId": "NCR-2024-067",
+    "kind": "Lab report",
+    "summary": "Bath titration for LOT-CT-2403.",
+    "date": "2024-06-11"
+  },
+  {
+    "id": "LAB-24068",
+    "ncrId": "NCR-2024-068",
+    "kind": "Metallography",
+    "summary": "Pore morphology of sectioned parts for LOT-DC-2480.",
+    "date": "2024-01-19"
+  },
+  {
+    "id": "LAB-24071",
+    "ncrId": "NCR-2024-071",
+    "kind": "Lab report",
+    "summary": "Bath titration for LOT-CT-2451.",
+    "date": "2024-07-07"
+  },
+  {
+    "id": "LAB-24077",
+    "ncrId": "NCR-2024-077",
+    "kind": "Metallography",
+    "summary": "Pore morphology of sectioned parts for LOT-DC-2426.",
+    "date": "2023-12-28"
+  },
+  {
+    "id": "LAB-24089",
+    "ncrId": "NCR-2024-089",
+    "kind": "Lab report",
+    "summary": "Density index of melt samples for LOT-DC-2427.",
+    "date": "2024-07-13"
+  },
+  {
+    "id": "PL-019",
+    "ncrId": "NCR-2026-019",
+    "kind": "Parameter log",
+    "summary": "Vacuum timing before and after the tool change.",
+    "date": "2026-03-02"
+  },
+  {
+    "id": "PL-23008",
+    "ncrId": "NCR-2023-008",
+    "kind": "Parameter log",
+    "summary": "Die thermocouple data at restart for LOT-DC-2399.",
+    "date": "2023-10-05"
+  },
+  {
+    "id": "PL-23010",
+    "ncrId": "NCR-2023-010",
+    "kind": "Parameter log",
+    "summary": "Degassing time and rotor speed for LOT-DC-2364.",
+    "date": "2023-08-30"
+  },
+  {
+    "id": "PL-23016",
+    "ncrId": "NCR-2023-016",
+    "kind": "Parameter log",
+    "summary": "Die thermocouple data at restart for LOT-DC-2393.",
+    "date": "2023-01-18"
+  },
+  {
+    "id": "PL-23020",
+    "ncrId": "NCR-2023-020",
+    "kind": "Parameter log",
+    "summary": "Die thermocouple data at restart for LOT-DC-2360.",
+    "date": "2023-01-25"
+  },
+  {
+    "id": "PL-23021",
+    "ncrId": "NCR-2023-021",
+    "kind": "Parameter log",
+    "summary": "Degassing time and rotor speed for LOT-DC-2307.",
+    "date": "2023-03-31"
+  },
+  {
+    "id": "PL-23028",
+    "ncrId": "NCR-2023-028",
+    "kind": "Parameter log",
+    "summary": "Vacuum timing versus validated recipe for LOT-DC-2385.",
+    "date": "2023-05-22"
+  },
+  {
+    "id": "PL-23029",
+    "ncrId": "NCR-2023-029",
+    "kind": "Parameter log",
+    "summary": "Oven temperature profile for LOT-CT-2309.",
+    "date": "2023-05-14"
+  },
+  {
+    "id": "PL-23033",
+    "ncrId": "NCR-2023-033",
+    "kind": "Program log",
+    "summary": "Work offset history at changeover for LOT-CNC-2305.",
+    "date": "2023-11-20"
+  },
+  {
+    "id": "PL-23034",
+    "ncrId": "NCR-2023-034",
+    "kind": "Parameter log",
+    "summary": "Die thermocouple data at restart for LOT-DC-2391.",
+    "date": "2023-11-09"
+  },
+  {
+    "id": "PL-23037",
+    "ncrId": "NCR-2023-037",
+    "kind": "Program log",
+    "summary": "Work offset history at changeover for LOT-CNC-2343.",
+    "date": "2023-04-09"
+  },
+  {
+    "id": "PL-23039",
+    "ncrId": "NCR-2023-039",
+    "kind": "Parameter log",
+    "summary": "Oven temperature profile for LOT-CT-2373.",
+    "date": "2023-04-09"
+  },
+  {
+    "id": "PL-23042",
+    "ncrId": "NCR-2023-042",
+    "kind": "Program log",
+    "summary": "Work offset history at changeover for LOT-CNC-2389.",
+    "date": "2023-09-02"
+  },
+  {
+    "id": "PL-23050",
+    "ncrId": "NCR-2023-050",
+    "kind": "Parameter log",
+    "summary": "Degassing time and rotor speed for LOT-DC-2302.",
+    "date": "2023-10-23"
+  },
+  {
+    "id": "PL-23053",
+    "ncrId": "NCR-2023-053",
+    "kind": "Parameter log",
+    "summary": "Vacuum timing versus validated recipe for LOT-DC-2386.",
+    "date": "2023-06-08"
+  },
+  {
+    "id": "PL-23057",
+    "ncrId": "NCR-2023-057",
+    "kind": "Parameter log",
+    "summary": "Vacuum timing versus validated recipe for LOT-DC-2309.",
+    "date": "2023-12-08"
+  },
+  {
+    "id": "PL-23060",
+    "ncrId": "NCR-2023-060",
+    "kind": "Parameter log",
+    "summary": "Oven temperature profile for LOT-CT-2322.",
+    "date": "2023-04-16"
+  },
+  {
+    "id": "PL-23067",
+    "ncrId": "NCR-2023-067",
+    "kind": "Parameter log",
+    "summary": "Oven temperature profile for LOT-CT-2315.",
+    "date": "2023-03-20"
+  },
+  {
+    "id": "PL-23071",
+    "ncrId": "NCR-2023-071",
+    "kind": "Parameter log",
+    "summary": "Degassing time and rotor speed for LOT-DC-2337.",
+    "date": "2023-04-15"
+  },
+  {
+    "id": "PL-23072",
+    "ncrId": "NCR-2023-072",
+    "kind": "Parameter log",
+    "summary": "Degassing time and rotor speed for LOT-DC-2332.",
+    "date": "2023-02-03"
+  },
+  {
+    "id": "PL-23077",
+    "ncrId": "NCR-2023-077",
+    "kind": "Parameter log",
+    "summary": "Die thermocouple data at restart for LOT-DC-2353.",
+    "date": "2023-05-20"
+  },
+  {
+    "id": "PL-23078",
+    "ncrId": "NCR-2023-078",
+    "kind": "Parameter log",
+    "summary": "Degassing time and rotor speed for LOT-DC-2383.",
+    "date": "2023-07-22"
+  },
+  {
+    "id": "PL-23080",
+    "ncrId": "NCR-2023-080",
+    "kind": "Parameter log",
+    "summary": "Degassing time and rotor speed for LOT-DC-2383.",
+    "date": "2023-06-17"
+  },
+  {
+    "id": "PL-23082",
+    "ncrId": "NCR-2023-082",
+    "kind": "Parameter log",
+    "summary": "Degassing time and rotor speed for LOT-DC-2316.",
+    "date": "2023-07-27"
+  },
+  {
+    "id": "PL-23083",
+    "ncrId": "NCR-2023-083",
+    "kind": "Parameter log",
+    "summary": "Vacuum timing versus validated recipe for LOT-DC-2361.",
+    "date": "2023-04-29"
+  },
+  {
+    "id": "PL-23089",
+    "ncrId": "NCR-2023-089",
+    "kind": "Parameter log",
+    "summary": "Oven temperature profile for LOT-CT-2324.",
+    "date": "2023-06-16"
+  },
+  {
+    "id": "PL-23090",
+    "ncrId": "NCR-2023-090",
+    "kind": "Parameter log",
+    "summary": "Vacuum timing versus validated recipe for LOT-DC-2387.",
+    "date": "2023-03-02"
+  },
+  {
+    "id": "PL-23100",
+    "ncrId": "NCR-2023-100",
+    "kind": "Parameter log",
+    "summary": "Oven temperature profile for LOT-CT-2374.",
+    "date": "2023-04-02"
+  },
+  {
+    "id": "PL-24002",
+    "ncrId": "NCR-2024-002",
+    "kind": "Parameter log",
+    "summary": "Degassing time and rotor speed for LOT-DC-2411.",
+    "date": "2024-03-18"
+  },
+  {
+    "id": "PL-24003",
+    "ncrId": "NCR-2024-003",
+    "kind": "Parameter log",
+    "summary": "Vacuum timing versus validated recipe for LOT-DC-2465.",
+    "date": "2024-01-07"
+  },
+  {
+    "id": "PL-24004",
+    "ncrId": "NCR-2024-004",
+    "kind": "Parameter log",
+    "summary": "Oven temperature profile for LOT-CT-2484.",
+    "date": "2024-04-05"
+  },
+  {
+    "id": "PL-24008",
+    "ncrId": "NCR-2024-008",
+    "kind": "Program log",
+    "summary": "Work offset history at changeover for LOT-CNC-2427.",
+    "date": "2024-04-22"
+  },
+  {
+    "id": "PL-24010",
+    "ncrId": "NCR-2024-010",
+    "kind": "Parameter log",
+    "summary": "Degassing time and rotor speed for LOT-DC-2477.",
+    "date": "2024-10-14"
+  },
+  {
+    "id": "PL-24011",
+    "ncrId": "NCR-2024-011",
+    "kind": "Parameter log",
+    "summary": "Oven temperature profile for LOT-CT-2416.",
+    "date": "2024-08-06"
+  },
+  {
+    "id": "PL-24016",
+    "ncrId": "NCR-2024-016",
+    "kind": "Parameter log",
+    "summary": "Oven temperature profile for LOT-CT-2418.",
+    "date": "2024-10-18"
+  },
+  {
+    "id": "PL-24017",
+    "ncrId": "NCR-2024-017",
+    "kind": "Parameter log",
+    "summary": "Oven temperature profile for LOT-CT-2470.",
+    "date": "2024-01-09"
+  },
+  {
+    "id": "PL-24018",
+    "ncrId": "NCR-2024-018",
+    "kind": "Program log",
+    "summary": "Work offset history at changeover for LOT-CNC-2419.",
+    "date": "2024-07-16"
+  },
+  {
+    "id": "PL-24021",
+    "ncrId": "NCR-2024-021",
+    "kind": "Program log",
+    "summary": "Work offset history at changeover for LOT-CNC-2451.",
+    "date": "2024-09-12"
+  },
+  {
+    "id": "PL-24022",
+    "ncrId": "NCR-2024-022",
+    "kind": "Parameter log",
+    "summary": "Vacuum timing versus validated recipe for LOT-DC-2498.",
+    "date": "2024-08-28"
+  },
+  {
+    "id": "PL-24025",
+    "ncrId": "NCR-2024-025",
+    "kind": "Parameter log",
+    "summary": "Die thermocouple data at restart for LOT-DC-2405.",
+    "date": "2024-02-12"
+  },
+  {
+    "id": "PL-24026",
+    "ncrId": "NCR-2024-026",
+    "kind": "Parameter log",
+    "summary": "Degassing time and rotor speed for LOT-DC-2404.",
+    "date": "2024-05-23"
+  },
+  {
+    "id": "PL-24029",
+    "ncrId": "NCR-2024-029",
+    "kind": "Parameter log",
+    "summary": "Vacuum timing versus validated recipe for LOT-DC-2456.",
+    "date": "2024-03-07"
+  },
+  {
+    "id": "PL-24030",
+    "ncrId": "NCR-2024-030",
+    "kind": "Program log",
+    "summary": "Work offset history at changeover for LOT-CNC-2453.",
+    "date": "2024-08-20"
+  },
+  {
+    "id": "PL-24032",
+    "ncrId": "NCR-2024-032",
+    "kind": "Parameter log",
+    "summary": "Die thermocouple data at restart for LOT-DC-2453.",
+    "date": "2024-11-18"
+  },
+  {
+    "id": "PL-24042",
+    "ncrId": "NCR-2024-042",
+    "kind": "Parameter log",
+    "summary": "Degassing time and rotor speed for LOT-DC-2468.",
+    "date": "2024-02-07"
+  },
+  {
+    "id": "PL-24048",
+    "ncrId": "NCR-2024-048",
+    "kind": "Parameter log",
+    "summary": "Vacuum timing versus validated recipe for LOT-DC-2472.",
+    "date": "2024-03-10"
+  },
+  {
+    "id": "PL-24055",
+    "ncrId": "NCR-2024-055",
+    "kind": "Parameter log",
+    "summary": "Die thermocouple data at restart for LOT-DC-2426.",
+    "date": "2024-04-24"
+  },
+  {
+    "id": "PL-24061",
+    "ncrId": "NCR-2024-061",
+    "kind": "Parameter log",
+    "summary": "Die thermocouple data at restart for LOT-DC-2465.",
+    "date": "2024-01-05"
+  },
+  {
+    "id": "PL-24064",
+    "ncrId": "NCR-2024-064",
+    "kind": "Program log",
+    "summary": "Work offset history at changeover for LOT-CNC-2487.",
+    "date": "2024-09-27"
+  },
+  {
+    "id": "PL-24069",
+    "ncrId": "NCR-2024-069",
+    "kind": "Parameter log",
+    "summary": "Oven temperature profile for LOT-CT-2401.",
+    "date": "2024-04-24"
+  },
+  {
+    "id": "PL-24070",
+    "ncrId": "NCR-2024-070",
+    "kind": "Program log",
+    "summary": "Work offset history at changeover for LOT-CNC-2492.",
+    "date": "2024-08-15"
+  },
+  {
+    "id": "PL-24073",
+    "ncrId": "NCR-2024-073",
+    "kind": "Parameter log",
+    "summary": "Die thermocouple data at restart for LOT-DC-2496.",
+    "date": "2024-11-16"
+  },
+  {
+    "id": "PL-24075",
+    "ncrId": "NCR-2024-075",
+    "kind": "Parameter log",
+    "summary": "Vacuum timing versus validated recipe for LOT-DC-2414.",
+    "date": "2024-10-23"
+  },
+  {
+    "id": "PL-24078",
+    "ncrId": "NCR-2024-078",
+    "kind": "Program log",
+    "summary": "Work offset history at changeover for LOT-CNC-2435.",
+    "date": "2024-07-28"
+  },
+  {
+    "id": "PL-24079",
+    "ncrId": "NCR-2024-079",
+    "kind": "Parameter log",
+    "summary": "Oven temperature profile for LOT-CT-2441.",
+    "date": "2024-09-11"
+  },
+  {
+    "id": "PL-24083",
+    "ncrId": "NCR-2024-083",
+    "kind": "Parameter log",
+    "summary": "Vacuum timing versus validated recipe for LOT-DC-2426.",
+    "date": "2024-10-13"
+  },
+  {
+    "id": "PL-24084",
+    "ncrId": "NCR-2024-084",
+    "kind": "Parameter log",
+    "summary": "Die thermocouple data at restart for LOT-DC-2469.",
+    "date": "2024-11-15"
+  },
+  {
+    "id": "PL-24085",
+    "ncrId": "NCR-2024-085",
+    "kind": "Parameter log",
+    "summary": "Vacuum timing versus validated recipe for LOT-DC-2401.",
+    "date": "2024-07-27"
+  },
+  {
+    "id": "PL-24087",
+    "ncrId": "NCR-2024-087",
+    "kind": "Parameter log",
+    "summary": "Vacuum timing versus validated recipe for LOT-DC-2476.",
+    "date": "2024-11-13"
+  },
+  {
+    "id": "PL-24089",
+    "ncrId": "NCR-2024-089",
+    "kind": "Parameter log",
+    "summary": "Degassing time and rotor speed for LOT-DC-2427.",
+    "date": "2024-07-09"
+  },
+  {
+    "id": "PL-24090",
+    "ncrId": "NCR-2024-090",
+    "kind": "Parameter log",
+    "summary": "Die thermocouple data at restart for LOT-DC-2407.",
+    "date": "2024-07-17"
+  },
+  {
+    "id": "PL-24092",
+    "ncrId": "NCR-2024-092",
+    "kind": "Program log",
+    "summary": "Work offset history at changeover for LOT-CNC-2466.",
+    "date": "2024-06-24"
+  },
+  {
+    "id": "PL-24093",
+    "ncrId": "NCR-2024-093",
+    "kind": "Program log",
+    "summary": "Work offset history at changeover for LOT-CNC-2423.",
+    "date": "2024-02-23"
+  },
+  {
+    "id": "TD-061",
+    "ncrId": "NCR-2026-061",
+    "kind": "Teardown",
+    "summary": "Teardown of leaking seal assemblies.",
+    "date": "2026-08-21"
+  },
+  {
+    "id": "TD-23012",
+    "ncrId": "NCR-2023-012",
+    "kind": "Teardown",
+    "summary": "Teardown of leaking assemblies for LOT-AS-2365.",
+    "date": "2023-09-27"
+  },
+  {
+    "id": "TD-23022",
+    "ncrId": "NCR-2023-022",
+    "kind": "Teardown",
+    "summary": "Teardown of leaking assemblies for LOT-AS-2327.",
+    "date": "2023-02-04"
+  },
+  {
+    "id": "TD-23026",
+    "ncrId": "NCR-2023-026",
+    "kind": "Teardown",
+    "summary": "Teardown of failed connectors for LOT-AS-2305.",
+    "date": "2023-01-28"
+  },
+  {
+    "id": "TD-23027",
+    "ncrId": "NCR-2023-027",
+    "kind": "Teardown",
+    "summary": "Teardown of leaking assemblies for LOT-AS-2384.",
+    "date": "2023-05-09"
+  },
+  {
+    "id": "TD-23044",
+    "ncrId": "NCR-2023-044",
+    "kind": "Teardown",
+    "summary": "Teardown of failed connectors for LOT-AS-2390.",
+    "date": "2023-06-30"
+  },
+  {
+    "id": "TD-23046",
+    "ncrId": "NCR-2023-046",
+    "kind": "Teardown",
+    "summary": "Teardown of failed connectors for LOT-AS-2362.",
+    "date": "2023-07-09"
+  },
+  {
+    "id": "TD-23052",
+    "ncrId": "NCR-2023-052",
+    "kind": "Teardown",
+    "summary": "Teardown of leaking assemblies for LOT-AS-2397.",
+    "date": "2023-11-26"
+  },
+  {
+    "id": "TD-23059",
+    "ncrId": "NCR-2023-059",
+    "kind": "Teardown",
+    "summary": "Teardown of leaking assemblies for LOT-AS-2308.",
+    "date": "2023-09-30"
+  },
+  {
+    "id": "TD-23065",
+    "ncrId": "NCR-2023-065",
+    "kind": "Teardown",
+    "summary": "Teardown of failed connectors for LOT-AS-2337.",
+    "date": "2023-10-10"
+  },
+  {
+    "id": "TD-23074",
+    "ncrId": "NCR-2023-074",
+    "kind": "Teardown",
+    "summary": "Teardown of failed connectors for LOT-AS-2302.",
+    "date": "2023-05-09"
+  },
+  {
+    "id": "TD-23085",
+    "ncrId": "NCR-2023-085",
+    "kind": "Teardown",
+    "summary": "Teardown of failed connectors for LOT-AS-2324.",
+    "date": "2023-07-30"
+  },
+  {
+    "id": "TD-23088",
+    "ncrId": "NCR-2023-088",
+    "kind": "Teardown",
+    "summary": "Teardown of failed connectors for LOT-AS-2368.",
+    "date": "2023-11-29"
+  },
+  {
+    "id": "TD-24001",
+    "ncrId": "NCR-2024-001",
+    "kind": "Teardown",
+    "summary": "Teardown of leaking assemblies for LOT-AS-2455.",
+    "date": "2024-04-28"
+  },
+  {
+    "id": "TD-24014",
+    "ncrId": "NCR-2024-014",
+    "kind": "Teardown",
+    "summary": "Teardown of leaking assemblies for LOT-AS-2411.",
+    "date": "2024-07-28"
+  },
+  {
+    "id": "TD-24015",
+    "ncrId": "NCR-2024-015",
+    "kind": "Teardown",
+    "summary": "Teardown of failed connectors for LOT-AS-2422.",
+    "date": "2024-09-17"
+  },
+  {
+    "id": "TD-24019",
+    "ncrId": "NCR-2024-019",
+    "kind": "Teardown",
+    "summary": "Teardown of failed connectors for LOT-AS-2409.",
+    "date": "2024-04-23"
+  },
+  {
+    "id": "TD-24038",
+    "ncrId": "NCR-2024-038",
+    "kind": "Teardown",
+    "summary": "Teardown of failed connectors for LOT-AS-2470.",
+    "date": "2024-09-10"
+  },
+  {
+    "id": "TD-24040",
+    "ncrId": "NCR-2024-040",
+    "kind": "Teardown",
+    "summary": "Teardown of failed connectors for LOT-AS-2468.",
+    "date": "2024-09-01"
+  },
+  {
+    "id": "TD-24044",
+    "ncrId": "NCR-2024-044",
+    "kind": "Teardown",
+    "summary": "Teardown of leaking assemblies for LOT-AS-2449.",
+    "date": "2024-06-09"
+  },
+  {
+    "id": "TD-24045",
+    "ncrId": "NCR-2024-045",
+    "kind": "Teardown",
+    "summary": "Teardown of failed connectors for LOT-AS-2408.",
+    "date": "2024-05-15"
+  },
+  {
+    "id": "TD-24051",
+    "ncrId": "NCR-2024-051",
+    "kind": "Teardown",
+    "summary": "Teardown of leaking assemblies for LOT-AS-2485.",
+    "date": "2024-10-21"
+  },
+  {
+    "id": "TD-24053",
+    "ncrId": "NCR-2024-053",
+    "kind": "Teardown",
+    "summary": "Teardown of leaking assemblies for LOT-AS-2412.",
+    "date": "2024-09-21"
+  },
+  {
+    "id": "TD-24062",
+    "ncrId": "NCR-2024-062",
+    "kind": "Teardown",
+    "summary": "Teardown of leaking assemblies for LOT-AS-2482.",
+    "date": "2024-04-19"
+  },
+  {
+    "id": "TD-24066",
+    "ncrId": "NCR-2024-066",
+    "kind": "Teardown",
+    "summary": "Teardown of leaking assemblies for LOT-AS-2429.",
+    "date": "2024-01-29"
+  },
+  {
+    "id": "TI-032",
+    "ncrId": "NCR-2026-032",
+    "kind": "Tooling inspection",
+    "summary": "Measured insert wear at the time of the defect.",
+    "date": "2026-04-23"
+  },
+  {
+    "id": "TI-084",
+    "ncrId": "NCR-2025-084",
+    "kind": "Tooling inspection",
+    "summary": "Vent channel condition on the housing die.",
+    "date": "2025-11-04"
+  },
+  {
+    "id": "TI-23001",
+    "ncrId": "NCR-2023-001",
+    "kind": "Tooling inspection",
+    "summary": "Measured insert flank wear for LOT-CNC-2377.",
+    "date": "2023-10-09"
+  },
+  {
+    "id": "TI-23002",
+    "ncrId": "NCR-2023-002",
+    "kind": "Tooling inspection",
+    "summary": "Vent channel condition on the die for LOT-DC-2310.",
+    "date": "2023-01-16"
+  },
+  {
+    "id": "TI-23003",
+    "ncrId": "NCR-2023-003",
+    "kind": "Tooling inspection",
+    "summary": "Vent channel condition on the die for LOT-DC-2352.",
+    "date": "2023-10-02"
+  },
+  {
+    "id": "TI-23006",
+    "ncrId": "NCR-2023-006",
+    "kind": "Tooling inspection",
+    "summary": "Measured insert flank wear for LOT-CNC-2372.",
+    "date": "2023-01-05"
+  },
+  {
+    "id": "TI-23007",
+    "ncrId": "NCR-2023-007",
+    "kind": "Tooling inspection",
+    "summary": "Vent channel condition on the die for LOT-DC-2316.",
+    "date": "2023-02-01"
+  },
+  {
+    "id": "TI-23011",
+    "ncrId": "NCR-2023-011",
+    "kind": "Tooling inspection",
+    "summary": "Air line and dryer inspection for LOT-CT-2383.",
+    "date": "2023-02-10"
+  },
+  {
+    "id": "TI-23014",
+    "ncrId": "NCR-2023-014",
+    "kind": "Tooling inspection",
+    "summary": "Measured insert flank wear for LOT-CNC-2358.",
+    "date": "2023-07-06"
+  },
+  {
+    "id": "TI-23024",
+    "ncrId": "NCR-2023-024",
+    "kind": "Tooling inspection",
+    "summary": "Measured insert flank wear for LOT-CNC-2353.",
+    "date": "2023-03-21"
+  },
+  {
+    "id": "TI-23026",
+    "ncrId": "NCR-2023-026",
+    "kind": "Tooling inspection",
+    "summary": "Nest locating pin measurement for LOT-AS-2305.",
+    "date": "2023-01-19"
+  },
+  {
+    "id": "TI-23036",
+    "ncrId": "NCR-2023-036",
+    "kind": "Tooling inspection",
+    "summary": "Measured insert flank wear for LOT-CNC-2388.",
+    "date": "2023-05-31"
+  },
+  {
+    "id": "TI-23038",
+    "ncrId": "NCR-2023-038",
+    "kind": "Tooling inspection",
+    "summary": "Measured insert flank wear for LOT-CNC-2321.",
+    "date": "2023-10-12"
+  },
+  {
+    "id": "TI-23044",
+    "ncrId": "NCR-2023-044",
+    "kind": "Tooling inspection",
+    "summary": "Nest locating pin measurement for LOT-AS-2390.",
+    "date": "2023-06-22"
+  },
+  {
+    "id": "TI-23046",
+    "ncrId": "NCR-2023-046",
+    "kind": "Tooling inspection",
+    "summary": "Nest locating pin measurement for LOT-AS-2362.",
+    "date": "2023-07-13"
+  },
+  {
+    "id": "TI-23047",
+    "ncrId": "NCR-2023-047",
+    "kind": "Tooling inspection",
+    "summary": "Air line and dryer inspection for LOT-CT-2386.",
+    "date": "2023-11-01"
+  },
+  {
+    "id": "TI-23049",
+    "ncrId": "NCR-2023-049",
+    "kind": "Tooling inspection",
+    "summary": "Vent channel condition on the die for LOT-DC-2343.",
+    "date": "2023-03-19"
+  },
+  {
+    "id": "TI-23056",
+    "ncrId": "NCR-2023-056",
+    "kind": "Tooling inspection",
+    "summary": "Air line and dryer inspection for LOT-CT-2383.",
+    "date": "2023-03-06"
+  },
+  {
+    "id": "TI-23061",
+    "ncrId": "NCR-2023-061",
+    "kind": "Tooling inspection",
+    "summary": "Vent channel condition on the die for LOT-DC-2326.",
+    "date": "2023-03-10"
+  },
+  {
+    "id": "TI-23065",
+    "ncrId": "NCR-2023-065",
+    "kind": "Tooling inspection",
+    "summary": "Nest locating pin measurement for LOT-AS-2337.",
+    "date": "2023-10-24"
+  },
+  {
+    "id": "TI-23068",
+    "ncrId": "NCR-2023-068",
+    "kind": "Tooling inspection",
+    "summary": "Vent channel condition on the die for LOT-DC-2388.",
+    "date": "2023-06-27"
+  },
+  {
+    "id": "TI-23069",
+    "ncrId": "NCR-2023-069",
+    "kind": "Tooling inspection",
+    "summary": "Air line and dryer inspection for LOT-CT-2301.",
+    "date": "2023-07-08"
+  },
+  {
+    "id": "TI-23074",
+    "ncrId": "NCR-2023-074",
+    "kind": "Tooling inspection",
+    "summary": "Nest locating pin measurement for LOT-AS-2302.",
+    "date": "2023-05-07"
+  },
+  {
+    "id": "TI-23075",
+    "ncrId": "NCR-2023-075",
+    "kind": "Tooling inspection",
+    "summary": "Vent channel condition on the die for LOT-DC-2376.",
+    "date": "2023-07-19"
+  },
+  {
+    "id": "TI-23076",
+    "ncrId": "NCR-2023-076",
+    "kind": "Tooling inspection",
+    "summary": "Air line and dryer inspection for LOT-CT-2328.",
+    "date": "2023-02-02"
+  },
+  {
+    "id": "TI-23084",
+    "ncrId": "NCR-2023-084",
+    "kind": "Tooling inspection",
+    "summary": "Vent channel condition on the die for LOT-DC-2338.",
+    "date": "2023-05-15"
+  },
+  {
+    "id": "TI-23085",
+    "ncrId": "NCR-2023-085",
+    "kind": "Tooling inspection",
+    "summary": "Nest locating pin measurement for LOT-AS-2324.",
+    "date": "2023-08-20"
+  },
+  {
+    "id": "TI-23088",
+    "ncrId": "NCR-2023-088",
+    "kind": "Tooling inspection",
+    "summary": "Nest locating pin measurement for LOT-AS-2368.",
+    "date": "2023-12-04"
+  },
+  {
+    "id": "TI-24005",
+    "ncrId": "NCR-2024-005",
+    "kind": "Tooling inspection",
+    "summary": "Air line and dryer inspection for LOT-CT-2407.",
+    "date": "2024-11-22"
+  },
+  {
+    "id": "TI-24009",
+    "ncrId": "NCR-2024-009",
+    "kind": "Tooling inspection",
+    "summary": "Air line and dryer inspection for LOT-CT-2434.",
+    "date": "2024-08-27"
+  },
+  {
+    "id": "TI-24012",
+    "ncrId": "NCR-2024-012",
+    "kind": "Tooling inspection",
+    "summary": "Vent channel condition on the die for LOT-DC-2470.",
+    "date": "2024-04-03"
+  },
+  {
+    "id": "TI-24015",
+    "ncrId": "NCR-2024-015",
+    "kind": "Tooling inspection",
+    "summary": "Nest locating pin measurement for LOT-AS-2422.",
+    "date": "2024-09-11"
+  },
+  {
+    "id": "TI-24019",
+    "ncrId": "NCR-2024-019",
+    "kind": "Tooling inspection",
+    "summary": "Nest locating pin measurement for LOT-AS-2409.",
+    "date": "2024-04-23"
+  },
+  {
+    "id": "TI-24027",
+    "ncrId": "NCR-2024-027",
+    "kind": "Tooling inspection",
+    "summary": "Measured insert flank wear for LOT-CNC-2478.",
+    "date": "2024-04-27"
+  },
+  {
+    "id": "TI-24033",
+    "ncrId": "NCR-2024-033",
+    "kind": "Tooling inspection",
+    "summary": "Measured insert flank wear for LOT-CNC-2428.",
+    "date": "2024-08-29"
+  },
+  {
+    "id": "TI-24034",
+    "ncrId": "NCR-2024-034",
+    "kind": "Tooling inspection",
+    "summary": "Measured insert flank wear for LOT-CNC-2448.",
+    "date": "2024-06-20"
+  },
+  {
+    "id": "TI-24036",
+    "ncrId": "NCR-2024-036",
+    "kind": "Tooling inspection",
+    "summary": "Measured insert flank wear for LOT-CNC-2470.",
+    "date": "2024-08-13"
+  },
+  {
+    "id": "TI-24038",
+    "ncrId": "NCR-2024-038",
+    "kind": "Tooling inspection",
+    "summary": "Nest locating pin measurement for LOT-AS-2470.",
+    "date": "2024-09-09"
+  },
+  {
+    "id": "TI-24040",
+    "ncrId": "NCR-2024-040",
+    "kind": "Tooling inspection",
+    "summary": "Nest locating pin measurement for LOT-AS-2468.",
+    "date": "2024-08-12"
+  },
+  {
+    "id": "TI-24045",
+    "ncrId": "NCR-2024-045",
+    "kind": "Tooling inspection",
+    "summary": "Nest locating pin measurement for LOT-AS-2408.",
+    "date": "2024-05-25"
+  },
+  {
+    "id": "TI-24056",
+    "ncrId": "NCR-2024-056",
+    "kind": "Tooling inspection",
+    "summary": "Measured insert flank wear for LOT-CNC-2446.",
+    "date": "2024-05-18"
+  },
+  {
+    "id": "TI-24058",
+    "ncrId": "NCR-2024-058",
+    "kind": "Tooling inspection",
+    "summary": "Vent channel condition on the die for LOT-DC-2461.",
+    "date": "2024-08-22"
+  },
+  {
+    "id": "TI-24059",
+    "ncrId": "NCR-2024-059",
+    "kind": "Tooling inspection",
+    "summary": "Vent channel condition on the die for LOT-DC-2486.",
+    "date": "2024-04-06"
+  },
+  {
+    "id": "TI-24065",
+    "ncrId": "NCR-2024-065",
+    "kind": "Tooling inspection",
+    "summary": "Air line and dryer inspection for LOT-CT-2465.",
+    "date": "2024-09-07"
+  },
+  {
+    "id": "TI-24068",
+    "ncrId": "NCR-2024-068",
+    "kind": "Tooling inspection",
+    "summary": "Vent channel condition on the die for LOT-DC-2480.",
+    "date": "2024-01-21"
+  },
+  {
+    "id": "TI-24072",
+    "ncrId": "NCR-2024-072",
+    "kind": "Tooling inspection",
+    "summary": "Air line and dryer inspection for LOT-CT-2407.",
+    "date": "2024-11-25"
+  },
+  {
+    "id": "TI-24076",
+    "ncrId": "NCR-2024-076",
+    "kind": "Tooling inspection",
+    "summary": "Air line and dryer inspection for LOT-CT-2401.",
+    "date": "2024-07-27"
+  },
+  {
+    "id": "TI-24077",
+    "ncrId": "NCR-2024-077",
+    "kind": "Tooling inspection",
+    "summary": "Vent channel condition on the die for LOT-DC-2426.",
+    "date": "2024-01-15"
+  },
+  {
+    "id": "TI-24086",
+    "ncrId": "NCR-2024-086",
+    "kind": "Tooling inspection",
+    "summary": "Measured insert flank wear for LOT-CNC-2411.",
+    "date": "2024-09-27"
+  },
+  {
+    "id": "TI-24091",
+    "ncrId": "NCR-2024-091",
+    "kind": "Tooling inspection",
+    "summary": "Air line and dryer inspection for LOT-CT-2463.",
+    "date": "2024-01-28"
+  },
+  {
+    "id": "TI-24094",
+    "ncrId": "NCR-2024-094",
+    "kind": "Tooling inspection",
+    "summary": "Air line and dryer inspection for LOT-CT-2411.",
+    "date": "2024-03-04"
+  },
+  {
+    "id": "TR-047",
+    "ncrId": "NCR-2026-047",
+    "kind": "Trial report",
+    "summary": "Controlled reproduction of scoring on the assembly fixture.",
+    "date": "2026-07-10"
+  },
+  {
+    "id": "TR-23005",
+    "ncrId": "NCR-2023-005",
+    "kind": "Trial report",
+    "summary": "Spray pattern test for LOT-CT-2372.",
+    "date": "2023-01-17"
+  },
+  {
+    "id": "TR-23008",
+    "ncrId": "NCR-2023-008",
+    "kind": "Trial report",
+    "summary": "Warm-up shot trial for LOT-DC-2399.",
+    "date": "2023-09-27"
+  },
+  {
+    "id": "TR-23009",
+    "ncrId": "NCR-2023-009",
+    "kind": "Trial report",
+    "summary": "Torque audit after recalibration for LOT-AS-2395.",
+    "date": "2023-10-11"
+  },
+  {
+    "id": "TR-23011",
+    "ncrId": "NCR-2023-011",
+    "kind": "Trial report",
+    "summary": "Spray trial with dry air for LOT-CT-2383.",
+    "date": "2023-01-23"
+  },
+  {
+    "id": "TR-23013",
+    "ncrId": "NCR-2023-013",
+    "kind": "Trial report",
+    "summary": "Temperature versus length study for LOT-CNC-2365.",
+    "date": "2023-03-26"
+  },
+  {
+    "id": "TR-23015",
+    "ncrId": "NCR-2023-015",
+    "kind": "Trial report",
+    "summary": "Spray pattern test for LOT-CT-2382.",
+    "date": "2023-06-12"
+  },
+  {
+    "id": "TR-23016",
+    "ncrId": "NCR-2023-016",
+    "kind": "Trial report",
+    "summary": "Warm-up shot trial for LOT-DC-2393.",
+    "date": "2023-01-18"
+  },
+  {
+    "id": "TR-23017",
+    "ncrId": "NCR-2023-017",
+    "kind": "Trial report",
+    "summary": "Controlled reproduction on the fixture for LOT-AS-2314.",
+    "date": "2023-11-16"
+  },
+  {
+    "id": "TR-23018",
+    "ncrId": "NCR-2023-018",
+    "kind": "Trial report",
+    "summary": "Torque audit after recalibration for LOT-AS-2330.",
+    "date": "2023-09-10"
+  },
+  {
+    "id": "TR-23019",
+    "ncrId": "NCR-2023-019",
+    "kind": "Trial report",
+    "summary": "Temperature versus length study for LOT-CNC-2386.",
+    "date": "2023-10-06"
+  },
+  {
+    "id": "TR-23020",
+    "ncrId": "NCR-2023-020",
+    "kind": "Trial report",
+    "summary": "Warm-up shot trial for LOT-DC-2360.",
+    "date": "2023-02-02"
+  },
+  {
+    "id": "TR-23029",
+    "ncrId": "NCR-2023-029",
+    "kind": "Trial report",
+    "summary": "Cure trial at corrected profile for LOT-CT-2309.",
+    "date": "2023-06-01"
+  },
+  {
+    "id": "TR-23030",
+    "ncrId": "NCR-2023-030",
+    "kind": "Trial report",
+    "summary": "Spray pattern test for LOT-CT-2367.",
+    "date": "2023-06-25"
+  },
+  {
+    "id": "TR-23031",
+    "ncrId": "NCR-2023-031",
+    "kind": "Trial report",
+    "summary": "Controlled reproduction on the fixture for LOT-AS-2363.",
+    "date": "2023-04-12"
+  },
+  {
+    "id": "TR-23032",
+    "ncrId": "NCR-2023-032",
+    "kind": "Trial report",
+    "summary": "Spray pattern test for LOT-CT-2326.",
+    "date": "2023-06-20"
+  },
+  {
+    "id": "TR-23034",
+    "ncrId": "NCR-2023-034",
+    "kind": "Trial report",
+    "summary": "Warm-up shot trial for LOT-DC-2391.",
+    "date": "2023-10-28"
+  },
+  {
+    "id": "TR-23039",
+    "ncrId": "NCR-2023-039",
+    "kind": "Trial report",
+    "summary": "Cure trial at corrected profile for LOT-CT-2373.",
+    "date": "2023-04-06"
+  },
+  {
+    "id": "TR-23040",
+    "ncrId": "NCR-2023-040",
+    "kind": "Trial report",
+    "summary": "Controlled reproduction on the fixture for LOT-AS-2387.",
+    "date": "2023-06-09"
+  },
+  {
+    "id": "TR-23041",
+    "ncrId": "NCR-2023-041",
+    "kind": "Trial report",
+    "summary": "Clamp pressure trial for LOT-CNC-2386.",
+    "date": "2023-11-28"
+  },
+  {
+    "id": "TR-23045",
+    "ncrId": "NCR-2023-045",
+    "kind": "Trial report",
+    "summary": "Torque audit after recalibration for LOT-AS-2316.",
+    "date": "2023-10-28"
+  },
+  {
+    "id": "TR-23047",
+    "ncrId": "NCR-2023-047",
+    "kind": "Trial report",
+    "summary": "Spray trial with dry air for LOT-CT-2386.",
+    "date": "2023-10-12"
+  },
+  {
+    "id": "TR-23051",
+    "ncrId": "NCR-2023-051",
+    "kind": "Trial report",
+    "summary": "Torque audit after recalibration for LOT-AS-2357.",
+    "date": "2023-02-24"
+  },
+  {
+    "id": "TR-23054",
+    "ncrId": "NCR-2023-054",
+    "kind": "Trial report",
+    "summary": "Torque audit after recalibration for LOT-AS-2391.",
+    "date": "2023-06-10"
+  },
+  {
+    "id": "TR-23055",
+    "ncrId": "NCR-2023-055",
+    "kind": "Trial report",
+    "summary": "Controlled reproduction on the fixture for LOT-AS-2314.",
+    "date": "2022-12-29"
+  },
+  {
+    "id": "TR-23056",
+    "ncrId": "NCR-2023-056",
+    "kind": "Trial report",
+    "summary": "Spray trial with dry air for LOT-CT-2383.",
+    "date": "2023-03-09"
+  },
+  {
+    "id": "TR-23058",
+    "ncrId": "NCR-2023-058",
+    "kind": "Trial report",
+    "summary": "Clamp pressure trial for LOT-CNC-2309.",
+    "date": "2023-01-28"
+  },
+  {
+    "id": "TR-23060",
+    "ncrId": "NCR-2023-060",
+    "kind": "Trial report",
+    "summary": "Cure trial at corrected profile for LOT-CT-2322.",
+    "date": "2023-04-09"
+  },
+  {
+    "id": "TR-23063",
+    "ncrId": "NCR-2023-063",
+    "kind": "Trial report",
+    "summary": "Temperature versus length study for LOT-CNC-2333.",
+    "date": "2023-11-15"
+  },
+  {
+    "id": "TR-23066",
+    "ncrId": "NCR-2023-066",
+    "kind": "Trial report",
+    "summary": "Spray pattern test for LOT-CT-2327.",
+    "date": "2023-04-17"
+  },
+  {
+    "id": "TR-23067",
+    "ncrId": "NCR-2023-067",
+    "kind": "Trial report",
+    "summary": "Cure trial at corrected profile for LOT-CT-2315.",
+    "date": "2023-03-21"
+  },
+  {
+    "id": "TR-23069",
+    "ncrId": "NCR-2023-069",
+    "kind": "Trial report",
+    "summary": "Spray trial with dry air for LOT-CT-2301.",
+    "date": "2023-07-05"
+  },
+  {
+    "id": "TR-23070",
+    "ncrId": "NCR-2023-070",
+    "kind": "Trial report",
+    "summary": "Temperature versus length study for LOT-CNC-2346.",
+    "date": "2023-05-08"
+  },
+  {
+    "id": "TR-23073",
+    "ncrId": "NCR-2023-073",
+    "kind": "Trial report",
+    "summary": "Spray pattern test for LOT-CT-2345.",
+    "date": "2023-01-15"
+  },
+  {
+    "id": "TR-23076",
+    "ncrId": "NCR-2023-076",
+    "kind": "Trial report",
+    "summary": "Spray trial with dry air for LOT-CT-2328.",
+    "date": "2023-02-08"
+  },
+  {
+    "id": "TR-23077",
+    "ncrId": "NCR-2023-077",
+    "kind": "Trial report",
+    "summary": "Warm-up shot trial for LOT-DC-2353.",
+    "date": "2023-05-23"
+  },
+  {
+    "id": "TR-23079",
+    "ncrId": "NCR-2023-079",
+    "kind": "Trial report",
+    "summary": "Spray pattern test for LOT-CT-2332.",
+    "date": "2023-03-05"
+  },
+  {
+    "id": "TR-23081",
+    "ncrId": "NCR-2023-081",
+    "kind": "Trial report",
+    "summary": "Temperature versus length study for LOT-CNC-2399.",
+    "date": "2023-05-08"
+  },
+  {
+    "id": "TR-23086",
+    "ncrId": "NCR-2023-086",
+    "kind": "Trial report",
+    "summary": "Controlled reproduction on the fixture for LOT-AS-2346.",
+    "date": "2023-08-31"
+  },
+  {
+    "id": "TR-23087",
+    "ncrId": "NCR-2023-087",
+    "kind": "Trial report",
+    "summary": "Temperature versus length study for LOT-CNC-2359.",
+    "date": "2023-01-22"
+  },
+  {
+    "id": "TR-23089",
+    "ncrId": "NCR-2023-089",
+    "kind": "Trial report",
+    "summary": "Cure trial at corrected profile for LOT-CT-2324.",
+    "date": "2023-06-23"
+  },
+  {
+    "id": "TR-23091",
+    "ncrId": "NCR-2023-091",
+    "kind": "Trial report",
+    "summary": "Temperature versus length study for LOT-CNC-2340.",
+    "date": "2023-02-27"
+  },
+  {
+    "id": "TR-23092",
+    "ncrId": "NCR-2023-092",
+    "kind": "Trial report",
+    "summary": "Clamp pressure trial for LOT-CNC-2383.",
+    "date": "2023-03-20"
+  },
+  {
+    "id": "TR-23093",
+    "ncrId": "NCR-2023-093",
+    "kind": "Trial report",
+    "summary": "Clamp pressure trial for LOT-CNC-2353.",
+    "date": "2023-01-14"
+  },
+  {
+    "id": "TR-23094",
+    "ncrId": "NCR-2023-094",
+    "kind": "Trial report",
+    "summary": "Clamp pressure trial for LOT-CNC-2315.",
+    "date": "2023-08-03"
+  },
+  {
+    "id": "TR-23095",
+    "ncrId": "NCR-2023-095",
+    "kind": "Trial report",
+    "summary": "Controlled reproduction on the fixture for LOT-AS-2305.",
+    "date": "2023-09-20"
+  },
+  {
+    "id": "TR-23096",
+    "ncrId": "NCR-2023-096",
+    "kind": "Trial report",
+    "summary": "Clamp pressure trial for LOT-CNC-2317.",
+    "date": "2023-04-19"
+  },
+  {
+    "id": "TR-23097",
+    "ncrId": "NCR-2023-097",
+    "kind": "Trial report",
+    "summary": "Torque audit after recalibration for LOT-AS-2326.",
+    "date": "2023-06-02"
+  },
+  {
+    "id": "TR-23098",
+    "ncrId": "NCR-2023-098",
+    "kind": "Trial report",
+    "summary": "Spray pattern test for LOT-CT-2377.",
+    "date": "2023-01-28"
+  },
+  {
+    "id": "TR-23099",
+    "ncrId": "NCR-2023-099",
+    "kind": "Trial report",
+    "summary": "Controlled reproduction on the fixture for LOT-AS-2368.",
+    "date": "2023-06-19"
+  },
+  {
+    "id": "TR-23100",
+    "ncrId": "NCR-2023-100",
+    "kind": "Trial report",
+    "summary": "Cure trial at corrected profile for LOT-CT-2374.",
+    "date": "2023-03-23"
+  },
+  {
+    "id": "TR-24004",
+    "ncrId": "NCR-2024-004",
+    "kind": "Trial report",
+    "summary": "Cure trial at corrected profile for LOT-CT-2484.",
+    "date": "2024-04-08"
+  },
+  {
+    "id": "TR-24005",
+    "ncrId": "NCR-2024-005",
+    "kind": "Trial report",
+    "summary": "Spray trial with dry air for LOT-CT-2407.",
+    "date": "2024-11-09"
+  },
+  {
+    "id": "TR-24006",
+    "ncrId": "NCR-2024-006",
+    "kind": "Trial report",
+    "summary": "Controlled reproduction on the fixture for LOT-AS-2436.",
+    "date": "2024-07-29"
+  },
+  {
+    "id": "TR-24009",
+    "ncrId": "NCR-2024-009",
+    "kind": "Trial report",
+    "summary": "Spray trial with dry air for LOT-CT-2434.",
+    "date": "2024-08-13"
+  },
+  {
+    "id": "TR-24011",
+    "ncrId": "NCR-2024-011",
+    "kind": "Trial report",
+    "summary": "Cure trial at corrected profile for LOT-CT-2416.",
+    "date": "2024-08-09"
+  },
+  {
+    "id": "TR-24013",
+    "ncrId": "NCR-2024-013",
+    "kind": "Trial report",
+    "summary": "Clamp pressure trial for LOT-CNC-2423.",
+    "date": "2024-02-18"
+  },
+  {
+    "id": "TR-24016",
+    "ncrId": "NCR-2024-016",
+    "kind": "Trial report",
+    "summary": "Cure trial at corrected profile for LOT-CT-2418.",
+    "date": "2024-10-07"
+  },
+  {
+    "id": "TR-24017",
+    "ncrId": "NCR-2024-017",
+    "kind": "Trial report",
+    "summary": "Cure trial at corrected profile for LOT-CT-2470.",
+    "date": "2024-01-22"
+  },
+  {
+    "id": "TR-24020",
+    "ncrId": "NCR-2024-020",
+    "kind": "Trial report",
+    "summary": "Spray pattern test for LOT-CT-2482.",
+    "date": "2024-02-24"
+  },
+  {
+    "id": "TR-24023",
+    "ncrId": "NCR-2024-023",
+    "kind": "Trial report",
+    "summary": "Controlled reproduction on the fixture for LOT-AS-2423.",
+    "date": "2024-10-20"
+  },
+  {
+    "id": "TR-24024",
+    "ncrId": "NCR-2024-024",
+    "kind": "Trial report",
+    "summary": "Torque audit after recalibration for LOT-AS-2455.",
+    "date": "2024-05-11"
+  },
+  {
+    "id": "TR-24025",
+    "ncrId": "NCR-2024-025",
+    "kind": "Trial report",
+    "summary": "Warm-up shot trial for LOT-DC-2405.",
+    "date": "2024-02-16"
+  },
+  {
+    "id": "TR-24028",
+    "ncrId": "NCR-2024-028",
+    "kind": "Trial report",
+    "summary": "Temperature versus length study for LOT-CNC-2479.",
+    "date": "2024-03-16"
+  },
+  {
+    "id": "TR-24031",
+    "ncrId": "NCR-2024-031",
+    "kind": "Trial report",
+    "summary": "Torque audit after recalibration for LOT-AS-2489.",
+    "date": "2024-05-20"
+  },
+  {
+    "id": "TR-24032",
+    "ncrId": "NCR-2024-032",
+    "kind": "Trial report",
+    "summary": "Warm-up shot trial for LOT-DC-2453.",
+    "date": "2024-11-10"
+  },
+  {
+    "id": "TR-24035",
+    "ncrId": "NCR-2024-035",
+    "kind": "Trial report",
+    "summary": "Torque audit after recalibration for LOT-AS-2429.",
+    "date": "2024-03-26"
+  },
+  {
+    "id": "TR-24037",
+    "ncrId": "NCR-2024-037",
+    "kind": "Trial report",
+    "summary": "Controlled reproduction on the fixture for LOT-AS-2465.",
+    "date": "2024-04-06"
+  },
+  {
+    "id": "TR-24041",
+    "ncrId": "NCR-2024-041",
+    "kind": "Trial report",
+    "summary": "Torque audit after recalibration for LOT-AS-2469.",
+    "date": "2024-05-01"
+  },
+  {
+    "id": "TR-24043",
+    "ncrId": "NCR-2024-043",
+    "kind": "Trial report",
+    "summary": "Temperature versus length study for LOT-CNC-2499.",
+    "date": "2024-09-25"
+  },
+  {
+    "id": "TR-24046",
+    "ncrId": "NCR-2024-046",
+    "kind": "Trial report",
+    "summary": "Temperature versus length study for LOT-CNC-2462.",
+    "date": "2024-04-12"
+  },
+  {
+    "id": "TR-24047",
+    "ncrId": "NCR-2024-047",
+    "kind": "Trial report",
+    "summary": "Clamp pressure trial for LOT-CNC-2422.",
+    "date": "2024-02-19"
+  },
+  {
+    "id": "TR-24049",
+    "ncrId": "NCR-2024-049",
+    "kind": "Trial report",
+    "summary": "Spray pattern test for LOT-CT-2471.",
+    "date": "2024-08-12"
+  },
+  {
+    "id": "TR-24050",
+    "ncrId": "NCR-2024-050",
+    "kind": "Trial report",
+    "summary": "Temperature versus length study for LOT-CNC-2448.",
+    "date": "2024-08-18"
+  },
+  {
+    "id": "TR-24052",
+    "ncrId": "NCR-2024-052",
+    "kind": "Trial report",
+    "summary": "Spray pattern test for LOT-CT-2455.",
+    "date": "2024-11-21"
+  },
+  {
+    "id": "TR-24054",
+    "ncrId": "NCR-2024-054",
+    "kind": "Trial report",
+    "summary": "Controlled reproduction on the fixture for LOT-AS-2432.",
+    "date": "2024-05-24"
+  },
+  {
+    "id": "TR-24055",
+    "ncrId": "NCR-2024-055",
+    "kind": "Trial report",
+    "summary": "Warm-up shot trial for LOT-DC-2426.",
+    "date": "2024-04-25"
+  },
+  {
+    "id": "TR-24057",
+    "ncrId": "NCR-2024-057",
+    "kind": "Trial report",
+    "summary": "Temperature versus length study for LOT-CNC-2484.",
+    "date": "2024-07-13"
+  },
+  {
+    "id": "TR-24060",
+    "ncrId": "NCR-2024-060",
+    "kind": "Trial report",
+    "summary": "Clamp pressure trial for LOT-CNC-2442.",
+    "date": "2024-11-28"
+  },
+  {
+    "id": "TR-24061",
+    "ncrId": "NCR-2024-061",
+    "kind": "Trial report",
+    "summary": "Warm-up shot trial for LOT-DC-2465.",
+    "date": "2024-01-07"
+  },
+  {
+    "id": "TR-24063",
+    "ncrId": "NCR-2024-063",
+    "kind": "Trial report",
+    "summary": "Spray pattern test for LOT-CT-2467.",
+    "date": "2024-03-03"
+  },
+  {
+    "id": "TR-24065",
+    "ncrId": "NCR-2024-065",
+    "kind": "Trial report",
+    "summary": "Spray trial with dry air for LOT-CT-2465.",
+    "date": "2024-09-01"
+  },
+  {
+    "id": "TR-24069",
+    "ncrId": "NCR-2024-069",
+    "kind": "Trial report",
+    "summary": "Cure trial at corrected profile for LOT-CT-2401.",
+    "date": "2024-05-05"
+  },
+  {
+    "id": "TR-24072",
+    "ncrId": "NCR-2024-072",
+    "kind": "Trial report",
+    "summary": "Spray trial with dry air for LOT-CT-2407.",
+    "date": "2024-11-23"
+  },
+  {
+    "id": "TR-24073",
+    "ncrId": "NCR-2024-073",
+    "kind": "Trial report",
+    "summary": "Warm-up shot trial for LOT-DC-2496.",
+    "date": "2024-11-07"
+  },
+  {
+    "id": "TR-24074",
+    "ncrId": "NCR-2024-074",
+    "kind": "Trial report",
+    "summary": "Clamp pressure trial for LOT-CNC-2424.",
+    "date": "2024-06-10"
+  },
+  {
+    "id": "TR-24076",
+    "ncrId": "NCR-2024-076",
+    "kind": "Trial report",
+    "summary": "Spray trial with dry air for LOT-CT-2401.",
+    "date": "2024-07-24"
+  },
+  {
+    "id": "TR-24079",
+    "ncrId": "NCR-2024-079",
+    "kind": "Trial report",
+    "summary": "Cure trial at corrected profile for LOT-CT-2441.",
+    "date": "2024-09-27"
+  },
+  {
+    "id": "TR-24080",
+    "ncrId": "NCR-2024-080",
+    "kind": "Trial report",
+    "summary": "Torque audit after recalibration for LOT-AS-2470.",
+    "date": "2024-02-16"
+  },
+  {
+    "id": "TR-24081",
+    "ncrId": "NCR-2024-081",
+    "kind": "Trial report",
+    "summary": "Torque audit after recalibration for LOT-AS-2454.",
+    "date": "2024-11-04"
+  },
+  {
+    "id": "TR-24082",
+    "ncrId": "NCR-2024-082",
+    "kind": "Trial report",
+    "summary": "Controlled reproduction on the fixture for LOT-AS-2473.",
+    "date": "2024-10-18"
+  },
+  {
+    "id": "TR-24084",
+    "ncrId": "NCR-2024-084",
+    "kind": "Trial report",
+    "summary": "Warm-up shot trial for LOT-DC-2469.",
+    "date": "2024-11-13"
+  },
+  {
+    "id": "TR-24088",
+    "ncrId": "NCR-2024-088",
+    "kind": "Trial report",
+    "summary": "Clamp pressure trial for LOT-CNC-2463.",
+    "date": "2023-12-25"
+  },
+  {
+    "id": "TR-24090",
+    "ncrId": "NCR-2024-090",
+    "kind": "Trial report",
+    "summary": "Warm-up shot trial for LOT-DC-2407.",
+    "date": "2024-07-03"
+  },
+  {
+    "id": "TR-24091",
+    "ncrId": "NCR-2024-091",
+    "kind": "Trial report",
+    "summary": "Spray trial with dry air for LOT-CT-2463.",
+    "date": "2024-02-02"
+  },
+  {
+    "id": "TR-24094",
+    "ncrId": "NCR-2024-094",
+    "kind": "Trial report",
+    "summary": "Spray trial with dry air for LOT-CT-2411.",
+    "date": "2024-03-08"
+  },
+  {
+    "id": "TR-24095",
+    "ncrId": "NCR-2024-095",
+    "kind": "Trial report",
+    "summary": "Clamp pressure trial for LOT-CNC-2403.",
+    "date": "2024-10-03"
+  },
+  {
+    "id": "VT-061",
+    "ncrId": "NCR-2026-061",
+    "kind": "Validation test",
+    "summary": "Leak test of 30 assemblies with the locator.",
+    "date": "2026-08-29"
+  },
+  {
+    "id": "VT-23004",
+    "ncrId": "NCR-2023-004",
+    "kind": "Validation test",
+    "summary": "Cross-cut after correction for LOT-CT-2364.",
+    "date": "2023-06-27"
+  },
+  {
+    "id": "VT-23009",
+    "ncrId": "NCR-2023-009",
+    "kind": "Validation test",
+    "summary": "Torque transducer check for LOT-AS-2395.",
+    "date": "2023-10-14"
+  },
+  {
+    "id": "VT-23012",
+    "ncrId": "NCR-2023-012",
+    "kind": "Validation test",
+    "summary": "Leak test after locator for LOT-AS-2365.",
+    "date": "2023-09-23"
+  },
+  {
+    "id": "VT-23018",
+    "ncrId": "NCR-2023-018",
+    "kind": "Validation test",
+    "summary": "Torque transducer check for LOT-AS-2330.",
+    "date": "2023-08-31"
+  },
+  {
+    "id": "VT-23022",
+    "ncrId": "NCR-2023-022",
+    "kind": "Validation test",
+    "summary": "Leak test after locator for LOT-AS-2327.",
+    "date": "2023-02-05"
+  },
+  {
+    "id": "VT-23023",
+    "ncrId": "NCR-2023-023",
+    "kind": "Validation test",
+    "summary": "Cross-cut after correction for LOT-CT-2301.",
+    "date": "2023-03-16"
+  },
+  {
+    "id": "VT-23025",
+    "ncrId": "NCR-2023-025",
+    "kind": "Validation test",
+    "summary": "Cross-cut after correction for LOT-CT-2309.",
+    "date": "2023-02-07"
+  },
+  {
+    "id": "VT-23027",
+    "ncrId": "NCR-2023-027",
+    "kind": "Validation test",
+    "summary": "Leak test after locator for LOT-AS-2384.",
+    "date": "2023-05-02"
+  },
+  {
+    "id": "VT-23033",
+    "ncrId": "NCR-2023-033",
+    "kind": "Validation test",
+    "summary": "First-article CMM after correction for LOT-CNC-2305.",
+    "date": "2023-11-16"
+  },
+  {
+    "id": "VT-23035",
+    "ncrId": "NCR-2023-035",
+    "kind": "Validation test",
+    "summary": "Cross-cut after correction for LOT-CT-2312.",
+    "date": "2023-04-08"
+  },
+  {
+    "id": "VT-23037",
+    "ncrId": "NCR-2023-037",
+    "kind": "Validation test",
+    "summary": "First-article CMM after correction for LOT-CNC-2343.",
+    "date": "2023-04-27"
+  },
+  {
+    "id": "VT-23042",
+    "ncrId": "NCR-2023-042",
+    "kind": "Validation test",
+    "summary": "First-article CMM after correction for LOT-CNC-2389.",
+    "date": "2023-09-04"
+  },
+  {
+    "id": "VT-23043",
+    "ncrId": "NCR-2023-043",
+    "kind": "Validation test",
+    "summary": "Cross-cut after correction for LOT-CT-2398.",
+    "date": "2023-04-07"
+  },
+  {
+    "id": "VT-23045",
+    "ncrId": "NCR-2023-045",
+    "kind": "Validation test",
+    "summary": "Torque transducer check for LOT-AS-2316.",
+    "date": "2023-11-02"
+  },
+  {
+    "id": "VT-23048",
+    "ncrId": "NCR-2023-048",
+    "kind": "Validation test",
+    "summary": "Cross-cut after correction for LOT-CT-2372.",
+    "date": "2023-03-15"
+  },
+  {
+    "id": "VT-23051",
+    "ncrId": "NCR-2023-051",
+    "kind": "Validation test",
+    "summary": "Torque transducer check for LOT-AS-2357.",
+    "date": "2023-02-23"
+  },
+  {
+    "id": "VT-23052",
+    "ncrId": "NCR-2023-052",
+    "kind": "Validation test",
+    "summary": "Leak test after locator for LOT-AS-2397.",
+    "date": "2023-11-27"
+  },
+  {
+    "id": "VT-23054",
+    "ncrId": "NCR-2023-054",
+    "kind": "Validation test",
+    "summary": "Torque transducer check for LOT-AS-2391.",
+    "date": "2023-06-05"
+  },
+  {
+    "id": "VT-23059",
+    "ncrId": "NCR-2023-059",
+    "kind": "Validation test",
+    "summary": "Leak test after locator for LOT-AS-2308.",
+    "date": "2023-09-30"
+  },
+  {
+    "id": "VT-23062",
+    "ncrId": "NCR-2023-062",
+    "kind": "Validation test",
+    "summary": "Cross-cut after correction for LOT-CT-2364.",
+    "date": "2023-09-30"
+  },
+  {
+    "id": "VT-23064",
+    "ncrId": "NCR-2023-064",
+    "kind": "Validation test",
+    "summary": "Cross-cut after correction for LOT-CT-2381.",
+    "date": "2023-06-18"
+  },
+  {
+    "id": "VT-23097",
+    "ncrId": "NCR-2023-097",
+    "kind": "Validation test",
+    "summary": "Torque transducer check for LOT-AS-2326.",
+    "date": "2023-06-06"
+  },
+  {
+    "id": "VT-24001",
+    "ncrId": "NCR-2024-001",
+    "kind": "Validation test",
+    "summary": "Leak test after locator for LOT-AS-2455.",
+    "date": "2024-05-17"
+  },
+  {
+    "id": "VT-24007",
+    "ncrId": "NCR-2024-007",
+    "kind": "Validation test",
+    "summary": "Cross-cut after correction for LOT-CT-2473.",
+    "date": "2024-09-01"
+  },
+  {
+    "id": "VT-24008",
+    "ncrId": "NCR-2024-008",
+    "kind": "Validation test",
+    "summary": "First-article CMM after correction for LOT-CNC-2427.",
+    "date": "2024-04-30"
+  },
+  {
+    "id": "VT-24014",
+    "ncrId": "NCR-2024-014",
+    "kind": "Validation test",
+    "summary": "Leak test after locator for LOT-AS-2411.",
+    "date": "2024-07-16"
+  },
+  {
+    "id": "VT-24018",
+    "ncrId": "NCR-2024-018",
+    "kind": "Validation test",
+    "summary": "First-article CMM after correction for LOT-CNC-2419.",
+    "date": "2024-07-21"
+  },
+  {
+    "id": "VT-24021",
+    "ncrId": "NCR-2024-021",
+    "kind": "Validation test",
+    "summary": "First-article CMM after correction for LOT-CNC-2451.",
+    "date": "2024-09-28"
+  },
+  {
+    "id": "VT-24024",
+    "ncrId": "NCR-2024-024",
+    "kind": "Validation test",
+    "summary": "Torque transducer check for LOT-AS-2455.",
+    "date": "2024-05-25"
+  },
+  {
+    "id": "VT-24030",
+    "ncrId": "NCR-2024-030",
+    "kind": "Validation test",
+    "summary": "First-article CMM after correction for LOT-CNC-2453.",
+    "date": "2024-08-08"
+  },
+  {
+    "id": "VT-24031",
+    "ncrId": "NCR-2024-031",
+    "kind": "Validation test",
+    "summary": "Torque transducer check for LOT-AS-2489.",
+    "date": "2024-05-23"
+  },
+  {
+    "id": "VT-24035",
+    "ncrId": "NCR-2024-035",
+    "kind": "Validation test",
+    "summary": "Torque transducer check for LOT-AS-2429.",
+    "date": "2024-03-19"
+  },
+  {
+    "id": "VT-24039",
+    "ncrId": "NCR-2024-039",
+    "kind": "Validation test",
+    "summary": "Cross-cut after correction for LOT-CT-2422.",
+    "date": "2024-08-17"
+  },
+  {
+    "id": "VT-24041",
+    "ncrId": "NCR-2024-041",
+    "kind": "Validation test",
+    "summary": "Torque transducer check for LOT-AS-2469.",
+    "date": "2024-05-03"
+  },
+  {
+    "id": "VT-24044",
+    "ncrId": "NCR-2024-044",
+    "kind": "Validation test",
+    "summary": "Leak test after locator for LOT-AS-2449.",
+    "date": "2024-06-09"
+  },
+  {
+    "id": "VT-24051",
+    "ncrId": "NCR-2024-051",
+    "kind": "Validation test",
+    "summary": "Leak test after locator for LOT-AS-2485.",
+    "date": "2024-11-01"
+  },
+  {
+    "id": "VT-24053",
+    "ncrId": "NCR-2024-053",
+    "kind": "Validation test",
+    "summary": "Leak test after locator for LOT-AS-2412.",
+    "date": "2024-10-06"
+  },
+  {
+    "id": "VT-24062",
+    "ncrId": "NCR-2024-062",
+    "kind": "Validation test",
+    "summary": "Leak test after locator for LOT-AS-2482.",
+    "date": "2024-04-30"
+  },
+  {
+    "id": "VT-24064",
+    "ncrId": "NCR-2024-064",
+    "kind": "Validation test",
+    "summary": "First-article CMM after correction for LOT-CNC-2487.",
+    "date": "2024-09-26"
+  },
+  {
+    "id": "VT-24066",
+    "ncrId": "NCR-2024-066",
+    "kind": "Validation test",
+    "summary": "Leak test after locator for LOT-AS-2429.",
+    "date": "2024-01-31"
+  },
+  {
+    "id": "VT-24067",
+    "ncrId": "NCR-2024-067",
+    "kind": "Validation test",
+    "summary": "Cross-cut after correction for LOT-CT-2403.",
+    "date": "2024-06-14"
+  },
+  {
+    "id": "VT-24070",
+    "ncrId": "NCR-2024-070",
+    "kind": "Validation test",
+    "summary": "First-article CMM after correction for LOT-CNC-2492.",
+    "date": "2024-08-15"
+  },
+  {
+    "id": "VT-24071",
+    "ncrId": "NCR-2024-071",
+    "kind": "Validation test",
+    "summary": "Cross-cut after correction for LOT-CT-2451.",
+    "date": "2024-07-04"
+  },
+  {
+    "id": "VT-24078",
+    "ncrId": "NCR-2024-078",
+    "kind": "Validation test",
+    "summary": "First-article CMM after correction for LOT-CNC-2435.",
+    "date": "2024-08-08"
+  },
+  {
+    "id": "VT-24080",
+    "ncrId": "NCR-2024-080",
+    "kind": "Validation test",
+    "summary": "Torque transducer check for LOT-AS-2470.",
+    "date": "2024-02-24"
+  },
+  {
+    "id": "VT-24081",
+    "ncrId": "NCR-2024-081",
+    "kind": "Validation test",
+    "summary": "Torque transducer check for LOT-AS-2454.",
+    "date": "2024-10-27"
+  },
+  {
+    "id": "VT-24092",
+    "ncrId": "NCR-2024-092",
+    "kind": "Validation test",
+    "summary": "First-article CMM after correction for LOT-CNC-2466.",
+    "date": "2024-06-15"
+  },
+  {
+    "id": "VT-24093",
+    "ncrId": "NCR-2024-093",
+    "kind": "Validation test",
+    "summary": "First-article CMM after correction for LOT-CNC-2423.",
+    "date": "2024-02-20"
+  }
+]

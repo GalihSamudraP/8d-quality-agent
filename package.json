@@ -3,15 +3,17 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "next dev --hostname 0.0.0.0",
+    "dev": "next dev --hostname 127.0.0.1",
     "build": "next build",
     "start": "next start",
     "lint": "eslint .",
     "typecheck": "tsc --noEmit",
-    "test": "tsx --test tests/workflow.test.ts"
+    "test": "tsx --test tests/workflow.test.ts tests/validator.test.ts tests/retrieval.test.ts tests/agent-client.test.ts tests/classification.test.ts tests/intake.test.ts tests/action-validator.test.ts tests/corrective.test.ts tests/section.test.ts tests/skeleton.test.ts tests/language.test.ts",
+    "data:generate": "tsx scripts/generate-synthetic-ncrs.ts",
+    "eval:retrieval": "tsx scripts/eval-retrieval.ts"
   },
   "dependencies": {
-    "next": "^16.0.0",
+    "next": "^16.4.1",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
     "lucide-react": "latest",

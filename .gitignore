@@ -5,3 +5,14 @@ out/
 .env*
 .tools/
 .npm-cache/
+AGENTS.md
+agent/.venv/
+__pycache__/
+.pytest_cache/
+.venv/
+*.pem
+*.key
+*.p12
+*.pfx
+*key*.json
+*credentials*

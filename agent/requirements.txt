@@ -1,0 +1,8 @@
+# Python agent dependencies (approved). Install into agent/.venv.
+strands-agents==1.61.1
+bedrock-agentcore==1.24.2
+# OpenAI-compatible client used by the Strands OpenAIModel for AGENT_MODE=sap (strands extra range: >=1.68,<3).
+openai==2.54.0
+# Text extraction from uploaded PDF NCR documents (pure Python, no dependencies), added 2026-10-28.
+pypdf==5.4.0
+pytest==9.1.1
